@@ -1,0 +1,49 @@
+/* Initialize Variables */
+/* Aarian Project Color */
+body {
+  background-color: #0a0a0a;
+  color: #ffffff; }
+
+.sec-title h1 {
+  color: darkcyan; }
+
+.sec-title h2 {
+  color: #ffffff; }
+
+.sec-title-two h2 {
+  color: darkcyan; }
+
+.service_box .service-content {
+  background-color: darkcyan; }
+  .service_box .service-content .title {
+    color: #ffffff; }
+
+.about-content h3, .about-content h4 {
+  color: #ffffff !important; }
+
+.single-why-choose-us .text-box h3 {
+  color: #ffffff; }
+
+.our-team:hover .team-content {
+  background-color: darkcyan; }
+
+.bgc-f1 {
+  background-color: darkslategray; }
+
+.testimonial_five {
+  background-color: #0a0a0a; }
+  .testimonial_five h3 {
+    color: aliceblue; }
+    .testimonial_five h3 small {
+      color: aliceblue; }
+
+.single-blog-style-one .text-box h3 {
+  color: #ffffff; }
+.single-blog-style-one .text-box .meta-info a {
+  color: #ffffff; }
+  .single-blog-style-one .text-box .meta-info a:hover {
+    color: darkcyan; }
+
+/*# sourceMappingURL=boxed.css.map */
+
+/*# sourceMappingURL=dark.css.map */
