@@ -42,7 +42,7 @@ const Home = () => {
                 <span className="select-box">
                   <select className="selectpicker" name="languages">
                     <option value="">EN</option>
-                    <option value={1}>BN</option>
+                    <option value={1}>BN</option>     
                     <option value={2}>DU</option>
                   </select>
                 </span>
@@ -66,7 +66,9 @@ const Home = () => {
             <i className="fa fa-bars" />
           </button>
           <a className="navbar-brand" href="index.html">
-            <img src="img/logo-light.png" alt="Awesome Image" />
+            <img  style={{
+              width:"150px"
+            }} src="img/logo-light.png" alt="Awesome Image" />
           </a>
         </div>
         {/* Collect the nav links, forms, and other content for toggling */}
