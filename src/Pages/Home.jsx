@@ -103,27 +103,6 @@ const Home = () => {
           <ul className="nav navbar-nav navigation-box">
             <li className="current">
               <a href="index.html">Home</a>
-              <ul className="sub-menu">
-                <li>
-                  <a href="index.html">Home Page One</a>
-                </li>
-                <li>
-                  <a href="index2.html">Home Page Two</a>
-                </li>
-                <li>
-                  <a href="index3.html">Home Page Three</a>
-                </li>
-                <li>
-                  <a href="index4.html">Home Page Four</a>
-                </li>
-                <li>
-                  <a href="index-boxed.html">Home Boxed</a>
-                </li>
-                <li>
-                  <a href="index-dark.html">Home Dark</a>
-                </li>
-              </ul>
-              {/* /.sub-menu */}
             </li>
             <li>
               <a href="about.html">About Us</a>
@@ -132,43 +111,56 @@ const Home = () => {
               <a href="services.html">Services</a>
               <ul className="sub-menu">
                 <li>
-                  <a href="services.html">Services One</a>
+                  <a href="services.html">Execution</a>
                 </li>
                 <li>
-                  <a href="services-2.html">Services Two</a>
-                </li>
-                <li>
-                  <a href="service-details.html">Services Details</a>
+                  <a href="services-2.html">Rentals</a>
                 </li>
               </ul>
               {/* /.sub-menu */}
             </li>
             <li>
-              <a href="#">Pages</a>
-              <ul className="sub-menu">
+              <a href="#">Products</a>
+              <ul    style={{
+    maxHeight: "300px",         // adjust height as needed
+    overflowY: "auto",
+    overflowX: "hidden"
+  }}  className="sub-menu ">
                 <li>
-                  <a >Error 404</a>
+                  <a >Aperoofing / Forepoling Casing System</a>
                 </li>
                 <li>
-                  <a>Faq</a>
+                  <a>Self Drilling Anchors & Accessories</a>
                 </li>
                 <li>
-                  <a >Services</a>
+                  <a >Rock Drilling Tools </a>
                 </li>
                 <li>
-                  <a>Projects</a>
+                  <a>Grout Swivel </a>
                 </li>
                 <li>
-                  <a >Projects Details</a>
+                  <a >Inflatable / Mechanical Packers </a>
                 </li>
                 <li>
-                  <a>Under Construction</a>
+                  <a>Cable Anchors</a>
+                </li>
+                <li>
+                  <a>SN Bolt Installation Adapter</a>
+                </li>
+                <li>
+                  <a>Spares for Drill Jumbos & Shotcrete Machine</a>
+                </li>
+                <li>
+                  <a>Spares for Engines & Axles </a>
+                </li>
+                <li>
+                  <a>Water Expandable Bolts & Pumps </a>
                 </li>
               </ul>
               {/* /.sub-menu */}
             </li>
             <li>
-              <a >Blog</a>
+              <a >News & Insights</a>
               <ul className="sub-menu">
                 <li>
                   <a >Blog Grid</a>
@@ -473,7 +465,7 @@ const Home = () => {
         <div className="col-xs-12 col-sm-6 col-md-4">
           <div className="single-why-choose-us">
             <div className="icon-box">
-              <div className="inner">
+              <div  className="inner">
                 <i className="hialeah-icon-worker" />
               </div>
             </div>
@@ -754,7 +746,7 @@ const Home = () => {
   {/* /.project-style-one */}
   {/* Call to Action */}
   <section className="call-to-action-style-one">
-    <div className="inner">
+    <div  className="inner">
       <div className="thm-container text-center">
         <h3>
           We provide great <span>construction</span> services <br />
@@ -1370,7 +1362,9 @@ const Home = () => {
           <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
             <div className="footer-widget about-widget">
               <a href="index.html">
-                <img src="img/logo-light.png" alt="Awesome Image" />
+                <img  style={ {
+                  width:"200px"
+                } }  src="img/logo-light.png" alt="Awesome Image" />
               </a>
               <p>
                 Put a record on and see who dances old boys club. Forcing
@@ -1433,7 +1427,7 @@ const Home = () => {
               {/* /.services-list */}
             </div>
           </div>
-          <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div  className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
             <div className="footer-widget contact-widget">
               <div className="title">
                 <h3>Contact Us</h3>
@@ -1456,7 +1450,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div    className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
             <div className="footer-widget email-widget">
               <div className="title">
                 <h3>Drop Message</h3>

@@ -1025,8 +1025,8 @@ body.active-preloader-ovh {
       position: absolute;
       top: 100%;
       left: 0;
-      z-index: 100000;
-      float: left;
+      
+     float: left;
       min-width: 270px;
       padding: 0px 0px;
       text-align: left;
@@ -1034,7 +1034,9 @@ body.active-preloader-ovh {
       background-color: #fff;
       background-clip: padding-box;
       opacity: 0;
+      
       visibility: hidden;
+      
       -webkit-transition: opacity .4s ease, visibility .4s ease;
       transition: opacity .4s ease, visibility .4s ease;
       box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.002); }
@@ -1046,7 +1048,10 @@ body.active-preloader-ovh {
       visibility: visible; }
     .header-navigation ul.navigation-box > li > ul.sub-menu > li {
       display: block;
-      position: relative; }
+      position: relative; 
+      
+    
+    }
     .header-navigation ul.navigation-box > li > ul.sub-menu > li > a {
       font-size: 15px;
       color: #717171;
@@ -1085,7 +1090,10 @@ body.active-preloader-ovh {
       visibility: visible; }
     .header-navigation ul.navigation-box > li > .sub-menu > li > ul.sub-menu > li {
       display: block;
-      position: relative; }
+      position: relative;  
+      
+    
+    }
     .header-navigation ul.navigation-box > li > .sub-menu > li > ul.sub-menu > li > a {
       font-size: 16px;
       color: #717171;
@@ -3534,3 +3542,11 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
         transition: all 0.5s ease 0s; }
 
 /*# sourceMappingURL=style.css.map */
+
+.customer-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+
+}
