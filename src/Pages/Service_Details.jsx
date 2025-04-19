@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "/img/logo-light.png"
 import banner from '/img/banner-1-1.jpg'
+import Navbar from '../Components/Navbar'
 
 const Service_Details = () => {
   return (
@@ -54,152 +55,7 @@ const Service_Details = () => {
         </div>
       </div>
     </div>
-    <nav  className="navbar navbar-default header-navigation stricky"  
-    
-   >
-      <div    className="thm-container clearfix">
-        {/* Brand and toggle get grouped for better mobile display */}
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed "
-            data-toggle="collapse"
-            data-target=".main-navigation"
-            aria-expanded="false"
-          >
-            <i className="fa fa-bars" />
-          </button>
-          <a className="navbar-brand" >
-            <img style={{
-                width:"120px"
-            }}  src={logo} alt="Awesome Image" />
-          </a>
-        </div>
-        {/* Collect the nav links, forms, and other content for toggling */}
-        <div
-          className="collapse navbar-collapse main-navigation mainmenu "
-          id="main-nav-bar"
-        >
-          <ul className="nav navbar-nav navigation-box">
-            <li className="current">
-              <a href="index.html">Home</a>
-              <ul className="sub-menu">
-                <li>
-                  <a href="index.html">Home Page One</a>
-                </li>
-                <li>
-                  <a href="index2.html">Home Page Two</a>
-                </li>
-                <li>
-                  <a href="index3.html">Home Page Three</a>
-                </li>
-                <li>
-                  <a href="index4.html">Home Page Four</a>
-                </li>
-                <li>
-                  <a href="index-boxed.html">Home Boxed</a>
-                </li>
-                <li>
-                  <a href="index-dark.html">Home Dark</a>
-                </li>
-              </ul>
-              {/* /.sub-menu */}
-            </li>
-            <li>
-              <a href="about.html">About Us</a>
-            </li>
-            <li>
-              <a href="services.html">Services</a>
-              <ul className="sub-menu">
-                <li>
-                  <a href="services.html">Services One</a>
-                </li>
-                <li>
-                  <a href="services-2.html">Services Two</a>
-                </li>
-                <li>
-                  <a href="service-details.html">Services Details</a>
-                </li>
-              </ul>
-              {/* /.sub-menu */}
-            </li>
-            <li>
-              <a href="#">Pages</a>
-              <ul className="sub-menu">
-                <li>
-                  <a href="error.html">Error 404</a>
-                </li>
-                <li>
-                  <a href="faq.html">Faq</a>
-                </li>
-                <li>
-                  <a href="services.html">Services</a>
-                </li>
-                <li>
-                  <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                  <a href="projects-details.html">Projects Details</a>
-                </li>
-                <li>
-                  <a href="uconstruction.html">Under Construction</a>
-                </li>
-              </ul>
-              {/* /.sub-menu */}
-            </li>
-            <li>
-              <a href="blog-grid.html">Blog</a>{" "}
-              <ul className="sub-menu">
-                <li>
-                  <a href="blog-grid.html">Blog Grid</a>
-                </li>
-                <li>
-                  <a href="blog-single-sidebar-less.html">
-                    Blog Single Sidebar Less
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-single-left-sidebar.html">
-                    Blog Single Left Sidebar
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-single-right-sidebar.html">
-                    Blog Single Right Sidebar
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-classic-sidebar-less.html">
-                    Blog Classic Sidebar Less
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-classic-left-sidebar.html">
-                    Blog Classic Left Sidebar
-                  </a>
-                </li>
-                <li>
-                  <a href="blog-classic-right-sidebar.html">
-                    Blog Classic Right Sidebar
-                  </a>
-                </li>
-              </ul>
-              {/* /.sub-menu */}
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-        {/* /.navbar-collapse */}
-        <div className="right-side-box">
-          <a href="#" className="rqa-btn">
-            Get Quote
-          </a>
-        </div>
-        {/* /.right-side-box */}
-      </div>
-    </nav>
+    <Navbar/>
   </header>
   {/* /.header */}
   <section    style={{
@@ -234,7 +90,7 @@ const Service_Details = () => {
           <div className="single-blog-content">
             <div className="single-blog-style-one mb30">
               <div className="img-box mb30">
-                <img src="img/blog-details-1-1.jpg" alt="Awesome Image" />
+                <img src="img/blog-1-1.jpg" alt="Awesome Image" />
               </div>
               <div className="text-box">
                 <h3>
@@ -507,26 +363,12 @@ const Service_Details = () => {
                   href="#"
                   className="list-group-item list-group-item-action active"
                 >
-                  Interior
+                  Execution
                 </a>
                 <a href="#" className="list-group-item list-group-item-action">
-                  Home Expansion
+                Rentals
                 </a>
-                <a href="#" className="list-group-item list-group-item-action">
-                  Industrial
-                </a>
-                <a href="#" className="list-group-item list-group-item-action">
-                  Interior Design
-                </a>
-                <a href="#" className="list-group-item list-group-item-action">
-                  Metal Roofing
-                </a>
-                <a href="#" className="list-group-item list-group-item-action">
-                  Painting Services
-                </a>
-                <a href="#" className="list-group-item list-group-item-action">
-                  Tower Construction
-                </a>
+              
               </div>
             </div>
             {/* /.single-sidebar */}
