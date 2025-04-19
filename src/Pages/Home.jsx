@@ -1,4 +1,6 @@
 import React,{useState ,useEffect} from 'react'
+import { Link } from 'react-router-dom';
+
 
 
 const Home = () => {
@@ -89,10 +91,10 @@ const Home = () => {
           >
             <i className="fa fa-bars" />
           </button>
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" >
             <img  style={{
               width:"150px"
-            }} src="img/logo-light.png" alt="Awesome Image" />
+            }} src="/img/logo-light.png" alt="Awesome Image" />
           </a>
         </div>
         {/* Collect the nav links, forms, and other content for toggling */}
@@ -108,13 +110,14 @@ const Home = () => {
               <a href="about.html">About Us</a>
             </li>
             <li>
-              <a href="services.html">Services</a>
+              <a >Services</a>
               <ul className="sub-menu">
                 <li>
-                  <a href="services.html">Execution</a>
+                
+                  <Link  to={'/service/execution'} >Execution</Link>
                 </li>
                 <li>
-                  <a href="services-2.html">Rentals</a>
+                <Link  to={'/service/rentals'} >Rentals</Link>
                 </li>
               </ul>
               {/* /.sub-menu */}
