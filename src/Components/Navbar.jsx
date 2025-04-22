@@ -29,7 +29,7 @@ const Navbar = () => {
            >
              <ul className="nav navbar-nav navigation-box">
                <li className="current">
-                 <a href="index.html">Home</a>
+                 <Link to={'/'}>Home</Link>
                </li>
                <li>
                  <a href="about.html">About Us</a>

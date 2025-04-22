@@ -39,13 +39,12 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                  Colobrating &amp; Renovation
+                  Rental &amp; Sale
                 </h2>
                 <p data-animation="animated fadeInDown">
-                  Submit an Office Ipsum Cross functional teams enable out of
-                  the box brainstorming good optics globalize, for where do we
-                  stand on the latest client ask pipeline circle back
-                  deliverables.
+                  Access a wide range of high-quality tunneling equipment for
+                  rent or purchase. Get the right tools for your project, on
+                  your terms.
                 </p>
                 <a
                   href="#"
@@ -78,13 +77,12 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                  Construction &amp; Innovation
+                Tunneling & Parts Solutions
                 </h2>
                 <p data-animation="animated fadeInDown">
-                  Submit an Office Ipsum Cross functional teams enable out of
-                  the box brainstorming good optics globalize, for where do we
-                  stand on the latest client ask pipeline circle back
-                  deliverables. Quick-win.
+                From robust MIDAS machinery to efficient Robit drilling tools and
+                 a comprehensive inventory of spare parts, we offer both rental and 
+                 sales options to meet your specific tunneling needs.
                 </p>
                 <a
                   href="#"
@@ -140,12 +138,12 @@ const Home = () => {
       <div className="row feature_service_row">
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
-            <img src="img/what-we-do-1-1.jpg" />
+            <img src="img/2f3bd3_10366ce10f8749928c926d796204e243~mv2.avif" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-chainsaw" />
               </span>
-              <h3 className="title">Metal Roofing</h3>
+              <h3 className="title">Drill Jumbo & ShotCrete </h3>
               <p className="description">
                 But I must explain to you how all this mistaken idea of pleasure
                 and praising pain was born and I will give you a complete.
@@ -158,15 +156,14 @@ const Home = () => {
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
-            <img src="img/what-we-do-1-2.jpg" />
+            <img src="img/2f3bd3_8c3eb31eea294671802c4286cffca1a0~mv2.avif" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-paint-roller" />
               </span>
-              <h3 className="title">Painting Services</h3>
+              <h3 className="title">ROBIT -  Rocktools</h3>
               <p className="description">
-                But I must explain to you how all this mistaken idea of pleasure
-                and praising pain was born and I will give you a complete.
+              Robit® button bits are made from 100% recyclable steel, reducing CO₂ emissions by 80% and recycling 95% of waste.
               </p>
               <a href="#" className="btn-thm">
                 Read More
@@ -176,15 +173,15 @@ const Home = () => {
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
-            <img src="img/what-we-do-1-3.jpg" />
+            <img src="img/2f3bd3_1f98549c99014cafb3893a6b6c8837a2~mv2.avif" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-planer" />
               </span>
-              <h3 className="title">Home Expansion</h3>
+              <h3 className="title">Water Expandable Bolt</h3>
               <p className="description">
-                But I must explain to you how all this mistaken idea of pleasure
-                and praising pain was born and I will give you a complete.
+              
+Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinforcement in underground works. This rock bolt is ...
               </p>
               <a href="#" className="btn-thm">
                 Read More
@@ -203,7 +200,7 @@ const Home = () => {
           <div className="about-content">
             <h4>#No.1 in Region</h4>
             <h3>
-              Welcome To <span className="text-thm">Aarian</span>
+              Welcome To <span className="text-thm">Machino india</span>
             </h3>
             <p className="highlight text-thm">
               Guerrilla marketing screw the pooch meeting assassin.
