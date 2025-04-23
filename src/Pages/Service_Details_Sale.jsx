@@ -4,7 +4,7 @@ import banner from '/img/banner-1-1.jpg'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 
-const Service_Details = () => {
+const Service_Details_Sale = () => {
   return (
     <>
     <div className='active-preloader-ovh'>
@@ -70,7 +70,7 @@ const Service_Details = () => {
       }} className="inner-banner">
     <div className="inner">
       <div className="thm-container clearfix">
-        <h2 className="pull-left">Rentals For Tunnelling Equipment</h2>
+        <h2 className="pull-left">Sale Of Used Tunnelling Equipment</h2>
       
         {/* /.breadcrumb */}
       </div>
@@ -87,36 +87,49 @@ const Service_Details = () => {
                 <img src="/img/DSC02237_JPG.avif" alt="Awesome Image" />
               </div>
               <div className="text-box">
-                <h3>
-                Shotcrete
-                </h3>
+                
                 <p>
-                Looking for reliable shotcrete equipment rental? We offer top-of-the-line shotcrete machines and accessories for your construction, mining, 
-                tunneling, or infrastructure projects. Whether you're working on a small repair or a large-scale structural application, our rental fleet is ready to meet your needs. <br />
-                Enting shotcrete equipment is a smart, cost-effective solution. It reduces upfront investment, offers flexible usage, gives access to the latest technology,
-                and includes expert support for setup and operation.
+                <strong>MIPL</strong> Used equipment has proven itself by supplying high-quality tunneling equipments across Indian market 
+                for over 5 years now.  We pride ourselves in working hard to achieve competitive prices, time efficient navigation
+                of the whole sales process for our customers. With a convenient, washed, prepared and delivery, we aim to provide 
+                both a professional service and peace of mind. We specialize Atlas Copco, Sandvik, Putzmeister, Cifa and other major brands,
+                offering quality used equipment sales.
                 </p>
               </div>
+              
             </div>
-            <div className="single-blog-style-one mb30">
-              <div className="img-box mb20">
-                <img src="/img/rental.avif" alt="Awesome Image" />
-              </div>
-              <div className="text-box">
-                <h3>
-                Drill Jumbo
-                </h3>
-                <p>
-                Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.
-                 Ideal for tunnel excavation, mining, and rock reinforcement, our jumbos come in single, double, or triple boom 
-                 options to suit various project sizes. Equipped with advanced hydraulic controls and compact frames, they ensure 
-                 efficient operation even in narrow tunnels. The machines feature built-in dust suppression systems for better visibility 
-                 and safety on-site. <br /> Available in both electric and diesel models, our units are well-maintained and ready for demanding conditions.
-                  We offer flexible rental plans, expert operator support, and fast delivery to keep your project on track. Choose us for dependable
-                   performance and hassle-free drilling solutions.
-                </p>
-              </div>
+
+            <div className="blog-details-page ">
+            <div className="thm-container">
+            <section class="row">
+  <div class="card shadow-lg border-0">
+    <div class="card-body p-4">
+      <h2 style={
+        {
+            fontSize: "3rem",
+            fontWeight: "bold",
+            color: "#ffa801",
+            
+        }
+      } class="card-title text-primary mb-3">Need To Sell Off Equipment?</h2>
+      <p class="card-text fs-5 text-secondary">
+        If you're looking to sell used equipment, <strong>MIPL</strong> has the ability to respond promptly to enquiries anywhere in the world and achieve the best possible outcomes with affordable solutions.
+      </p>
+      <p class="card-text fs-5 text-secondary">
+        Contact our Sales division today by telephone or, if you prefer, by completing the contact form. If you can't find what you're looking for or have equipment and machinery to sell, call us today.
+      </p>
+    </div>
+  </div>
+</section>
+
             </div>
+              
+              </div>
+
+            
+
+            
+       
             {/* /.single-blog-style-one */}
             <div className="row mt60">
               <div className="col-md-6 col-sm-6 col-xs-12">
@@ -316,13 +329,13 @@ const Service_Details = () => {
                 <div className="line" />
               </div>
               <div className="list-group">
-              <Link
+                <Link
                   to={'/service/execution'}
-                  className="list-group-item list-group-item-action "
+                  className="list-group-item list-group-item-action active"
                 >
                   Execution
                 </Link>
-                <Link to={'/service/rentals'} className="list-group-item list-group-item-action  active">
+                <Link to={'/service/rentals'} className="list-group-item list-group-item-action">
                 Rentals
                 </Link>
               
@@ -522,4 +535,4 @@ const Service_Details = () => {
   )
 }
 
-export default Service_Details
+export default Service_Details_Sale
