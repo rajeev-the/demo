@@ -35,11 +35,11 @@ const Navbar = () => {
                  <a href="about.html">About Us</a>
                </li>
                <li>
-                 <a >Services</a>
+                 <Link  to={'/service/rentals'} >Services</Link>
                  <ul className="sub-menu">
                    <li>
                    
-                     <Link  to={'/service/execution'} >Execution</Link>
+                     <Link to={'/service/execution'} >Execution</Link>
                    </li>
                    <li>
                    <Link  to={'/service/rentals'} >Rentals</Link>
