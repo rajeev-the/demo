@@ -5,7 +5,16 @@ import Footer from '../Components/Fottter';
 
 
 const Home = () => {
-
+  
+     
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log("This runs after 10 seconds!");
+      // your logic here
+    }, 10000); // 10,000 milliseconds = 10 seconds
+  
+    return () => clearTimeout(timer); // cleanup if the component unmounts
+  }, []);
 
   return (
     <>
@@ -143,7 +152,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-chainsaw" />
               </span>
-              <h3 className="title">Drill Jumbo & ShotCrete </h3>
+              <h3 className="title">Parts</h3>
               <p className="description">
                 But I must explain to you how all this mistaken idea of pleasure
                 and praising pain was born and I will give you a complete.
@@ -161,7 +170,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-paint-roller" />
               </span>
-              <h3 className="title">ROBIT -  Rocktools</h3>
+              <h3 className="title">Rental</h3>
               <p className="description">
               Robit® button bits are made from 100% recyclable steel, reducing CO₂ emissions by 80% and recycling 95% of waste.
               </p>
@@ -178,7 +187,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-planer" />
               </span>
-              <h3 className="title">Water Expandable Bolt</h3>
+              <h3 className="title">Execution</h3>
               <p className="description">
               
 Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinforcement in underground works. This rock bolt is ...
@@ -376,20 +385,15 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
       <div className="gallery-filter">
         <ul className="post-filter masonary text-center">
           <li className="filter active" data-filter=".masonary-item">
-            <span>All</span>
+            <span>Execution</span>
           </li>
           <li className="filter " data-filter=".metal">
-            <span>Metal Roofing</span>
+            <span>Rental</span>
           </li>
           <li className="filter " data-filter=".painting">
-            <span>Painting</span>
+            <span>Parts</span>
           </li>
-          <li className="filter " data-filter=".interior">
-            <span>Interiro</span>
-          </li>
-          <li className="filter " data-filter=".plumbing">
-            <span>Plumbing</span>
-          </li>
+        
         </ul>
         {/* /.post-filter */}
       </div>
