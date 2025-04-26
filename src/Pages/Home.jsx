@@ -586,7 +586,10 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row" >
+
+        
+        
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
@@ -595,24 +598,32 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
               alt="team-1.jpg"
             />
             <div className="team-content">
-              <h3 className="title">Williamson</h3>
-              <span className="post">Our Manager</span>
+              <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
+              <span className="post">Chairman I Director </span>
               <ul className="social">
+              
                 <li>
                   <a href="#">
-                    <i className="fab fa-facebook" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+              className="img-responsive"
+              src="img/team-1.jpg"
+              alt="team-1.jpg"
+            />
+            <div className="team-content">
+              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
+              <span className="post">Director 
+              </span>
+              <ul className="social">
+               
                 <li>
                   <a href="#">
                     <i className="fab fa-linkedin" />
@@ -630,24 +641,10 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
               alt="team-2.jpg"
             />
             <div className="team-content">
-              <h3 className="title">kristina</h3>
-              <span className="post">Our Engineer</span>
+              <h3 className="title">Mr. Nitin Malhan</h3>
+              <span className="post">Executive Director</span>
               <ul className="social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
+              
                 <li>
                   <a href="#">
                     <i className="fab fa-linkedin" />
@@ -665,24 +662,9 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
               alt="team-3.jpg"
             />
             <div className="team-content">
-              <h3 className="title">Steve Thomas</h3>
-              <span className="post">Housing Supportive</span>
+              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
+              <span className="post">Technical Director</span>
               <ul className="social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
                 <li>
                   <a href="#">
                     <i className="fab fa-linkedin" />
@@ -692,8 +674,8 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             </div>
           </div>
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
+        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3 mt-30">
+          <div style={{ marginTop: "40px" }} className="our-team">
             <img
               className="img-responsive"
               src="img/team-4.jpg"
@@ -703,21 +685,6 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
               <h3 className="title">Miranda joy</h3>
               <span className="post">Our Manager</span>
               <ul className="social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
                 <li>
                   <a href="#">
                     <i className="fab fa-linkedin" />
