@@ -86,7 +86,7 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                Tunneling & Parts Solutions
+                Parts Solutions
                 </h2>
                 <p data-animation="animated fadeInDown">
                 From robust MIDAS machinery to efficient Robit drilling tools and
@@ -152,7 +152,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-chainsaw" />
               </span>
-              <h3 className="title">Parts</h3>
+              <h3 className="title">Execution</h3>
               <p className="description">
                 But I must explain to you how all this mistaken idea of pleasure
                 and praising pain was born and I will give you a complete.
@@ -170,7 +170,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-paint-roller" />
               </span>
-              <h3 className="title">Rental</h3>
+              <h3 className="title">Manufacturing Unit</h3>
               <p className="description">
               Robit® button bits are made from 100% recyclable steel, reducing CO₂ emissions by 80% and recycling 95% of waste.
               </p>
@@ -187,7 +187,7 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-planer" />
               </span>
-              <h3 className="title">Execution</h3>
+              <h3 className="title">Rental</h3>
               <p className="description">
               
 Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinforcement in underground works. This rock bolt is ...
