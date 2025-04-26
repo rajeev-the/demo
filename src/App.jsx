@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom'
 import Home from './Pages/Home'
 
 import ServiceExecution from './Pages/ServiceExecution'
-import About from './Pages/about'
+import About from './Pages/About'
 import Product from './Pages/Product'
 import ServiceRentals from './Pages/ServiceRentals'
 import Service_Details_Sale from './Pages/Service_Details_Sale'
