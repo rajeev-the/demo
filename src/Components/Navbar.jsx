@@ -32,7 +32,7 @@ const Navbar = () => {
                  <Link to={'/'}>Home</Link>
                </li>
                <li>
-                 <a href="about.html">About Us</a>
+                 <Link to={'/about'}>About Us</ Link>
                </li>
                <li>
                  <Link  to={'/service/rentals'} >Services</Link>
@@ -48,41 +48,41 @@ const Navbar = () => {
                  {/* /.sub-menu */}
                </li>
                <li>
-                 <a href="#">Products</a>
+                 <Link to={'/products'}>Products</Link>
                  <ul    style={{
        maxHeight: "300px",         // adjust height as needed
        overflowY: "auto",
        overflowX: "hidden"
      }}  className="sub-menu ">
                    <li>
-                     <a >Aperoofing / Forepoling Casing System</a>
+                     <Link >Aperoofing / Forepoling Casing System</Link>
                    </li>
                    <li>
-                     <a>Self Drilling Anchors & Accessories</a>
+                     <Link>Self Drilling Anchors & Accessories</Link>
                    </li>
                    <li>
-                     <a >Rock Drilling Tools </a>
+                     <Link >Rock Drilling Tools </Link>
                    </li>
                    <li>
-                     <a>Grout Swivel </a>
+                     <Link>Grout Swivel </Link>
                    </li>
                    <li>
-                     <a >Inflatable / Mechanical Packers </a>
+                     <Link >Inflatable / Mechanical Packers </Link>
                    </li>
                    <li>
-                     <a>Cable Anchors</a>
+                     <Link>Cable Anchors</Link>
                    </li>
                    <li>
-                     <a>SN Bolt Installation Adapter</a>
+                     <Link>SN Bolt Installation Adapter</Link>
                    </li>
                    <li>
-                     <a>Spares for Drill Jumbos & Shotcrete Machine</a>
+                     <Link>Spares for Drill Jumbos & Shotcrete Machine</Link>
                    </li>
                    <li>
-                     <a>Spares for Engines & Axles </a>
+                     <Link>Spares for Engines & Axles </Link>
                    </li>
                    <li>
-                     <a>Water Expandable Bolts & Pumps </a>
+                     <Link>Water Expandable Bolts & Pumps </Link>
                    </li>
                  </ul>
                  {/* /.sub-menu */}
