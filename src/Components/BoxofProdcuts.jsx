@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const BoxofProdcuts = ({title,img,content,link}) => {
+const BoxofProdcuts = ({title,img,content,link , icons}) => {
   return (
       <>
       
@@ -21,7 +21,7 @@ const BoxofProdcuts = ({title,img,content,link}) => {
               
                         <div className="icon-box">
                             <div className="inner">
-                                <i className="hialeah-icon-chainsaw"></i>
+                                <i className={`${icons}`}></i>
                             </div>
                         </div>
             

@@ -94,7 +94,7 @@ const ServiceRentals = () => {
             
            {
             data1.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`/service/${item.id}`} content={item.content} />
+              <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`/service/${item.id}`} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
             ))
            }
             

@@ -94,7 +94,7 @@ const ServiceExecution = () => {
             
            {
             data.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} content={item.content} />
+              <BoxofProdcuts key={item.id} title={item.title} img={item.img} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
             ))
            }
             

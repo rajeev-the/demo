@@ -1,7 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link ,useLocation  } from 'react-router-dom'
 
 const Navbar = () => {
+
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  const isActive = (path) => currentPath === path;
+
+
   return (
      <nav className="navbar navbar-default header-navigation stricky">
          <div className="thm-container clearfix">
@@ -28,13 +35,13 @@ const Navbar = () => {
              id="main-nav-bar"
            >
              <ul className="nav navbar-nav navigation-box">
-               <li className="current">
-                 <Link to={'/'}>Home</Link>
-               </li>
-               <li>
+             <li className={isActive('/') ? 'current' : ''}>
+              <Link to="/">Home</Link> </li>
+
+              <li className={isActive('/about') ? 'current' : ''}>
                  <Link to={'/about'}>About Us</ Link>
                </li>
-               <li>
+               <li className={isActive('/service/rentals') ? 'current' : ''}>
                  <Link  to={'/service/rentals'} >Services</Link>
                  <ul className="sub-menu">
                    <li>
@@ -47,7 +54,7 @@ const Navbar = () => {
                  </ul>
                  {/* /.sub-menu */}
                </li>
-               <li>
+               <li className={isActive('/products') ? 'current' : ''}>
                  <Link to={'/products'}>Products</Link>
                  <ul    style={{
        maxHeight: "300px",         // adjust height as needed
@@ -87,8 +94,8 @@ const Navbar = () => {
                  </ul>
                  {/* /.sub-menu */}
                </li>
-               <li>
-                 <a >News & Insights</a>
+               <li className={isActive('/news') ? 'current' : ''}>
+                 <Link>News & Insights</Link>
                  <ul className="sub-menu">
                    <li>
                      <a >Blog Grid</a>
@@ -126,8 +133,9 @@ const Navbar = () => {
                  </ul>
                  {/* /.sub-menu */}
                </li>
-               <li>
-                 <a >Contact</a>
+               <li className={isActive('/contact') ? 'current' : ''}>
+               
+                 <Link >Contact</Link>
                </li>
              </ul>
            </div>
