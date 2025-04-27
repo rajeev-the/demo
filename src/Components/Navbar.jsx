@@ -25,7 +25,7 @@ const Navbar = () => {
              </button>
              <a className="navbar-brand" >
                <img  style={{
-                 width:"350px"
+                 width:"150px"
                }} src="/img/logo-light.png" alt="Awesome Image" />
              </a>
            </div>
