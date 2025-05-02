@@ -1,6 +1,8 @@
 import React from 'react'
 import Fottter from '../Components/Fottter'
 import Navbar from '../Components/Navbar'
+import Header from '../Components/Header'
+import aboutvideo from "../assets/aboutvideo.mp4"
 
 const About = () => {
   return (
@@ -10,56 +12,22 @@ const About = () => {
   </div>{" "}
   {/* /.preloader */}
   <header className="header header-home-one inner-page-header">
-    <div className="header-top">
-      <div className="thm-container clearfix">
-        <div className="row">
-          <div className="col-lg-7">
-            <div className="left-contact-info text-left tac-smd">
-              <p>
-                <i className="hialeah-icon-phone-call" />
-                +99-55-66-88-526
-              </p>
-              <p>
-                <i className="far fa-envelope" />
-                exampl@support.com
-              </p>
-              <p>
-                <i className="far fa-clock" />
-                Mon - Fri: 9:00 - 21:00
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-5">
-            <div className="right-contact-info text-right tac-smd">
-              <p className="social">
-                <a href="#" className="fab fa-facebook-f" />
-                <a href="#" className="fab fa-twitter" />
-                <a href="#" className="fab fa-linkedin-in" />
-                <a href="#" className="fab fa-google-plus-g" />
-                <a href="#" className="fab fa-youtube" />
-              </p>
-              <p className="language-picker">
-                <i className="fas fa-globe" />
-                <span className="select-box">
-                  <select className="selectpicker" name="languages">
-                    <option value="">EN</option>
-                    <option value={1}>BN</option>
-                    <option value={2}>DU</option>
-                  </select>
-                </span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <Header/>
   <Navbar/>
   </header>
   {/* /.header */}
-  <section className="inner-banner">
+  <section  style={{
+        backgroundImage: "url('/img/banner-1-1.jpg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+    
+        
+     
+      }}  className="inner-banner">
     <div className="inner">
       <div className="thm-container clearfix">
-        <h2 className="pull-left">About Us</h2>
+      <h2 className="pull-left">Machino International Pvt. Ltd.</h2>
         <ul className="breadcrumb pull-right">
           <li>
             <a href="index.html">Home</a>
@@ -78,20 +46,16 @@ const About = () => {
       <div className="row">
         <div className="col-md-7">
           <div className="about-content">
-            <h4>#No.1 in Region</h4>
-            <h3>
-              Welcome To <span className="text-thm">Aarian</span>
+          <h3>
+            Strategic Partner for <span className="text-thm">Tunneling</span>
             </h3>
             <p className="highlight text-thm">
-              Guerrilla marketing screw the pooch meeting assassin.
+             Leading Manufacturer and Solution Provider for Tunneling
             </p>
             <p>
-              Product management breakout fastworks. We need a padigm shift i'll
-              book a meeting so we can solution this before the sprint is over,
-              we need to socialize the comms with the wider stakeholder commu
-              nity so it up the flagpole can we align. We don't want to boil the
-              ocean time vampire for best practices. Strategic fit knowledge is
-              power game plan,
+            Our management brings more than 30 years of experience in underground projects, consisting of highly skilled personnel,
+             engineers, mechanical technicians, and quality control experts. We continuously invest in new technology and collaborate 
+             closely with business partners to meet current and future customer needs.
             </p>
             <div className="icon-box mb0">
               <i className="hialeah-icon-cutter" />
@@ -108,16 +72,35 @@ const About = () => {
               <img src="img/video-box-img.jpg" alt="Awesome Image" />
               <div className="overlay">
                 <div className="box">
-                  <div className="content">
-                    <a
-                      href="https://www.youtube.com/watch?v=RnfuvUTbebo"
-                      className="video-popup"
-                    >
-                      <span className="inner-btn hvr-pulse">
-                        <i className="fa fa-play" />
-                      </span>
-                    </a>
-                  </div>
+                <div className="content">
+                <div
+  className="video-wrapper"
+  style={{
+    position: "relative",
+    width: "100%",
+    maxWidth: "800px",
+    margin: "0 auto",
+    background: "transparent", // <-- Make sure background is transparent
+  }}
+>
+  <video
+    className="video-popup"
+    src={aboutvideo}
+    autoPlay
+    muted
+    loop
+    playsInline
+    style={{
+      width: "100%",
+      height: "auto",
+      display: "block",
+      backgroundColor: "transparent", // <-- Ensure video itself is transparent
+    }}
+  ></video>
+</div>
+
+</div>
+
                 </div>
               </div>
             </div>
@@ -131,17 +114,14 @@ const About = () => {
   <section className="call-to-action-style-one">
     <div className="inner">
       <div className="thm-container text-center">
-        <h3>
-          We provide great <span>construction</span> services <br />
-          with sustainable progress
+      <h3>
+          Your Trusted Partner in <span>Tunneling Innovation</span>
         </h3>
         <p>
-          Who's for the ask for this request? cloud so nobody's fault it could
-          have been managed <br /> better drink the Kool-aid pipeline. Please
-          use instead of solution ideas!
+          Combining technical expertise with operational excellence to deliver sustainable underground solutions
         </p>
         <a href="#" className="btn-thm">
-          Contact Us
+          Contact Our Experts
         </a>
       </div>
     </div>
@@ -153,7 +133,7 @@ const About = () => {
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
           <div className="single-what-we-do-style-two hvr-float-shadow">
             <div className="img-box">
-              <img src="img/what-we-do-1-1.jpg" alt="Awesome Image" />
+           
               <div className="content-box  hvr-sweep-to-bottom">
                 <div className="inner-box">
                   <div className="top-content">
@@ -163,18 +143,12 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text-box">
-                      <h3>Metal Roofing</h3>
+                    <h3>Knowledge & Experience</h3>
                     </div>
                   </div>
                   <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
+                  <p>30+ years expertise in complex underground projects with skilled teams and quality control systems</p>
+                   
                   </div>
                 </div>
               </div>
@@ -184,7 +158,7 @@ const About = () => {
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
           <div className="single-what-we-do-style-two hvr-float-shadow">
             <div className="img-box">
-              <img src="img/what-we-do-1-2.jpg" alt="Awesome Image" />
+            
               <div className="content-box  hvr-sweep-to-bottom">
                 <div className="inner-box">
                   <div className="top-content">
@@ -194,18 +168,12 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text-box">
-                      <h3>Painting Services</h3>
+                    <h3>Quality Assurance</h3>
                     </div>
                   </div>
                   <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
+                  <p>Rigorous standards for environmental suitability, safety, reliability, and performance</p>
+                   
                   </div>
                 </div>
               </div>
@@ -215,7 +183,7 @@ const About = () => {
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
           <div className="single-what-we-do-style-two hvr-float-shadow">
             <div className="img-box">
-              <img src="img/what-we-do-1-3.jpg" alt="Awesome Image" />
+            
               <div className="content-box  hvr-sweep-to-bottom">
                 <div className="inner-box">
                   <div className="top-content">
@@ -225,18 +193,13 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text-box">
-                      <h3>Home Expansion</h3>
+                  
+                    <h3>Professional Service</h3>
                     </div>
                   </div>
                   <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
+                  <p>Flexible solutions with rapid response times and client-focused operational support</p>
+                    
                   </div>
                 </div>
               </div>
@@ -246,7 +209,7 @@ const About = () => {
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
           <div className="single-what-we-do-style-two hvr-float-shadow">
             <div className="img-box">
-              <img src="img/what-we-do-1-4.jpg" alt="Awesome Image" />
+            
               <div className="content-box  hvr-sweep-to-bottom">
                 <div className="inner-box">
                   <div className="top-content">
@@ -256,86 +219,20 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text-box">
-                      <h3>Interior Design</h3>
+                    <h3>Strategic Partnership</h3>
                     </div>
                   </div>
                   <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
+                  <p>Long-term collaborations that drive mutual success and innovation in tunneling technology</p>
+                   
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
-          <div className="single-what-we-do-style-two hvr-float-shadow">
-            <div className="img-box">
-              <img src="img/what-we-do-1-5.jpg" alt="Awesome Image" />
-              <div className="content-box  hvr-sweep-to-bottom">
-                <div className="inner-box">
-                  <div className="top-content">
-                    <div className="icon-box">
-                      <div className="inner">
-                        <i className="hialeah-icon-paint-roller" />
-                      </div>
-                    </div>
-                    <div className="text-box">
-                      <h3>Plumbing Services</h3>
-                    </div>
-                  </div>
-                  <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
-          <div className="single-what-we-do-style-two hvr-float-shadow">
-            <div className="img-box">
-              <img src="img/what-we-do-1-6.jpg" alt="Awesome Image" />
-              <div className="content-box  hvr-sweep-to-bottom">
-                <div className="inner-box">
-                  <div className="top-content">
-                    <div className="icon-box">
-                      <div className="inner">
-                        <i className="hialeah-icon-planer" />
-                      </div>
-                    </div>
-                    <div className="text-box">
-                      <h3>Tower Construction</h3>
-                    </div>
-                  </div>
-                  <div className="main-content">
-                    <p>
-                      Where the metal hits the meat i am dead inside clear blue
-                      water yet i don't want to drain the whole swamp, i just
-                      want to
-                    </p>
-                    <a href="#" className="read-more">
-                      Read More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
+       
       </div>
     </div>
   </section>
@@ -396,12 +293,12 @@ const About = () => {
               <div className="row">
                 <div className="col-md-12">
                   <div className="title-box">
-                    <h2>Our Abilites</h2>
+                    <h2>A Partner to Rely on</h2>
                     <div className="line" />
                     <p>
-                      Bake it in deploy powerpoint Bunny, nor cloud strategy
-                      great plan! let me diarize this, and we can synchronise
-                      ourselves at
+                    We understand the value of long term business relationships, our aim
+                     is to develop trusting relationships, which foster success and bring
+                      benefits to both our partners and ourselves.
                     </p>
                   </div>
                 </div>
@@ -481,8 +378,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-1.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Williamson</h3>
-              <span className="post">Construction Manager</span>
+              <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
+              <span className="post">Chairman I Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"
@@ -497,8 +394,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-2.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Kristiana</h3>
-              <span className="post">Operational Manager</span>
+              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
+              <span className="post">Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"
@@ -513,8 +410,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Steve Thomas</h3>
-              <span className="post">Lead Engineer</span>
+              <h3 className="title">Mr. Nitin Malhan</h3>
+              <span className="post">Executive Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"

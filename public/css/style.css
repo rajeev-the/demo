@@ -3550,3 +3550,29 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   
 
 }
+
+.mobile-services{
+ 
+  
+  font-weight: 800;
+
+  
+}
+
+@media (max-width: 768px) {
+  .mobile-services {
+    font-size: 16px;
+
+    padding-left: 20px;
+    font-weight: bolder;
+
+
+   
+   
+  
+  }
+  .cart-size{
+    font-size: 30px;
+  
+  }
+}

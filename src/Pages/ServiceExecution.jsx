@@ -5,6 +5,7 @@ import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 import {data} from '../Data/Service'
 import BoxofProdcuts from '../Components/BoxofProdcuts'
+import Header from '../Components/Header'
 
 const ServiceExecution = () => {
   return (
@@ -14,49 +15,7 @@ const ServiceExecution = () => {
     </div>{" "}
     {/* /.preloader */}
     <header className="header header-home-one inner-page-header">
-      <div className="header-top">
-        <div className="thm-container clearfix">
-          <div className="row">
-            <div className="col-lg-7">
-              <div className="left-contact-info text-left tac-smd">
-                <p>
-                  <i className="hialeah-icon-phone-call" />
-                  +99-55-66-88-526
-                </p>
-                <p>
-                  <i className="far fa-envelope" />
-                  exampl@support.com
-                </p>
-                <p>
-                  <i className="far fa-clock" />
-                  Mon - Fri: 9:00 - 21:00
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              <div className="right-contact-info text-right tac-smd">
-                <p className="social">
-                  <a href="#" className="fab fa-facebook-f" />
-                  <a href="#" className="fab fa-twitter" />
-                  <a href="#" className="fab fa-linkedin-in" />
-                  <a href="#" className="fab fa-google-plus-g" />
-                  <a href="#" className="fab fa-youtube" />
-                </p>
-                <p className="language-picker">
-                  <i className="fas fa-globe" />
-                  <span className="select-box">
-                    <select className="selectpicker" name="languages">
-                      <option value="">EN</option>
-                      <option value={1}>BN</option>
-                      <option value={2}>DU</option>
-                    </select>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     <Header/>
      <Navbar/>
     </header>
     {/* /.header */}
@@ -94,7 +53,7 @@ const ServiceExecution = () => {
             
            {
             data.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
+              <BoxofProdcuts key={item.id} title={item.title} img={item.img} content={item.content} link={"/service/1"} icons={"hialeah-icon-bulldozer-1"} />
             ))
            }
             
