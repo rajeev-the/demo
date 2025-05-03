@@ -8,6 +8,8 @@ import Product from './Pages/Product'
 import ServiceRentals from './Pages/ServiceRentals'
 import Service_Details_Sale from './Pages/Service_Details_Sale'
 import ContactUs from './Pages/ContactUs'
+import Products_details from './Pages/Products_details'
+import Download from './Pages/Download'
 
 const App = () => {
   return (
@@ -17,8 +19,9 @@ const App = () => {
     <Route path='/service/execution' element={<ServiceExecution/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/products' element={<Product/>}/>
-    <Route path='/products/:id' element={<Product/>}/>
+    <Route path='/products/:id' element={<Products_details/>}/>
     <Route path="/details/service/:id" element={<Service_Details_Sale/>}/>
+    <Route path="/download" element={<Download/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
     
      </Routes>

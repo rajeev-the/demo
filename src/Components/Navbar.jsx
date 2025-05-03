@@ -87,9 +87,9 @@ const Navbar = () => {
                   <span className='mobile-services'>Products</span> <i className="fa fa-chevron-down" style={{ fontSize: '10px', marginLeft: '5px' }}></i>
               </span>
               <ul className="dropdown-menu" style={{ maxHeight: '300px', overflowY: 'auto', overflowX: 'hidden' }}>
-                <li><NavLink to="/products/1">Aperoofing / Forepoling Casing System</NavLink></li>
+                <li><NavLink to="/products/1">Pipe Roofing System</NavLink></li>
                 <li><NavLink to="/products/2">Self Drilling Anchors & Accessories</NavLink></li>
-                <li><NavLink to="/products/3">Rock Drilling Tools</NavLink></li>
+                <li><NavLink to="/products/3">Water Expandable Bolt</NavLink></li>
                 <li><NavLink to="/products/4">Grout Swivel</NavLink></li>
                 <li><NavLink to="/products/5">Inflatable / Mechanical Packers</NavLink></li>
                 <li><NavLink to="/products/6">Cable Anchors</NavLink></li>
@@ -136,7 +136,7 @@ const Navbar = () => {
         </div>
 
         <div className="right-side-box">
-          <a href="#" className="rqa-btn">Get Quote</a>
+          <Link to={'/download'} className="rqa-btn">Download</Link>
         </div>
       </div>
     </nav>
