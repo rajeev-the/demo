@@ -84,7 +84,8 @@ const Navbar = () => {
                 role="button"
                 style={{ cursor: 'pointer', color: isProductsActive ? '#ffa801' : 'white' }}
               >
-                  <span className='mobile-services'>Products</span> <i className="fa fa-chevron-down" style={{ fontSize: '10px', marginLeft: '5px' }}></i>
+                  <Link   style={{ cursor: 'pointer', color: isProductsActive ? '#ffa801' : 'white' }} to={'/products'} >  <span className='mobile-services'>   
+                     Products</span> <i className="fa fa-chevron-down" style={{ fontSize: '10px', marginLeft: '5px' }}></i> </Link>
               </span>
               <ul className="dropdown-menu" style={{ maxHeight: '300px', overflowY: 'auto', overflowX: 'hidden' }}>
                 <li><NavLink to="/products/1">Pipe Roofing System</NavLink></li>

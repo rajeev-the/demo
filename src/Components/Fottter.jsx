@@ -35,43 +35,27 @@ const Fottter = () => {
                 <h3>Our Services</h3>
               </div>
               <ul className="services-list">
-                <li>
-                  {" "}
-                  <a href="interior-design.html">
-                    <i className="fa fa-angle-right" />
-                    Interior Design
-                  </a>{" "}
-                </li>
+               
                 <li>
                   <a href="metal-roofing.html">
                     <i className="fa fa-angle-right" />
-                    Metal Roofing
+                    Execution
                   </a>
                 </li>
                 <li>
                   <a href="home-expansion.html">
                     <i className="fa fa-angle-right" />
-                    Home Expansion
+                    Manufacturing Unit
                   </a>
                 </li>
+              
                 <li>
                   <a href="tower-construction.html">
                     <i className="fa fa-angle-right" />
-                    Tower Construction
+                    Rentals
                   </a>
                 </li>
-                <li>
-                  <a href="tower-construction.html">
-                    <i className="fa fa-angle-right" />
-                    Painting Services
-                  </a>
-                </li>
-                <li>
-                  <a href="tower-construction.html">
-                    <i className="fa fa-angle-right" />
-                    Plumbing Services
-                  </a>
-                </li>
+              
               </ul>
               {/* /.services-list */}
             </div>
@@ -83,19 +67,20 @@ const Fottter = () => {
               </div>
               <p>
                 <i className="fas fa-phone" />
-                +99-55-66-88-526
+                +91-11-45105930
               </p>
               <p>
                 <i className="far fa-envelope" />
-                exampl@support.com
+                support@machinoindia.com
               </p>
               <p>
                 <i className="far fa-clock" />
                 Mon - Fri: 9:00 - 21:00
               </p>
               <p>
-                <i className="fa fa-map-marker" /> Ramkrishnapur, Khemirdiar,
-                Bheramara, Kushtia 7040
+                <i className="fa fa-map-marker" />ON - 261, Sector -1, Bawana Industrial Area
+
+New Delhi - 110039, India
               </p>
             </div>
           </div>
@@ -136,10 +121,7 @@ const Fottter = () => {
       </div>
     </div>
   </div>
-  <div className="scroll-to-top scroll-to-target" data-target="html">
-    <i className="fa fa-angle-up" />
-  </div>
-
+  
    
    </>
   )

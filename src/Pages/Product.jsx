@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import BoxofProdcuts from '../Components/BoxofProdcuts'
-import {data1} from '../Data/Service'
+import {products_data} from '../Data/Product'
 import Header from '../Components/Header'
+import ProdcutsBox from '../Components/ProdcutsBox'
 
 const Product = () => {
   return (
@@ -16,16 +17,24 @@ const Product = () => {
      <Navbar/>
     </header>
     {/* /.header */}
-    <section className="inner-banner">
+    <section  style={{
+        backgroundImage: "url('/img/banner-1-1.jpg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+    
+        
+     
+      }} className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Service Page</h2>
+          <h2 className="pull-left">Prodcuts Page</h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>
             </li>
             <li>
-              <span>Service Page</span>
+              <span>Prodcuts</span>
             </li>
           </ul>
           {/* /.breadcrumb */}
@@ -36,29 +45,69 @@ const Product = () => {
     
     <section className="sec-pad what-we-do gray-bg">
     
-      <div className="thm-container">
+      <div className="ttt">
       <h1 className='text-start'> MIDAS - Products</h1>
-        <div className="row">
+        <div className="cardx-container">
             
-          {
-            data1.map((item, index) => {
-              return (
-                <BoxofProdcuts key={index} title={item.title} img={item.img} content={item.content} link={item.link} />
-              )
-            })
-          } 
+        {
+  products_data.map((item, index) =>
+    item.prodcut_type === "MIDAS" ? (
+      <ProdcutsBox 
+      
+        key={index}
+        title={item.title}
+        img={item.img[0]}
+        content={item.content}
+        link={item.link}
+        id={item.id}
+        
+        short_title={item.prodcut_type}
+        
+      />
+    ) : null
+  )
+}
+
          
             
-        </div>
-        <h1 className='text-start'> MIDAS - Products</h1>
-        <div className="row">
-            
-            <BoxofProdcuts link={'/prodcuts/1'} />
-            <BoxofProdcuts   link={'/prodcuts/2'}/>
-            <BoxofProdcuts  link={'/prodcuts/3'} />
+      
             
         </div>
+
+        
       </div>
+      <div className="ttt">
+      <h1 className='text-start'> MIDAS - Products</h1>
+        <div className="cardx-container">
+            
+        {
+  products_data.map((item, index) =>
+    item.prodcut_type === "MIDAS" ? (
+      <ProdcutsBox 
+      
+        key={index}
+        title={item.title}
+        img={item.img[0]}
+        content={item.content}
+        link={item.link}
+        
+        short_title={item.prodcut_type}
+        
+      />
+    ) : null
+  )
+}
+
+         
+            
+      
+            
+        </div>
+
+        
+      </div>
+
+
     </section>
     <section className="testimonials-style-one">
       <div className="inner sec-pad">

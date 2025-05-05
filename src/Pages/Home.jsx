@@ -1054,8 +1054,8 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
       <div className="row">
         <div className="col-md-6 col-md-offset-3">
           <div className="sec-title text-center">
-            <h1>Blog</h1>
-            <h2>Recent News</h2>
+            
+            <h2>Media</h2>
             <div className="line" />
             <p>
               Submit an Office Ipsum Cross functi onal teams enable out of the
