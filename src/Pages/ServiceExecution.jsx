@@ -1,13 +1,15 @@
 import React from 'react'
-import logo from "/img/logo-light.png"
-import banner from '/img/banner-1-1.jpg'
+
 import Navbar from '../Components/Navbar'
-import { Link } from 'react-router-dom'
-import {data} from '../Data/Service'
-import BoxofProdcuts from '../Components/BoxofProdcuts'
+
+import { data } from '../Data/Service'
+
+
 import Header from '../Components/Header'
 
 const ServiceExecution = () => {
+   
+ 
   return (
     <>
     <div className="">
@@ -30,7 +32,7 @@ const ServiceExecution = () => {
       }} className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Sale For Tunneling Equipment</h2>
+          <h2 className="pull-left">Execution of Tunnel </h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>
@@ -48,12 +50,21 @@ const ServiceExecution = () => {
     <section className="sec-pad what-we-do gray-bg">
     
       <div className="thm-container">
-      <h1 className='text-start'>Machin-Equipment</h1>
+      <h1 className='text-start'>Execution Projects</h1>
         <div className="row">
             
            {
             data.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} content={item.content} link={"/service/1"} icons={"hialeah-icon-bulldozer-1"} />
+                 <div  key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+                          <div className="single-what-we-do">
+                            <div className="img-box">
+                              <img src={item.img} alt="Awesome Image" />
+                             
+                            </div>
+                          
+                            {/* /.content-box */}
+                          </div>
+                        </div>
             ))
            }
             

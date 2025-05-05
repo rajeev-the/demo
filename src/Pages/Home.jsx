@@ -2,6 +2,7 @@ import React,{useState ,useEffect} from 'react'
 import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
 import Footer from '../Components/Fottter';
+import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
 
 
 const Home = () => {
@@ -48,12 +49,11 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                  Rental &amp; Sale
+                Execution
                 </h2>
                 <p data-animation="animated fadeInDown">
-                  Access a wide range of high-quality tunneling equipment for
-                  rent or purchase. Get the right tools for your project, on
-                  your terms.
+                Machino excels in tunneling project execution, offering advanced equipment, expert support, and reliable 
+                solutions for mining and underground construction.
                 </p>
                 <a
                   href="#"
@@ -86,12 +86,48 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                Parts Solutions
+                Manufacturing Unit
                 </h2>
                 <p data-animation="animated fadeInDown">
-                From robust MIDAS machinery to efficient Robit drilling tools and
-                 a comprehensive inventory of spare parts, we offer both rental and 
-                 sales options to meet your specific tunneling needs.
+                Machino's manufacturing unit delivers high-quality tunneling and mining equipment,
+                 ensuring precision, durability, and innovation through advanced production technologies.
+                </p>
+                <a
+                  href="#"
+                  className="banner-btn"
+                  data-animation="animated fadeInDown"
+                >
+                  Our Works
+                </a>
+                <a
+                  href="#"
+                  className="banner-btn borderd"
+                  data-animation="animated fadeInDown"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="item slide-3"
+        style={{
+          backgroundImage: "url(img/pppop.jpg)",
+          backgroundPosition: "center center"
+        }}
+      >
+        <div className="carousel-caption">
+          <div className="thm-container">
+            <div className="box valign-middle">
+              <div className="content text-left">
+                <h2 data-animation="animated fadeInUp">
+                Rentals
+                </h2>
+                <p data-animation="animated fadeInDown">
+                Machino offers reliable equipment rentals for tunneling and mining projects, providing
+                 cost-effective, well-maintained machinery with expert technical support.
                 </p>
                 <a
                   href="#"
@@ -146,8 +182,8 @@ const Home = () => {
     <div className="thm-container">
       <div className="row feature_service_row">
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="service_box">
-            <img src="img/2f3bd3_10366ce10f8749928c926d796204e243~mv2.avif" />
+          <div   className="service_box">
+            <img  src="img/Exu.jpg" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-chainsaw" />
@@ -165,7 +201,7 @@ const Home = () => {
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
-            <img src="img/2f3bd3_8c3eb31eea294671802c4286cffca1a0~mv2.avif" />
+            <img src="img/mau.jpg" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-paint-roller" />
@@ -182,7 +218,7 @@ const Home = () => {
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
-            <img src="img/2f3bd3_1f98549c99014cafb3893a6b6c8837a2~mv2.avif" />
+            <img src="img/rental (1).jpg" />
             <div className="service-content">
               <span className="service-icon">
                 <i className="hialeah-icon-planer" />
@@ -198,9 +234,13 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
+
+
+
   {/* About Service */}
   <section className="sec-pad about-us-one video-box-wrapper">
     <div className="thm-container">
@@ -232,23 +272,20 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
         </div>
         <div className="col-md-5 clearfix">
           <div className="video-box pull-right hvr-float-shadow">
-            <div className="img-box">
-              <img src="img/sddefault.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="https://youtu.be/CascoLElD-w?si=g6q0jiOoW52znYYJ"
-                      className="video-popup"
-                    >
-                      <span className="inner-btn hvr-pulse">
-                        <i className="fa fa-play" />
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <video
+    className="video-popup"
+    src={homevideo}
+    autoPlay
+    muted
+    loop
+    playsInline
+    style={{
+      width: "100%",
+      height: "auto",
+      display: "block",
+      backgroundColor: "transparent", // <-- Ensure video itself is transparent
+    }}
+  ></video>      
           </div>
           {/* /.video-box */}
         </div>

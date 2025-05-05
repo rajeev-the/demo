@@ -2,7 +2,7 @@ import React from 'react'
 import Fottter from '../Components/Fottter'
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
-import aboutvideo from "../assets/aboutvideo.mp4"
+
 
 const About = () => {
   return (
@@ -73,32 +73,7 @@ const About = () => {
               <div className="overlay">
                 <div className="box">
                 <div className="content">
-                <div
-  className="video-wrapper"
-  style={{
-    position: "relative",
-    width: "100%",
-    maxWidth: "800px",
-    margin: "0 auto",
-    background: "transparent", // <-- Make sure background is transparent
-  }}
->
-  <video
-    className="video-popup"
-    src={aboutvideo}
-    autoPlay
-    muted
-    loop
-    playsInline
-    style={{
-      width: "100%",
-      height: "auto",
-      display: "block",
-      backgroundColor: "transparent", // <-- Ensure video itself is transparent
-    }}
-  ></video>
-</div>
-
+  
 </div>
 
                 </div>
