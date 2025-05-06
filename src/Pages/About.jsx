@@ -53,9 +53,11 @@ const About = () => {
              Leading Manufacturer and Solution Provider for Tunneling
             </p>
             <p>
-            Our management brings more than 30 years of experience in underground projects, consisting of highly skilled personnel,
-             engineers, mechanical technicians, and quality control experts. We continuously invest in new technology and collaborate 
-             closely with business partners to meet current and future customer needs.
+            Founded in 2008, with a foundation built on over 30 years of industry experience,
+             Machino International Pvt. Ltd. (MIPL) is a leading name in India’s <br /> infrastructure development landscape.
+              We specialize in tunneling, slope protection, and geotechnical engineering, delivering technically demanding projects
+               with unwavering commitment to safety, sustainability, and quality.
+
             </p>
             <div className="icon-box mb0">
               <i className="hialeah-icon-cutter" />
@@ -93,7 +95,8 @@ const About = () => {
           Your Trusted Partner in <span>Tunneling Innovation</span>
         </h3>
         <p>
-          Combining technical expertise with operational excellence to deliver sustainable underground solutions
+        Machino International Pvt. Ltd. (MIPL) Engineering India’s Infrastructure with Innovation and Integrity
+
         </p>
         <a href="#" className="btn-thm">
           Contact Our Experts

@@ -53,8 +53,10 @@ const Home = () => {
                 Execution
                 </h2>
                 <p data-animation="animated fadeInDown">
-                Machino excels in tunneling project execution, offering advanced equipment, expert support, and reliable 
-                solutions for mining and underground construction.
+                Our Execution Division is the backbone of MIPL’s project delivery capability. Backed by a seasoned
+                 team of engineers, geotechnical specialists, and skilled workforce, we execute infrastructure projects 
+                 with technical precision and operational excellence.
+
                 </p>
                 <a
                   href="#"
@@ -90,8 +92,10 @@ const Home = () => {
                 Manufacturing Unit
                 </h2>
                 <p data-animation="animated fadeInDown">
-                Machino's manufacturing unit delivers high-quality tunneling and mining equipment,
-                 ensuring precision, durability, and innovation through advanced production technologies.
+                MIPL’s Manufacturing Division is dedicated to designing and producing high-performance tunneling 
+                and mining support systems. Our in-house engineering and fabrication units enable us to deliver components 
+                tailored to diverse geological and structural needs.
+
                 </p>
                 <a
                   href="#"
@@ -127,8 +131,8 @@ const Home = () => {
                 Rentals
                 </h2>
                 <p data-animation="animated fadeInDown">
-                Machino offers reliable equipment rentals for tunneling and mining projects, providing
-                 cost-effective, well-maintained machinery with expert technical support.
+                Our Equipment Rental Division provides a fleet of well-maintained, high-efficiency machinery tailored for underground,
+                tunneling, and geotechnical projects. We offer both short-term and long-term rental options, supported by expert technical assistance and operator training
                 </p>
                 <a
                   href="#"
@@ -191,8 +195,9 @@ const Home = () => {
               </span>
               <h3 className="title">Execution</h3>
               <p className="description">
-                But I must explain to you how all this mistaken idea of pleasure
-                and praising pain was born and I will give you a complete.
+              Each project is executed under stringent safety protocols and
+               sustainable engineering practices, ensuring timely 
+
               </p>
               <a href="#" className="btn-thm">
                 Read More
@@ -209,7 +214,9 @@ const Home = () => {
               </span>
               <h3 className="title">Manufacturing Unit</h3>
               <p className="description">
-              Robit® button bits are made from 100% recyclable steel, reducing CO₂ emissions by 80% and recycling 95% of waste.
+              Every product undergoes rigorous quality control and adheres to international industry
+               standards, ensuring reliability on the field.
+
               </p>
               <a href="#" className="btn-thm">
                 Read More
@@ -226,9 +233,8 @@ const Home = () => {
               </span>
               <h3 className="title">Rental</h3>
               <p className="description">
-              
-Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinforcement in underground works. This rock bolt is ...
-              </p>
+              Our machinery is regularly serviced and managed by trained technicians to ensure high uptime and site productivity.
+            </p>
               <a href="#" className="btn-thm">
                 Read More
               </a>
@@ -304,8 +310,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <h2>Why Choose Us</h2>
             <div className="line" />
             <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of{" "}
-              <br /> the box brainstorming good optics globalize.
+            Why Choose Machino International Pvt. Ltd.?
             </p>
           </div>
         </div>
@@ -321,7 +326,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <div className="text-box">
               <h3>Vastly Experienced</h3>
               <p>
-                Are we in agreeance cross functi <br /> onal teams enable out{" "}
+              30+ years of proven expertise and project leadership
               </p>
             </div>
           </div>
@@ -336,7 +341,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <div className="text-box">
               <h3>Standard Quality</h3>
               <p>
-                Are we in agreeance cross functi <br /> onal teams enable out{" "}
+              Advanced engineering backed by certified quality systems
               </p>
             </div>
           </div>
@@ -351,7 +356,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <div className="text-box">
               <h3>On Time Delivery</h3>
               <p>
-                Are we in agreeance cross functi <br /> onal teams enable out{" "}
+              Adaptable workforce with deep project experience
               </p>
             </div>
           </div>
@@ -366,7 +371,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <div className="text-box">
               <h3>Professional Services</h3>
               <p>
-                Are we in agreeance cross functi <br /> onal teams enable out{" "}
+              End-to-end execution, <br /> manufacturing, and rental solutions{""}
               </p>
             </div>
           </div>
@@ -396,7 +401,7 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             <div className="text-box">
               <h3>Compehensive Price</h3>
               <p>
-                Are we in agreeance cross functi <br /> onal teams enable out{" "}
+              PAN-India presence with global export capabilities
               </p>
             </div>
           </div>
@@ -597,9 +602,10 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
           with sustainable progress
         </h3>
         <p>
-          Who's for the ask for this request? cloud so nobody's fault it could
-          have been managed <br /> better drink the Kool-aid pipeline. Please
-          use instead of solution ideas!
+        At MIPL, we don't just build infrastructure — we engineer
+        <br /> solutions that support the growth of a resilient, sustainable, and future-ready India.
+
+
         </p>
         <a href="#" className="btn-thm">
           Contact Us
