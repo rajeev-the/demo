@@ -10,6 +10,7 @@ import Service_Details_Sale from './Pages/Service_Details_Sale'
 import ContactUs from './Pages/ContactUs'
 import Products_details from './Pages/Products_details'
 import Download from './Pages/Download'
+import BlogPage from './Pages/BlogPage'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
     <Route path="/details/service/:id" element={<Service_Details_Sale/>}/>
     <Route path="/download" element={<Download/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
+    <Route path='/blog/:id' element={<BlogPage/>}/>
     
      </Routes>
   )

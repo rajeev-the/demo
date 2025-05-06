@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
 import Footer from '../Components/Fottter';
 import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -670,6 +671,30 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             </div>
           </div>
         </div>
+
+        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+              className="img-responsive"
+              src="img/team-2.jpg"
+              alt="team-2.jpg"
+            />
+            <div className="team-content">
+              <h3 className="title">Mr. Vishal Agarwal</h3>
+              <span className="post">Director</span>
+              <ul className="social">
+              
+                <li>
+                  <a href="#">
+                    <i className="fab fa-linkedin" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
@@ -691,14 +716,14 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
             </div>
           </div>
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <div  style={{ marginTop: "40px" }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
               src="img/team-3.jpg"
               alt="team-3.jpg"
             />
-            <div className="team-content">
+            <div  className="team-content">
               <h3 className="title">Mr. Vinod Kumar Rajora</h3>
               <span className="post">Technical Director</span>
               <ul className="social">
@@ -1065,102 +1090,46 @@ Water Expandable Bolt Expandable Friction bolt is used for temporary rock reinfo
         </div>
       </div>
       <div className="row">
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="single-blog-style-one">
-            <div className="img-box">
-              <img src="img/blog-1-1.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a href="#" className="fa fa-link" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="text-box">
-              <div className="meta-info">
-                <a href="#">
-                  <i className="far fa-user" /> by Admin
-                </a>
-                <a href="#">
-                  <i className="far fa-calendar" /> 8 Aug 2018
-                </a>
-                <a href="#">
-                  <i className="far fa-comments" /> 3 Comments
-                </a>
-              </div>
-              {/* /.meta-info */}
-              <a href="#">
-                <h3>Feature creep action item, nor blue money</h3>
-              </a>
-            </div>
+      <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+  <div className="single-blog-style-one">
+    <div className="img-box">
+      <img  style={
+        {
+          height:"200px"
+        }
+      } src="img/blog-1-1.jpg" alt="Awesome Image" />
+      <div className="overlay">
+        <div className="box">
+          <div className="content">
+            <a href="#" className="fa fa-link" />
           </div>
-          {/* /.single-blog-style-one */}
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="single-blog-style-one">
-            <div className="img-box">
-              <img src="img/blog-1-2.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a href="#" className="fa fa-link" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="text-box">
-              <div className="meta-info">
-                <a href="#">
-                  <i className="far fa-user" /> by Admin
-                </a>
-                <a href="#">
-                  <i className="far fa-calendar" /> 8 Aug 2018
-                </a>
-                <a href="#">
-                  <i className="far fa-comments" /> 3 Comments
-                </a>
-              </div>
-              {/* /.meta-info */}
-              <a href="#">
-                <h3>Who's responsible for the ask for this request?</h3>
-              </a>
-            </div>
-          </div>
+      </div>
+    </div>
+    <div className="text-box">
+      <div className="meta-info">
+        <a href="#">
+          <i className="far fa-user" /> by Admin
+        </a>
+        <a href="#">
+          <i className="far fa-calendar" /> Jan 2025
+        </a>
+        <a href="#">
+          <i className="far fa-comments" /> 0 Comments
+        </a>
+      </div>
+      {/* /.meta-info */}
+      <Link to="/blog/mipl-infrastructure-solutions">
+        <h3>MIPL: Driving India’s Infrastructure with Tunneling Excellence</h3>
+      </Link>
+     
+    </div>
+  </div>
+</div>
+
           {/* /.single-blog-style-one */}
-        </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="single-blog-style-one">
-            <div className="img-box">
-              <img src="img/blog-1-3.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a href="#" className="fa fa-link" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="text-box">
-              <div className="meta-info">
-                <a href="#">
-                  <i className="far fa-user" /> by Admin
-                </a>
-                <a href="#">
-                  <i className="far fa-calendar" /> 8 Aug 2018
-                </a>
-                <a href="#">
-                  <i className="far fa-comments" /> 3 Comments
-                </a>
-              </div>
-              {/* /.meta-info */}
-              <a href="#">
-                <h3>Product management breakout fastworks. We need a</h3>
-              </a>
-            </div>
-          </div>
-          {/* /.single-blog-style-one */}
-        </div>
+     
+     
       </div>
     </div>
   </section>

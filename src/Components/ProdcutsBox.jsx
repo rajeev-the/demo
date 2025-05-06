@@ -5,9 +5,7 @@ const ProdcutsBox = ({short_title , title , content , img  , id} ) => {
     const slicedDescription = content?.slice(0, 50);
   return (
     <div className="cardx">
-    <div className="cardx-header">
-      <span className="brand-xname">{short_title}</span>
-    </div>
+    
     <img
       src={img}
       alt="Pipe Roofing System"

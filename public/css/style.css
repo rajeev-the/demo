@@ -1765,14 +1765,7 @@ body.active-preloader-ovh {
     background-color: #232323;
     position: relative;
     overflow: hidden; }
-    .site-footer .inner:before {
-      bottom: 0;
-      content: "";
-      height: 100%;
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 35%; }
+    
   .site-footer .footer-widget ul, .site-footer .footer-widget p {
     margin: 0;
     padding: 0;
@@ -3765,6 +3758,12 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   max-width: 350px;
   margin: 20px auto;
   transition: transform 0.3s ease-in-out;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontally center children */
+  justify-content: space-between;
+  text-align: center;
 }
 
 .cardx:hover {
@@ -3814,16 +3813,19 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 
 .cardx-button {
   background-color: #ffa801;
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 25px;
-  padding: 12px 24px;
-  font-size: 20px;
-  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
   width: 100%;
-  margin-top: 15px;
+  max-width: 300px;
+  margin: 15px auto 0;
+  display: block;
+  text-align: center;
 }
 
 .cardx-button:hover {
@@ -3850,7 +3852,7 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 }
 
 .ttt h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   color: #333;
   margin-bottom: 20px;
 }

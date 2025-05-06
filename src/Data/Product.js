@@ -83,5 +83,144 @@ export const products_data = [
 
        
 
-    }
+    },
+    {
+        id:5,
+        title:"BUTTON BITS",
+        content:"All of the Robit® button bits are manufactured of new 100% recyclable steel. In the environmentally friendly steel production process the CO² emissions have been reduced 80% and 95% of the waste is recycled including the process smoke which is filtered. The new steel grade gives even more uniform properties and improved fatigue strength which is crucial in rock drilling process. Designed for particular applications from soft rock formations to extremely hard conditions. Models",
+        img :[
+       "/img/prodcuts/button-bits-1.avif",
+
+         
+        ],
+        prodcut_type : "Rocktools",
+      
+
+        content1:"<ul><li><strong>A, AR</strong> – medium and hard rock model</li><li><strong>B, BR</strong> – hard + abrasive rock model</li><li><strong>DS, DSR</strong> – drop center model for straighter holes</li><li><strong>M</strong> – soft and medium hard rock model</li><li><strong>S, SR</strong> – all around model</li></ul>" ,
+        content2:"",
+        content3:"",
+        content4:"",
+
+
+
+
+
+       
+
+    },
+    {
+        id:6,
+        title:"COUPLINGS",
+        content:"Produced for optimum energy transfer on various drilling diameter.",
+        img :[
+       "/img/prodcuts/Couplings-1.avif",
+
+         
+        ],
+        prodcut_type : "Rocktools",
+        content1:"<p>Produced for optimum energy transfer on various drilling diameter.</p><ul><li>Coupling Sleeve, Coupling Adapter, Bit Adapter</li><li>Available with semi-bridge or full-bridge</li></ul>" ,
+        content3:"",
+        content4:"",
+     
+
+
+
+       
+
+    },
+    {
+        id:7,
+        title:"SHANKS",
+        content:"With specially developed alloys, shanks are with optimum hardenability and balance of core and case properties to offer extended wear and fatigue life.",
+        img :[
+       "/img/prodcuts/Shanks-1.avif",
+
+         
+        ],
+        prodcut_type : "Rocktools",
+        content1:"<p>• Compatible with most types of drills in the market</p>" ,
+        content3:"",
+        content4:"",
+  
+       
+
+    },
+    {
+        id:8,
+        title:"RODS",
+        content:"Produced from the carefully selected hollow drill steels, drill rods provide the advantages of the maximum strength with long thread life.",
+        img :[
+       "/img/prodcuts/Rods-1.avif",
+
+         
+        ],
+        prodcut_type : "Rocktools",
+        content1:"<ul><li>Hexagonal Drifter Rods, Single & Tandem Thread Rods, Male-Female Rods</li><li>Available with most types of threads</li></ul>" ,
+        content3:"",
+        content4:"",
+  
+       
+
+    },
+
+    {
+        id:9,
+        title:"PARTS OF DRILL JUMBO",
+        content:"We supply complete parts for Boomer and Tamrock drills, including drifter kits, feed beam components, and transmission parts.",
+        img :[
+       "/img/prodcuts/2.avif",
+       "/img/prodcuts/remove.avif",
+       "/img/prodcuts/parts-for-drill-jumbo-500x500.avif",
+
+
+         
+        ],
+        prodcut_type : "Spare Parts",
+        content1:"<ul><li>Complete parts for Boomer - S1D, L2C, L2D, E2C, XE3C</li><li>Complete parts for Tamrock - DT Series Underground Drill Jumbo</li><li>Overhaul Kit 400 & 800 Hours for Drifter</li><li>Feed Beam Parts</li><li>Transmission Parts</li></ul>" ,
+        content3:"",
+        content4:"",
+  
+       
+
+    },
+    {
+        id:10,
+        title:"PARTS FOR SHOTCRETE MACHINE",
+        content:"We provide complete spares and wear parts for shotcrete machines including Cifa, Aliva, Meyco, Normet, hoses, and nozzles.",
+        img :[
+       "/img/prodcuts/3.avif",
+       "/img/prodcuts/6.avif",
+       "/img/prodcuts/spare 3.avif",
+
+
+         
+        ],
+        prodcut_type : "Spare Parts",
+        content1:"<ul><li>Complete Spares for Cifa CSS2 / CSS3</li><li>Complete Spares for Aliva Putzmeister</li><li>Wear Parts for Meyco Shotcrete Machine</li><li>Wear Parts for Normet Shotcrete Machine</li><li>Concrete Hoses, Pipelines, Delivery Cylinder, Concrete Piston, Nozzle</li></ul>" ,
+        content3:"",
+        content4:"",
+  
+       
+
+    },
+    {
+        id:11,
+        title:"PARTS FOR TRANSMISSION & ENGINE",
+        content:"We offer genuine parts for Spicer, Dana transmissions, Deutz engines, certified exchange engines, and Deutz filters and transmission filters.",
+        img :[
+       "/img/prodcuts/7.avif",
+       "/img/prodcuts/spare 3.avif",
+ 
+
+
+         
+        ],
+        prodcut_type : "Spare Parts",
+        content1:"<ul><li>Genuine Parts for Spicer, Dana Transmission</li><li>Genuine Parts for Deutz Engine</li><li>Complete New Engine / Deutz Certified Exchange Engine</li><li>Genuine Deutz Filters & Transmission Filters</li></ul>" ,
+        content3:"",
+        content4:"",
+  
+       
+
+    },
 ]
