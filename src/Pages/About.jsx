@@ -291,10 +291,7 @@ const About = () => {
               <div className="text-box">
                 <h3>Vastly Experienced</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                30+ years expertise in complex underground projects with skilled teams and quality control systems
                 </p>
               </div>
             </div>
@@ -307,10 +304,7 @@ const About = () => {
               <div className="text-box">
                 <h3>Standard Quality</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                Machino International Pvt. Ltd. ensures standard quality through reliable, durable, certified, precise, and sustainable engineering backed by tested, verified performance.
                 </p>
               </div>
             </div>
@@ -323,10 +317,7 @@ const About = () => {
               <div className="text-box">
                 <h3>On Time Delivery</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                Machino International Pvt. Ltd. guarantees standard quality with durable materials, precise engineering, certified processes, and on-time delivery for every project.
                 </p>
               </div>
             </div>
@@ -372,7 +363,7 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-2.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
+              <h3 className="title">Mr. Vishal Agarwal</h3>
               <span className="post">Director</span>
               <a
                 className="icon"
@@ -385,6 +376,60 @@ const About = () => {
           </div>
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="img/team-3.jpg" />
+            <div className="team-box-content">
+              <h3 className="title">Mr.Nitin Malhan</h3>
+              <span className="post">Executive Director</span>
+              <a
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style={{
+          marginTop:"40px"
+        }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="img/team-3.jpg" />
+            <div className="team-box-content">
+              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
+              <span className="post">Technical Director</span>
+              <a
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div  style={{
+          marginTop:"40px"
+        }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="img/team-3.jpg" />
+            <div className="team-box-content">
+              <h3 className="title">Miranda joy</h3>
+              <span className="post">Our Manager</span>
+              <a
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div style={{
+          marginTop:"40px"
+        }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">

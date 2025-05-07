@@ -1004,10 +1004,7 @@ const Home = () => {
               <div className="text-box">
                 <h3>Vastly Experienced</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                30+ years expertise in complex underground projects with skilled teams and quality control systems
                 </p>
               </div>
             </div>
@@ -1020,10 +1017,7 @@ const Home = () => {
               <div className="text-box">
                 <h3>Standard Quality</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                Machino International Pvt. Ltd. ensures standard quality through reliable, durable, certified, precise, and sustainable engineering backed by tested, verified performance.
                 </p>
               </div>
             </div>
@@ -1036,10 +1030,7 @@ const Home = () => {
               <div className="text-box">
                 <h3>On Time Delivery</h3>
                 <p>
-                  Anti-pattern deliverables out of scope timeframe. Usabiltiy
-                  first-order optimal strategies close the loop. High
-                  performance keywords root-and-branch review, so high-level for
-                  UX
+                Machino International Pvt. Ltd. guarantees standard quality with durable materials, precise engineering, certified processes, and on-time delivery for every project.
                 </p>
               </div>
             </div>
