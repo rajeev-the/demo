@@ -3859,3 +3859,9 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 
 
 
+.teampp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the team members */
+  gap: 20px; /* Space between team members */
+}

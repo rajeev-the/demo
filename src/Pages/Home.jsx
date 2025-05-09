@@ -8,15 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   
-     
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      console.log("This runs after 10 seconds!");
-      // your logic here
-    }, 10000); // 10,000 milliseconds = 10 seconds
-  
-    return () => clearTimeout(timer); // cleanup if the component unmounts
-  }, []);
+ 
 
   return (
     <>
@@ -58,20 +50,20 @@ const Home = () => {
                  with technical precision and operational excellence.
 
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={'/service/execution'}
                   className="banner-btn"
                   data-animation="animated fadeInDown"
                 >
                   Our Works
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to={'/contact'}
                   className="banner-btn borderd"
                   data-animation="animated fadeInDown"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -89,7 +81,7 @@ const Home = () => {
             <div className="box valign-middle">
               <div className="content text-left">
                 <h2 data-animation="animated fadeInUp">
-                Manufacturing Unit
+                Manufacturing 
                 </h2>
                 <p data-animation="animated fadeInDown">
                 MIPL’s Manufacturing Division is dedicated to designing and producing high-performance tunneling 
@@ -97,20 +89,20 @@ const Home = () => {
                 tailored to diverse geological and structural needs.
 
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={'/service/rentals'}
                   className="banner-btn"
                   data-animation="animated fadeInDown"
                 >
                   Our Works
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to={'/contact'}
                   className="banner-btn borderd"
                   data-animation="animated fadeInDown"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -134,20 +126,20 @@ const Home = () => {
                 Our Equipment Rental Division provides a fleet of well-maintained, high-efficiency machinery tailored for underground,
                 tunneling, and geotechnical projects. We offer both short-term and long-term rental options, supported by expert technical assistance and operator training
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={'/service/rentals'}
                   className="banner-btn"
                   data-animation="animated fadeInDown"
                 >
                   Our Works
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to={'/contact'}
                   className="banner-btn borderd"
                   data-animation="animated fadeInDown"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -199,9 +191,9 @@ const Home = () => {
                sustainable engineering practices, ensuring timely 
 
               </p>
-              <a href="#" className="btn-thm">
+              <Link to={'/service/execution'} className="btn-thm">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -212,15 +204,15 @@ const Home = () => {
               <span className="service-icon">
                 <i className="hialeah-icon-paint-roller" />
               </span>
-              <h3 className="title">Manufacturing Unit</h3>
+              <h3 className="title">Manufacturing</h3>
               <p className="description">
               Every product undergoes rigorous quality control and adheres to international industry
                standards, ensuring reliability on the field.
 
               </p>
-              <a href="#" className="btn-thm">
+              <Link to={'/service/execution'} className="btn-thm">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -235,9 +227,9 @@ const Home = () => {
               <p className="description">
               Our machinery is regularly serviced and managed by trained technicians to ensure high uptime and site productivity.
             </p>
-              <a href="#" className="btn-thm">
+              <Link to={'/service/rentals'} className="btn-thm">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -259,7 +251,7 @@ const Home = () => {
               Welcome To <span className="text-thm">Machino india</span>
             </h3>
             <p className="highlight text-thm">
-              Guerrilla marketing screw the pooch meeting assassin.
+            Machino International Pvt. Ltd.
             </p>
             <p>
               Product management breakout fastworks. We need a padigm shift i'll
@@ -419,8 +411,7 @@ const Home = () => {
             <h2>Our Projects</h2>
             <div className="line" />
             <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of the
-              box brainstorming good optics globalize.
+            We deliver innovative, precise manufacturing and rental solutions with a strong focus on client success.
             </p>
           </div>
         </div>
@@ -431,10 +422,10 @@ const Home = () => {
             <span>Execution</span>
           </li>
           <li className="filter " data-filter=".metal">
-            <span>Rental</span>
+            <span>Manufacturing</span>
           </li>
           <li className="filter " data-filter=".painting">
-            <span>Parts</span>
+            <span>Rental</span>
           </li>
         
         </ul>
@@ -607,9 +598,9 @@ const Home = () => {
 
 
         </p>
-        <a href="#" className="btn-thm">
+        <Link to={'/contact'} className="btn-thm">
           Contact Us
-        </a>
+        </Link>
       </div>
     </div>
   </section>
@@ -624,37 +615,43 @@ const Home = () => {
             <h2>Our Team</h2>
             <div className="line" />
             <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of the
-              box brainstorming good optics globalize.
+            Our team consists of skilled professionals dedicated to innovation, collaboration, and delivering
+            exceptional results across every project.
             </p>
           </div>
         </div>
       </div>
+          
+      <div className="row  teampp" style={{ marginBottom: "50px" }}>
+  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div className="our-team">
+      <img
+        className="img-responsive"
+        src="img/team-1.jpg"
+        alt="team-1.jpg"
+      />
+      <div className="team-content">
+        <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
+        <span className="post">Chairman | Director</span>
+        <ul className="social">
+          <li>
+            <a href="#">
+              <i className="fab fa-linkedin" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+   
+      
       <div className="row" >
 
         
         
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
-            <img
-              className="img-responsive"
-              src="img/team-1.jpg"
-              alt="team-1.jpg"
-            />
-            <div className="team-content">
-              <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
-              <span className="post">Chairman I Director </span>
-              <ul className="social">
-              
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+       
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
@@ -722,7 +719,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div  style={{ marginTop: "40px" }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <div   className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
@@ -742,26 +739,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3 mt-30">
-          <div style={{ marginTop: "40px" }} className="our-team">
-            <img
-              className="img-responsive"
-              src="img/team-4.jpg"
-              alt="team-4.jpg"
-            />
-            <div className="team-content">
-              <h3 className="title">Miranda joy</h3>
-              <span className="post">Our Manager</span>
-              <ul className="social">
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      
+       
       </div>
     </div>
   </section>
@@ -939,9 +918,7 @@ const Home = () => {
                   <h2>Get A Qoute</h2>
                   <div className="line" />
                   <p>
-                    Bake it in deploy powerpoint Bunny, nor cloud strategy great
-                    plan! let me diarize this, and we can synchronise ourselves
-                    at
+                  Get a quote today for customized, reliable solutions tailored to meet your project needs and budget.
                   </p>
                 </div>
               </div>
@@ -987,9 +964,7 @@ const Home = () => {
                     <h2>Our Abilites</h2>
                     <div className="line" />
                     <p>
-                      Bake it in deploy powerpoint Bunny, nor cloud strategy
-                      great plan! let me diarize this, and we can synchronise
-                      ourselves at
+                    Our abilities include vast experience, consistent quality standards, and a strong commitment to delivering every project on time.
                     </p>
                   </div>
                 </div>
@@ -1080,8 +1055,7 @@ const Home = () => {
             <h2>Media</h2>
             <div className="line" />
             <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of the
-              box brainstorming good optics globalize.
+            Explore our media section for project highlights, company updates, and visual insights into our work and achievements.
             </p>
           </div>
         </div>
