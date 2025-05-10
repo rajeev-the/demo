@@ -425,7 +425,9 @@ const Home = () => {
             <span>Manufacturing</span>
           </li>
           <li className="filter " data-filter=".painting">
-            <span>Rental</span>
+          <span > <Link style={{
+            color:"#888888"
+          }} to={'/service/rentals'}>Rental</Link></span>
           </li>
         
         </ul>
@@ -576,11 +578,7 @@ const Home = () => {
       </div>
       {/* /.masonary-layout */}
     </div>
-    <div className="text-center btn-box">
-      <a href="#" className="btn-thm">
-        More Projects
-      </a>
-    </div>
+    
     {/* /.col-md-2 */}
   </section>
   {/* /.project-style-one */}
