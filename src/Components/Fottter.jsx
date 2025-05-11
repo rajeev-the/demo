@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Fottter = () => {
   return (
@@ -16,9 +17,7 @@ const Fottter = () => {
                 } }  src="img/logo-light.png" alt="Awesome Image" />
               </a>
               <p>
-                Put a record on and see who dances old boys club. Forcing
-                function quick win, but value-added, blue sky thinking thought
-                shower, nor time vampire. Product management breakout fastworks.
+              Founded in 2008 with over 30 years of expertise, Machino International Pvt. Ltd. excels in tunneling, slope protection, and geotechnical engineering, delivering safe, sustainable infrastructure solutions across India.
               </p>
               <div className="social">
                 <a href="#" className="fab fa-facebook-f" />
@@ -37,23 +36,23 @@ const Fottter = () => {
               <ul className="services-list">
                
                 <li>
-                  <a href="metal-roofing.html">
+                  <Link to={'/service/execution'}>
                     <i className="fa fa-angle-right" />
                     Execution
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="home-expansion.html">
+                  <Link  to={'/products'}>
                     <i className="fa fa-angle-right" />
-                    Manufacturing Unit
-                  </a>
+                    Manufacturing 
+                  </Link>
                 </li>
               
                 <li>
-                  <a href="tower-construction.html">
+                  <Link to={'/service/rentals'}>
                     <i className="fa fa-angle-right" />
                     Rentals
-                  </a>
+                  </Link>
                 </li>
               
               </ul>
@@ -108,7 +107,7 @@ New Delhi - 110039, India
         <p>
           © 2019 All Rights Reserved by{" "}
           <a className="text-thm" href="#">
-            Aarian
+          MIPL
           </a>
         </p>
       </div>

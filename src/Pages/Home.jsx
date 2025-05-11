@@ -72,7 +72,7 @@ const Home = () => {
       <div
         className="item slide-2"
         style={{
-          backgroundImage: "url(img/banner-1-1.jpg)",
+          backgroundImage: "url(img/male-worker-factory.jpg)",
           backgroundPosition: "center center"
         }}
       >
@@ -90,7 +90,7 @@ const Home = () => {
 
                 </p>
                 <Link
-                  to={'/service/rentals'}
+                  to={'/products'}
                   className="banner-btn"
                   data-animation="animated fadeInDown"
                 >
@@ -210,7 +210,7 @@ const Home = () => {
                standards, ensuring reliability on the field.
 
               </p>
-              <Link to={'/service/execution'} className="btn-thm">
+              <Link to={'/products'} className="btn-thm">
                 Read More
               </Link>
             </div>
@@ -246,19 +246,18 @@ const Home = () => {
       <div className="row">
         <div className="col-md-7">
           <div className="about-content">
-            <h4>#No.1 in Region</h4>
+          
             <h3>
-              Welcome To <span className="text-thm">Machino india</span>
+              Welcome To <span className="text-thm">MIPL</span>
             </h3>
             <p className="highlight text-thm">
             Machino International Pvt. Ltd.
             </p>
             <p>
-              Product management breakout fastworks. We need a padigm shift i'll
-              book a meeting so we can solution this before the sprint is over,
-              we need to socialize the comms with the wider stakeholder commu
-              nity so it up the flagpole can we align. We don't want to boil the
-              ocean time vampire for best practices.
+            Founded in 2008, with a foundation built on over 30 years of industry experience, Machino International Pvt. Ltd. (MIPL) is a leading name in India’s infrastructure development landscape. We specialize in tunneling, slope protection, and geotechnical engineering, delivering technically demanding projects with unwavering commitment to safety, sustainability, and quality.
+            <br />
+
+With expertise spanning underground infrastructure, hydropower development, mining support, and metro rail solutions, MIPL has positioned itself as a dependable partner for large-scale infrastructure development across the nation.
             </p>
             <div className="icon-box">
               <i className="hialeah-icon-cutter" />
@@ -274,13 +273,18 @@ const Home = () => {
           <video
     className="video-popup"
     src={homevideo}
-    autoPlay
-    muted
-    loop
+   
+  controls
+   loop
+ 
+
     playsInline
     style={{
       width: "100%",
       height: "auto",
+      maxHeight: "100vh", // sets a maximum height
+      
+    
       display: "block",
       backgroundColor: "transparent", // <-- Ensure video itself is transparent
     }}
@@ -422,7 +426,9 @@ const Home = () => {
             <span>Execution</span>
           </li>
           <li className="filter " data-filter=".metal">
-            <span>Manufacturing</span>
+            <span> <Link style={{
+            color:"#888888"
+          }} to={'/products'}>Manufacturing</Link> </span>
           </li>
           <li className="filter " data-filter=".painting">
           <span > <Link style={{
