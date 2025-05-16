@@ -47,10 +47,11 @@ const About = () => {
         <div className="col-md-7">
           <div className="about-content">
           <h3>
-            Strategic Partner for <span className="text-thm">Tunneling</span>
+            Corporate Profile - MIPL
             </h3>
             <p className="highlight text-thm">
-             Leading Manufacturer and Solution Provider for Tunneling
+            Engineering India’s Infrastructure with Innovation and Integrity Our Teams (Improve)
+
             </p>
             <p>
             Founded in 2008, with a foundation built on over 30 years of industry experience,
@@ -335,10 +336,7 @@ const About = () => {
             <h1>Experts</h1>
             <h2>Our Team</h2>
             <div className="line" />
-            <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of{" "}
-              <br /> the box brainstorming good optics globalize.
-            </p>
+          
           </div>
         </div>
       </div>

@@ -8,6 +8,34 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   
+  const [value,setValue] = useState("Execution")
+
+
+  const firstImages = [
+
+
+
+
+  "/img/prodcuts/button-bits-1.avif",
+  "/img/prodcuts/Couplings-1.avif",
+   "/img/prodcuts/Rods-1.avif",
+  "/img/prodcuts/Shanks-1.avif",
+     "/img/prodcuts/hower image.avif",
+        "/img/prodcuts/swellex.avif",
+ 
+  "/img/prodcuts/2.avif",
+  "/img/prodcuts/3.avif",
+
+];
+
+
+const rentalimg = [
+"/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
+"/img/2f3bd3_30747b16744847f2999a25757bd6f7c4~mv2.avif",
+"/img/rental (2).jpg"
+
+]
+
  
 
   return (
@@ -422,18 +450,14 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
       <div className="gallery-filter">
         <ul className="post-filter masonary text-center">
-          <li className="filter active" data-filter=".masonary-item">
+          <li onClick={()=>setValue("Execution")} className={`filter ${value === "Execution" ? "active" : ""}`}  data-filter=".masonary-item">
             <span>Execution</span>
           </li>
-          <li className="filter " data-filter=".metal">
-            <span> <Link style={{
-            color:"#888888"
-          }} to={'/products'}>Manufacturing</Link> </span>
+          <li onClick={()=> setValue("manufacturing")} className={`filter ${value === "manufacturing" ? "active" : ""}`} data-filter=".metal">
+            <span> manufacturing </span>
           </li>
-          <li className="filter " data-filter=".painting">
-          <span > <Link style={{
-            color:"#888888"
-          }} to={'/service/rentals'}>Rental</Link></span>
+          <li onClick={()=>setValue("Rental")}   className={`filter ${value === "Rental" ? "active" : ""}`} data-filter=".painting">
+          <span >Rental</span>
           </li>
         
         </ul>
@@ -441,11 +465,35 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
     </div>
     <div className="thm-container">
-      <div
+
+
+ {/* You can conditionally render JSX like this: */}
+ {value === "Execution" && (
+   // Place the JSX you want to render when value is "Execution" here
+ <>
+   <div
         className="row masonary-layout filter-layout"
         data-filter-class="filter"
       >
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item metal">
+      
+        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img src="img/project-1-2.jpg" alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <a
+                      href="img/project-1-2.jpg"
+                      className="img-popup read-more fas fa-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item metal">
           <div className="single-project-style-two">
             <div className="img-box">
               <img src="img/project-1-1.png" alt="Awesome Image" />
@@ -462,15 +510,49 @@ With expertise spanning underground infrastructure, hydropower development, mini
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
           <div className="single-project-style-two">
             <div className="img-box">
-              <img src="img/project-1-2.jpg" alt="Awesome Image" />
+              <img src="img/project-1-5.jpg" alt="Awesome Image" />
               <div className="overlay">
                 <div className="box">
                   <div className="content">
                     <a
-                      href="img/project-1-2.jpg"
+                      href="img/project-1-5.jpg"
+                      className="img-popup read-more fas fa-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img src="img/project-1-4.jpg" alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <a
+                      href="img/project-1-4.jpg"
+                      className="img-popup read-more fas fa-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing interior">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img src="img/project-1-7.jpg" alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <a
+                      href="img/project-1-7.jpg"
                       className="img-popup read-more fas fa-link"
                     />
                   </div>
@@ -496,40 +578,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-4.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-4.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-5.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-5.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+      
+      
         <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
           <div className="single-project-style-two">
             <div className="img-box">
@@ -547,23 +598,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-7.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-7.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
         <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
           <div className="single-project-style-two">
             <div className="img-box">
@@ -582,9 +617,137 @@ With expertise spanning underground infrastructure, hydropower development, mini
           </div>
         </div>
       </div>
+ 
+ 
+ </>
+ )          
+
+ }
+
+
+ 
+ {/* You can conditionally render JSX like this: */}
+ {value === "manufacturing" && (
+   // Place the JSX you want to render when value is "Execution" here
+ <>
+  
+ <>
+  <div
+  className="row masonary-layout filter-layout"
+  data-filter-class="filter"
+>
+  {firstImages.map((e, index) => (
+    <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+      <div
+        className="single-project-style-two"
+        style={{
+          width: "100%",
+          height: "300px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          overflow: "hidden",
+          position: "relative",
+        
+          borderRadius: "8px",
+        }}
+      >
+        <div className="img-box" style={{ width: "100%", height: "100%" }}>
+          <img
+            src={e}
+            alt="Awesome Image"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain", // or "cover" if you want to fill and crop
+            }}
+          />
+       
+          
+       
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+ 
+ 
+ </>
+ 
+ 
+ </>
+ )          
+
+
+
+
+
+
+
+
+
+
+
+ 
+ }
+  {/* You can conditionally render JSX like this: */}
+ {value === "Rental" && (
+
+ <>
+  <div
+  className="row masonary-layout filter-layout"
+  data-filter-class="filter"
+>
+  {rentalimg.map((e, index) => (
+    <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+      <div
+        className="single-project-style-two"
+        style={{
+          width: "100%",
+          height: "300px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          overflow: "hidden",
+          position: "relative",
+        
+          borderRadius: "8px",
+        }}
+      >
+        <div className="img-box" style={{ width: "100%", height: "100%" }}>
+          <img
+            src={e}
+            alt="Awesome Image"
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "contain", // or "cover" if you want to fill and crop
+            }}
+          />
+       
+          
+       
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+ 
+ 
+ </>
+ )          
+}
+
+
+
+    
       {/* /.masonary-layout */}
     </div>
-    
+    <div class="text-center btn-box">
+        <Link to={`${value === "Execution" ?"/service/execution": value === "manufacturing" ?  "/products" : value  === "Rental" ? "/service/rentals" : ""  }`}            class="btn-thm">More Projects</Link>
+    </div>
     {/* /.col-md-2 */}
   </section>
   {/* /.project-style-one */}
