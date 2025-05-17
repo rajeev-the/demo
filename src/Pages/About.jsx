@@ -361,7 +361,7 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-2.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr. Vishal Agarwal</h3>
+              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
               <span className="post">Director</span>
               <a
                 className="icon"
@@ -377,8 +377,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr.Nitin Malhan</h3>
-              <span className="post">Executive Director</span>
+              <h3 className="title">Mr. Vishal Agarwal</h3>
+              <span className="post">Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"
@@ -395,8 +395,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
-              <span className="post">Technical Director</span>
+              <h3 className="title">Mr. Nitin Malhan</h3>
+              <span className="post">Executive Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"
@@ -413,8 +413,8 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Miranda joy</h3>
-              <span className="post">Our Manager</span>
+              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
+              <span className="post">Technical Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"
