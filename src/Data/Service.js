@@ -1,24 +1,25 @@
 // data.js
 
 export const data = [
+
   {
     id: 1 ,
+    img:"/img/project-1-2.jpg",
+   
+  
+    },  {
+    id: 2 ,
     img:"/img/project-1-1.png",
     
   
   },
-  {
-    id: 2 ,
-    img:"/img/project-1-2.jpg",
-   
-  
-    },
     {
-      id: 3 ,
-      img:"/img/project-1-3.jpg",
-     
+          id: 5 ,
+          img:"/img/project-1-5.jpg",
+         
+        
+          },
     
-      },
       {
         id: 4 ,
         img:"/img/project-1-4.jpg",
@@ -26,23 +27,25 @@ export const data = [
       
         },
         {
-          id: 5 ,
-          img:"/img/project-1-5.jpg",
-         
-        
-          },
+              id: 7 ,
+              img:"/img/project-1-7.jpg",
+             
+            
+              },
+        {
+      id: 3 ,
+      img:"/img/project-1-3.jpg",
+     
+    
+      },
+      
           {
             id: 6 ,
             img:"/img/project-1-6.jpg",
             
           
             },
-            {
-              id: 7 ,
-              img:"/img/project-1-7.jpg",
-             
             
-              },
               {
                 id: 8 ,
                 img:"/img/project-1-8.jpg",
