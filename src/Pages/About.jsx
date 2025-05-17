@@ -425,24 +425,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div style={{
-          marginTop:"40px"
-        }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="team-box">
-            <img src="img/team-3.jpg" />
-            <div className="team-box-content">
-              <h3 className="title">Mr. Nitin Malhan</h3>
-              <span className="post">Executive Director</span>
-              <a
-                className="icon"
-                href="mailto:someone@example.com"
-                title="Mail Me"
-              >
-                <i className="fa fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        </div>
+      
+        
       </div>
     </div>
   </section>
