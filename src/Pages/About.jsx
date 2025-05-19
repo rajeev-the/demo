@@ -50,7 +50,7 @@ const About = () => {
             Corporate Profile - MIPL
             </h3>
             <p className="highlight text-thm">
-            Engineering India’s Infrastructure with Innovation and Integrity Our Teams (Improve)
+            Engineering India’s Infrastructure with Innovation and Integrity
 
             </p>
             <p>
@@ -227,9 +227,7 @@ const About = () => {
                   <h2>Get A Qoute</h2>
                   <div className="line" />
                   <p>
-                    Bake it in deploy powerpoint Bunny, nor cloud strategy great
-                    plan! let me diarize this, and we can synchronise ourselves
-                    at
+                    Get a quote today for customized, reliable solutions tailored to meet your project needs and budget.
                   </p>
                 </div>
               </div>
@@ -368,7 +366,7 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-2.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
+              <h3 className="title">Mr. Vibhore Agarwal</h3>
               <span className="post">Director</span>
               <a
                 className="icon"
@@ -418,7 +416,7 @@ const About = () => {
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
-              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
+              <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>
               <a
                 className="icon"
@@ -435,36 +433,7 @@ const About = () => {
       </div>
     </div>
   </section>
-  <section className="brand-section">
-    <div className="thm-container">
-      <div className="brand-carousel owl-theme owl-carousel">
-        <div className="item">
-          <i className="brands-icon-envato" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-photodune" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-graphicriver" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-themeforest" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-videohive" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-envato" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-audiojungle" />
-        </div>
-        <div className="item">
-          <i className="brands-icon-codecanyon" />
-        </div>
-      </div>
-    </div>
-  </section>
+
  <Fottter/>
 </>
 

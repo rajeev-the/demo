@@ -4,6 +4,7 @@ import banner from '/img/banner-1-1.jpg'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 import Header from '../Components/Header'
+import navbarimg from "/img/logo-light.png"
 
 const Service_Details_Sale = () => {
   return (

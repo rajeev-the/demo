@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Fottter = () => {
+const Fottter = ({img}) => {
   return (
    <>
      {/* Footer */}
@@ -14,7 +14,7 @@ const Fottter = () => {
               <a href="index.html">
                 <img  style={ {
                   width:"200px"
-                } }  src="img/logo-light.png" alt="Awesome Image" />
+                } }  src={img} alt="Awesome Image" />
               </a>
               <p>
               Founded in 2008 with over 30 years of expertise, Machino International Pvt. Ltd. excels in tunneling, slope protection, and geotechnical engineering, delivering safe, sustainable infrastructure solutions across India.

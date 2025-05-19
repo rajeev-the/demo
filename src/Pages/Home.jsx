@@ -4,6 +4,7 @@ import Header from '../Components/Header';
 import Footer from '../Components/Fottter';
 import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
 import { Link } from 'react-router-dom';
+import navbarimg from '/img/logo-light.png'
 
 
 const Home = () => {
@@ -827,7 +828,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
               alt="team-1.jpg"
             />
             <div className="team-content">
-              <h3 className="title">Mr. Vibhore Kumar Agarwal</h3>
+              <h3 className="title">Mr. Vibhore Agarwal</h3>
               <span className="post">Director 
               </span>
               <ul className="social">
@@ -894,7 +895,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
               alt="team-3.jpg"
             />
             <div  className="team-content">
-              <h3 className="title">Mr. Vinod Kumar Rajora</h3>
+              <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>
               <ul className="social">
                 <li>
@@ -1228,14 +1229,17 @@ With expertise spanning underground infrastructure, hydropower development, mini
         </div>
       </div>
       <div className="row">
-      <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+      <div style={{
+  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
+}}
+  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-blog-style-one">
     <div className="img-box">
       <img  style={
         {
           height:"200px"
         }
-      } src="img/blog-1-1.jpg" alt="Awesome Image" />
+      } src="img/blog-1-1.png" alt="Awesome Image" />
       <div className="overlay">
         <div className="box">
           <div className="content">
@@ -1246,19 +1250,13 @@ With expertise spanning underground infrastructure, hydropower development, mini
     </div>
     <div className="text-box">
       <div className="meta-info">
-        <a href="#">
-          <i className="far fa-user" /> by Admin
-        </a>
-        <a href="#">
-          <i className="far fa-calendar" /> Jan 2025
-        </a>
-        <a href="#">
-          <i className="far fa-comments" /> 0 Comments
-        </a>
+      
       </div>
       {/* /.meta-info */}
-      <Link to="/blog/mipl-infrastructure-solutions">
-        <h3>MIPL: Driving India’s Infrastructure with Tunneling Excellence</h3>
+      <Link  to="/blog/mipl-infrastructure-solutions">
+        <h3 style={{
+          padding:"10px"
+        }} >MIPL: Driving India’s Infrastructure with Tunneling Excellence</h3>
       </Link>
      
     </div>
@@ -1272,7 +1270,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     </div>
   </section>
 
-<Footer/>
+<Footer img={navbarimg}/>
 
 
 

@@ -47,12 +47,12 @@ const Product = () => {
     <section className="sec-pad what-we-do gray-bg">
     
       <div className="ttt">
-      <h1 className='text-start'> MIDAS - Products</h1>
+      <h1 className='text-start'>Pipe Roofing Support System</h1>
         <div className="cardx-container">
             
         {
   products_data.map((item, index) =>
-    item.prodcut_type === "MIDAS" ? (
+    item.prodcut_type === "Pipe Roofing Support System" ? (
       <ProdcutsBox 
       
         key={index}

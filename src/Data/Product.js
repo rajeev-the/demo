@@ -7,7 +7,7 @@ export const products_data = [
         content2:"<p>The installation of the Pipe Roof System is simple and quick and has the following effects:</p><ul><li>Reducing the ground loss by creating a boundary of stiff material between the soil and tunnel core.</li><li>Stabilizing the ground in the area of newly excavated and unsupported excavation round.</li><li>Distributing loads acting upon the tunnel roof above the freshly excavated round into the in-situ ground ahead of the face and the lined tunnel behind the face.</li><li>Confinement of the tunnel excavation area ahead of the tunnel face.</li><li>Enhancing tunnel face stability by reducing loads acting upon the tunnel face.</li><li>Reducing surface settlement.</li></ul>",
         content3:"<p><strong>Pipe Roofing Components:</strong></p><ul><li><strong>Starter Pipe:</strong> First pipe welded with ring bit on one end & female threading on the other end, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Extension Pipe:</strong> Male-female threaded pipe for extension, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Pilot Bit</strong></li><li><strong>Drill Rods</strong></li><li><strong>Grout Plugs / Injection Cap</strong></li></ul>",
         content4:"<p><strong>Threads:</strong> Pipe has a trapezoidal thread with double start.</p><p><strong>Sizes for Pipe Roofing System:</strong> 76.1, 88.9, 101.6, 114.3, 139.7, 159, 168.3</p>",
-        prodcut_type : "MIDAS",
+        prodcut_type : "Pipe Roofing Support System",
         img :[
            
             "/img/prodcuts/2f3bd3_3c8410c05be7431ab0a93aba6ac9a542~mv2.avif",
@@ -31,7 +31,7 @@ export const products_data = [
 
          
         ],
-        prodcut_type : "MIDAS",
+        prodcut_type : "Pipe Roofing Support System",
         content1:"<p><strong> A Self-Drilling Anchor Consists of:</strong></p><ul><li>Hollow Anchor Rod</li><li>Drill Bit</li><li>Extension Couplings</li><li>Bearing Plate</li><li>Hexagonal Nut</li></ul>",
         content2:"<p><strong>Extension Couplings:</strong> The coupling enables direct end-to-end energy transmission between each bar, reducing losses and ensuring maximum percussive energy at the drill bit. To enable the correct seating of each bar within the coupler, all bars are chamfered with precision to enable the bar ends to have face-to-face contact.</p>",
         content3:"<p><strong>Galvanised System:</strong> Extra corrosion protection over the full nail length if the full nail length is in fill material or where corrosion potential is higher. The galvanizing of all MIDAS Drill hollow bars is in accordance with EN 1461 / ASMT A-153.</p>",
@@ -55,7 +55,7 @@ export const products_data = [
         content3:"<p>Face plates are used to create a local surface support around the bore hole collar area. They are also utilized to maintain local roof stability, to prevent key block movement and to retain surface support like mesh.The plates are manufactured from high quality steel and meet or exceed the properties stated in the individual specification.</p>",
         content4:"<h3>Main Advantages of Expandable Friction Rock Bolts</h3><ul><li>Full load bearing capacity over the entire installed bolt length.</li><li>Ability to maintain load bearing capacity even during underground deformations.</li><li>Safe & easy installation with no additional building materials is required for installations.</li></ul>",
         img1:"/img/prodcuts/Measurement Table swellex.avif",
-        prodcut_type : "MIDAS",
+        prodcut_type : "Pipe Roofing Support System",
         img1 :"/img/prodcuts/Table for Website.avif",
         
 
@@ -69,7 +69,7 @@ export const products_data = [
 
          
         ],
-        prodcut_type : "MIDAS",
+        prodcut_type : "Pipe Roofing Support System",
         img1 :"/img/prodcuts/Table for Website.avif",
 
         content1:"<h3>Feature & Benefits:</h3><ul><li>High Corrosion Resistance</li><li>Extremely High Embedment Strengths</li><li>1/4 the Weight of Steel</li><li>2x Tensile Strength</li><li>Easy to Post Tension</li><li>Non-Magnetic</li><li>Low Electric Conductivity</li><li>Flexibility</li><li>Customization Option Available</li></ul>" ,

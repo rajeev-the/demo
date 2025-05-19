@@ -367,9 +367,11 @@ console.log(product?.img[0])
     </div>
   </section>
   {/* /.blog-details-page */}
-  <Fottter/>
+
   {/* /.footer */}
   </div>
+
+  <Fottter/>
 </>
   )
 }
