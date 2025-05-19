@@ -3865,3 +3865,12 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   justify-content: center; /* Center the team members */
   gap: 20px; /* Space between team members */
 }
+
+
+.team-content-col{
+ 
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

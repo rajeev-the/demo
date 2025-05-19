@@ -339,9 +339,11 @@ const About = () => {
           
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        <div className='team-content-col'>
+          <div style={{
+           marginBottom:"100px"
+
+        }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src="img/team-1.jpg" />
             <div className="team-box-content">
@@ -357,6 +359,11 @@ const About = () => {
             </div>
           </div>
         </div>
+        </div>
+      </div>
+      
+      <div className="row">
+      
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src="img/team-2.jpg" />
@@ -389,9 +396,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div style={{
-          marginTop:"40px"
-        }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        <div  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src="img/team-3.jpg" />
             <div className="team-box-content">
