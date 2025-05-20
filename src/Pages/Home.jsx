@@ -5,6 +5,7 @@ import Footer from '../Components/Fottter';
 import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
 import { Link } from 'react-router-dom';
 import navbarimg from '/img/logo-light.png'
+import {data1} from '../Data/Service'
 
 
 const Home = () => {
@@ -700,25 +701,18 @@ With expertise spanning underground infrastructure, hydropower development, mini
   className="row masonary-layout filter-layout"
   data-filter-class="filter"
 >
-  {rentalimg.map((e, index) => (
+  {data1.map((e, index) => (
     <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
       <div
         className="single-project-style-two"
         style={{
-          width: "100%",
-          height: "300px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          overflow: "hidden",
-          position: "relative",
-        
+    
           borderRadius: "8px",
         }}
       >
         <div className="img-box" style={{ width: "100%", height: "100%" }}>
           <img
-            src={e}
+            src={e.img}
             alt="Awesome Image"
             style={{
               width: "100%",

@@ -51,7 +51,7 @@ const ServiceRentals = () => {
     
       <div className="thm-container">
       <h1 className='text-start'>Machin-Equipment</h1>
-        <div className="row">
+        <div className="row  ">
             
            {
             data1.map((item) => (

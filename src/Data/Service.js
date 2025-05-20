@@ -125,67 +125,69 @@ export const data = [
       id: 4,
       title: "Pneumatic Crawler Drill With Compressor",
       content: "Versatile pneumatic crawler drill paired with a high-power compressor, ideal for drilling in tough terrain.",
-      img: "/img/default.jpg"
+      img: "/img/Pneumatic.png"
     },
     {
       id: 5,
       title: "Grout Pumps                              ",
       content: "Reliable grout pumps suitable for a wide range of injection grouting applications.",
-      img: "/img/default.jpg"
+      img: "/img/Pumps.png"
     },
     {
       id: 6,
       title: "Tunnel Excavator - EX 200 - Tunnel Variant With Breaker",
       content: "Special tunnel variant of EX 200 with hydraulic breaker attachment for efficient excavation in confined spaces.",
-      img: "/img/default.jpg"
+      img: "/img/Excavator.png"
     },
     {
       id: 7,
-      title: "Excavator Mounted - Height Drilling Machine",
-      content: "Drilling machine mounted on excavator arm for high-reach operations in construction and mining.",
-      img: "/img/default.jpg"
+      title: "Excavator Mounted - Height Drilling ",
+      content: "Drilling machine mounted on excavator arm for high-reach operations .",
+      img: "/img/Mounted.png"
     },
     {
       id: 8,
       title: "DG Set",
       content: "Durable and efficient DG Sets to provide uninterrupted power supply at your project site.",
-      img: "/img/default.jpg"
+      img: "/img/DG Set.png"
     },
     {
       id: 9,
       title: "Side Dump Wheel Loader - SDLG",
       content: "Reliable SDLG side dump wheel loader for efficient material handling in tunnels and confined areas.",
-      img: "/img/default.jpg"
+      img: "/img/Side.png"
     },
     {
       id: 10,
       title: "Dump Trucks & Transit Mixture",
       content: "Heavy-duty dump trucks and transit mixers available for rent to support your material transport needs.",
-      img: "/img/default.jpg"
+      img: "/img/Trucks.png"
     },
-    {
-      id: 11,
-      title: "Telehandler Up-to 11m Reach with Man Basket",
-      content: "Telehandlers with up to 11-meter reach and man basket for safe and efficient lifting operations.",
-      img: "/img/default.jpg"
-    },
+   
+    
     {
       id: 12,
       title: "EOT Crane-30T",
       content: "High-capacity EOT crane with 30-ton lifting ability for industrial and construction site operations.",
-      img: "/img/default.jpg"
+      img: "/img/EOT.png"
     },
     {
       id: 13,
       title: "Batching Plant CP-30",
       content: "Compact batching plant CP-30 for consistent and efficient concrete mixing and delivery.",
-      img: "/img/default.jpg"
+      img: "/img/Batching.png"
     },
     {
       id: 14,
       title: "CIFA CSSS-3",
       content: "Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.",
       img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif"
-    }
+    },
+     {
+      id: 11,
+      title: "Telehandler Up-to 11m Reach with Man Basket",
+      content: "Telehandlers with up to 11-meter reach and man basket for safe and efficient lifting operations.",
+      img: "/img/Telehandler.png"
+    },
   ];
   
