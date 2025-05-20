@@ -157,12 +157,7 @@ export const data = [
       content: "Reliable SDLG side dump wheel loader for efficient material handling in tunnels and confined areas.",
       img: "/img/Side.png"
     },
-    {
-      id: 10,
-      title: "Dump Trucks & Transit Mixture",
-      content: "Heavy-duty dump trucks and transit mixers available for rent to support your material transport needs.",
-      img: "/img/Trucks.png"
-    },
+   
    
     
     {
@@ -188,6 +183,12 @@ export const data = [
       title: "Telehandler Up-to 11m Reach with Man Basket",
       content: "Telehandlers with up to 11-meter reach and man basket for safe and efficient lifting operations.",
       img: "/img/Telehandler.png"
+    },
+     {
+      id: 10,
+      title: "Dump Trucks & Transit Mixture",
+      content: "Heavy-duty dump trucks and transit mixers available for rent to support your material transport needs.",
+      img: "/img/Trucks.png"
     },
   ];
   
