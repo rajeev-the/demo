@@ -53,6 +53,10 @@ const Fottter = ({img}) => {
                     <i className="fa fa-angle-right" />
                     Rentals
                   </Link>
+                    <Link to={'/PrivacyPolicy'}>
+                    <i className="fa fa-angle-right" />
+                    Privacy Policy
+                  </Link>
                 </li>
               
               </ul>
