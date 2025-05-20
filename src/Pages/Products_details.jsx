@@ -6,6 +6,7 @@ import Header from '../Components/Header'
 import { useParams } from 'react-router-dom'
 import {products_data} from '../Data/Product'
 import Fottter from '../Components/Fottter';
+import navbarimg from '/img/logo-light.png'
 
 const Products_details = () => {
     const { id } = useParams()
@@ -371,7 +372,7 @@ console.log(product?.img[0])
   {/* /.footer */}
   </div>
 
-  <Fottter/>
+  <Fottter img={navbarimg}/>
 </>
   )
 }
