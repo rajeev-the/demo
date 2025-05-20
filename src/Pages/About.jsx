@@ -2,6 +2,7 @@ import React from 'react'
 import Fottter from '../Components/Fottter'
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
+import navbarimg from '/img/logo-light.png'
 
 
 const About = () => {
@@ -434,7 +435,7 @@ const About = () => {
     </div>
   </section>
 
- <Fottter/>
+ <Fottter img={navbarimg}/>
 </>
 
   )

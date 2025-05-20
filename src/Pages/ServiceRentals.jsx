@@ -5,6 +5,7 @@ import BoxofProdcuts from '../Components/BoxofProdcuts'
 import {data1} from '../Data/Service'
 import Header from '../Components/Header'
 import Fottter from '../Components/Fottter'
+import navbarimg from "/img/logo-light.png"
 
 
 const ServiceRentals = () => {
@@ -64,37 +65,8 @@ const ServiceRentals = () => {
     </section>
     
     {/* /.testimonials-style-one */}
-    <section className="brand-section bgc-thm">
-      <div className="thm-container">
-        <div className="brand-carousel owl-theme owl-carousel">
-          <div className="item">
-            <i className="brands-icon-envato" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-photodune" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-graphicriver" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-themeforest" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-videohive" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-envato" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-audiojungle" />
-          </div>
-          <div className="item">
-            <i className="brands-icon-codecanyon" />
-          </div>
-        </div>
-      </div>
-    </section>
-  <Fottter/>
+   
+  <Fottter  img={navbarimg} />
   </>
   
 

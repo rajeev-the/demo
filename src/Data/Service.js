@@ -113,7 +113,7 @@ export const data = [
       id: 2,
       title: "Surface Drill Dx800             ",
       content: "Robust surface drill for quarrying and mining applications with precise drilling capability.",
-      img: "/img/default.jpg"
+      img: "/img/img1.png"
     },
     {
       id: 3,

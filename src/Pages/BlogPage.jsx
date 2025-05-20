@@ -18,13 +18,13 @@ const BlogPage = () => {
     <section className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Blog Single</h2>
+          <h2 className="pull-left">Blog Page</h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>
             </li>
             <li>
-              <span>Blog Single</span>
+              <span>Blog Page</span>
             </li>
           </ul>
           {/* /.breadcrumb */}
@@ -43,9 +43,7 @@ const BlogPage = () => {
                 </div>
                 <div className="text-box">
                   <div className="meta-info">
-                    <a href="#">
-                      <i className="far fa-user" /> by Admin
-                    </a>
+                   
                     <a href="#">
                       <i className="far fa-calendar" /> 8 Aug 2018
                     </a>

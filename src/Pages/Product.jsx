@@ -5,6 +5,7 @@ import {products_data} from '../Data/Product'
 import Header from '../Components/Header'
 import ProdcutsBox from '../Components/ProdcutsBox'
 import Fotter from '../Components/Fottter'
+import navbarimg from '/img/logo-light.png'
 
 const Product = () => {
   return (
@@ -183,7 +184,7 @@ const Product = () => {
       </div>
     </section> */}
 
-<Fotter/>
+<Fotter img={navbarimg}/>
     
  
   </>
