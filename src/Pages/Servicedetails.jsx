@@ -1,22 +1,21 @@
-import React,{useEffect, useState} from 'react'
-import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import Navbar from '../Components/Navbar'
-import { Link } from 'react-router-dom'
-import Header from '../Components/Header'
-import { useParams } from 'react-router-dom'
-import {products_data} from '../Data/Product'
+import React,{useState ,useEffect} from 'react'
+import { useParams  ,Link} from 'react-router-dom';
+import {data} from  "../Data/Service"
+import Header from '../Components/Header';
+import Navbar from '../Components/Navbar';
 import Fottter from '../Components/Fottter';
 import navbarimg from '/img/logo-light.png'
+import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
-const Products_details = () => {
-    const { id } = useParams()
+const Servicedetails = () => {
+ const { id } = useParams()
 const [product, setProduct] = useState(null);
    
-console.log(product?.img[0])
+
 
 
  useEffect(() => {
-        const product = products_data.find((item) => item.id === parseInt(id));
+        const product = data.find((item) => item.id === parseInt(id));
         if (product) {
             setProduct(product);
         } else {
@@ -77,7 +76,10 @@ console.log(product?.img[0])
             <div className="single-blog-style-one mb30">
             <div className="slider-container">
       <img
-        src={product?.img[currentIndex]}
+      style={{
+        height:"600px"
+      }}
+        src={product?.img}
         alt="Gallery"
         className="slider-image"
       />
@@ -328,37 +330,67 @@ console.log(product?.img[0])
             {/* /.single-sidebar */}
             <div className="single-sidebar">
               <div className="title-box">
-                <h3>Products Categories</h3>
+                <h3>Execution Projects</h3>
                 <div className="line" />
               </div>
-              <ul className="links-list">
-                <li>
-                  <Link  style={{
-                    color: id === '1' ? '#ffa801' : ''
-                  }}  to={'/products/1'}  >Pipe Roofing System</Link>
-                </li>
-                <li>
-                <Link  style={{
-                    color: id === '2' ? '#ffa801' : ''
-                  }}  to={'/products/2'}  >Self Drilling Anchors & Accessories</Link>
-              
-                </li>
-                <li>
-                <Link  style={{
-                    color: id === '3' ? '#ffa801' : ''
-                  }}  to={'/products/3'}  >Water Expandable Bolt</Link>
-            
-                </li>
-                <li>
-                  <a href="#">Grout Swivel</a>
-                </li>
-                <li>
-                  <a href="#">Inflatable / Mechanical Packers</a>
-                </li>
-                <li>
-                  <a href="#">Industrial</a>
-                </li>
-              </ul>
+             <ul className="links-list">
+  <li>
+    <Link style={{ color: id === '1' ? '#ffa801' : '' }} to={'/products/1'}>
+      Ghodazari Branch Canal of Gosikhurd
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '2' ? '#ffa801' : '' }} to={'/products/2'}>
+      Underground excavation and slope protection works of CCVT and ADIT
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '3' ? '#ffa801' : '' }} to={'/products/3'}>
+      Slope Protection Works - Dibang DT Inlet works
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '4' ? '#ffa801' : '' }} to={'/products/4'}>
+      New Railway Line Project in East Coast Railway
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '5' ? '#ffa801' : '' }} to={'/products/5'}>
+      Sri Siddharth Infratech & Service (I) Private Limited
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '6' ? '#ffa801' : '' }} to={'/products/6'}>
+      Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '7' ? '#ffa801' : '' }} to={'/products/7'}>
+      Sri Siddharth Infratech & Service (I) Private Limited
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '8' ? '#ffa801' : '' }} to={'/products/8'}>
+      Sri Siddharth Infratech & Service (I) Private Limited
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '9' ? '#ffa801' : '' }} to={'/products/9'}>
+      AMR
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '10' ? '#ffa801' : '' }} to={'/products/10'}>
+      Slope Protection Work at Chenab Bridge, Jammu & Kashmir
+    </Link>
+  </li>
+  <li>
+    <Link style={{ color: id === '11' ? '#ffa801' : '' }} to={'/products/11'}>
+      Piperoofing Work at TBM Adit of Pipalkoti H.E.P
+    </Link>
+  </li>
+</ul>
+
               
             </div>
         <div>
@@ -390,4 +422,4 @@ console.log(product?.img[0])
   )
 }
 
-export default Products_details
+export default Servicedetails

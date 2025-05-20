@@ -13,6 +13,7 @@ import Download from './Pages/Download'
 import BlogPage from './Pages/BlogPage'
 import ScrollToTop from './Components/ScrollToTop'
 import PrivacyPolicy from "./Pages/PrivacyPolicy"
+import Servicedetails from './Pages/Servicedetails'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
     <Route path="/download" element={<Download/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
     <Route path='/blog/:id' element={<BlogPage/>}/>
+      <Route path='/service/:id' element={<Servicedetails/>}/>
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
 
      </Routes>

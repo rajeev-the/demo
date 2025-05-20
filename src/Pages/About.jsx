@@ -3,6 +3,10 @@ import Fottter from '../Components/Fottter'
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
 import navbarimg from '/img/logo-light.png'
+import VA from "../assets/profilepic/1516875468370.jpeg"
+import VIA from '../assets/profilepic/1746091391533.jpeg'
+import NI from "../assets/profilepic/1709974074945.jpeg"
+import PP from "../assets/profilepic/head.jpg"
 
 
 const About = () => {
@@ -94,7 +98,8 @@ const About = () => {
     <div className="inner">
       <div className="thm-container text-center">
       <h3>
-          Your Trusted Partner in <span>Tunneling Innovation</span>
+          Your Trusted Partner in  <span>Tunneling Innovation</span><span> , Tunnel & Underground Solution</span><span> , Hydropower Project</span>
+
         </h3>
         <p>
         Machino International Pvt. Ltd. (MIPL) Engineering India’s Infrastructure with Innovation and Integrity
@@ -344,7 +349,7 @@ const About = () => {
 
         }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="img/team-1.jpg" />
+            <img src={PP} />
             <div className="team-box-content">
               <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
               <span className="post">Chairman I Director</span>
@@ -365,7 +370,7 @@ const About = () => {
       
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="img/team-2.jpg" />
+            <img src={VA}/>
             <div className="team-box-content">
               <h3 className="title">Mr. Vibhore Agarwal</h3>
               <span className="post">Director</span>
@@ -381,7 +386,7 @@ const About = () => {
         </div>
         <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="img/team-3.jpg" />
+            <img src={VIA} />
             <div className="team-box-content">
               <h3 className="title">Mr. Vishal Agarwal</h3>
               <span className="post">Director</span>
@@ -397,7 +402,7 @@ const About = () => {
         </div>
         <div  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="img/team-3.jpg" />
+            <img src={NI} />
             <div className="team-box-content">
               <h3 className="title">Mr. Nitin Malhan</h3>
               <span className="post">Executive Director</span>

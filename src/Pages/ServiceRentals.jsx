@@ -63,6 +63,12 @@ const ServiceRentals = () => {
         
       </div>
     </section>
+
+<div class="maintt">
+  <Link to={"/contact"} class="enquiry-btn" >Equipments Enquiry</Link>
+</div>
+
+
     
     {/* /.testimonials-style-one */}
    

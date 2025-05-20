@@ -3874,3 +3874,60 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   align-items: center;
   justify-content: center;
 }
+
+.maintt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: #f9f9f9; /* optional: subtle background */
+}
+
+.enquiry-btn {
+  background-color: #ffa801; /* Tailwind's blue-600 */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 750;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.enquiry-btn:hover {
+  background-color: #e69900; /* Tailwind's blue-700 */
+  color: white;
+}
+
+.enquiry-btn:active {
+  transform: scale(0.97);
+}
+
+
+
+.enquiry-link {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 12px 24px;
+  background-color: #ffa801; /* Blue button */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 800;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-link:hover {
+  background-color: #e69900; 
+  color: white;
+  
+  /* Darker blue on hover */
+}
+
+.enquiry-link:active {
+  transform: scale(0.97); /* Press effect */
+}
+

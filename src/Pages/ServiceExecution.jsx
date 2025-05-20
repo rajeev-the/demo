@@ -8,6 +8,7 @@ import { data } from '../Data/Service'
 import Header from '../Components/Header'
 import Fottter from '../Components/Fottter'
 import navbarimg from "/img/logo-light.png"
+import { Link } from 'react-router-dom'
 
 const ServiceExecution = () => {
    
@@ -57,19 +58,14 @@ const ServiceExecution = () => {
             
            {
             data.map((item) => (
-                <div key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+                <Link to={`/service/${item.id}`} key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-what-we-do">
     <div className="img-box">
       <img src={item.img} alt="Awesome Image" />
     </div>
-    <div className="content-box p-3">
-      <h5 className="project-name font-bold">Construction of Tunnel from RD 15466 to 15561 at Ghodazari Branch Canal</h5>
-      <p className="text-sm"><strong>Prime Client:</strong> Vidarbha Irrigation Development Corporation Nagpur (VIDC)</p>
-      <p className="text-sm"><strong>Scope of Work:</strong> Construction of Tunnel from Vertical Shaft: Length - 95 m, Cross Sectional Area - 78 Sqm & Dia - 8.05m</p>
-      <p className="text-sm"><strong>Work Value:</strong> ₹34.04 Crs (70% Completed)</p>
-    </div>
+   
   </div>
-</div>
+</Link>
 
             ))
            }

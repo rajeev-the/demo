@@ -6,7 +6,10 @@ import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
 import { Link } from 'react-router-dom';
 import navbarimg from '/img/logo-light.png'
 import {data1} from '../Data/Service'
-
+import VA from "../assets/profilepic/1516875468370.jpeg"
+import VIA from '../assets/profilepic/1746091391533.jpeg'
+import NI from "../assets/profilepic/1709974074945.jpeg"
+import PP from "../assets/profilepic/head.jpg"
 
 const Home = () => {
   
@@ -701,23 +704,30 @@ With expertise spanning underground infrastructure, hydropower development, mini
   className="row masonary-layout filter-layout"
   data-filter-class="filter"
 >
-  {data1.map((e, index) => (
+  {data1.slice(0, 8).map((e, index) => (
     <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
       <div
         className="single-project-style-two"
         style={{
-    
+         
+      
+        
           borderRadius: "8px",
+    
+    
+         
         }}
+
+
       >
         <div className="img-box" style={{ width: "100%", height: "100%" }}>
           <img
             src={e.img}
             alt="Awesome Image"
             style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "contain", // or "cover" if you want to fill and crop
+              width: "280px",
+              height: "220px",
+              objectFit: "fill", // or "cover" if you want to fill and crop
             }}
           />
        
@@ -789,7 +799,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     <div className="our-team">
       <img
         className="img-responsive"
-        src="img/team-1.jpg"
+        src={PP}
         alt="team-1.jpg"
       />
       <div className="team-content">
@@ -818,7 +828,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
           <div className="our-team">
             <img
               className="img-responsive"
-              src="img/team-1.jpg"
+              src={VA}
               alt="team-1.jpg"
             />
             <div className="team-content">
@@ -841,7 +851,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
           <div className="our-team">
             <img
               className="img-responsive"
-              src="img/team-2.jpg"
+              src={VIA}
               alt="team-2.jpg"
             />
             <div className="team-content">
@@ -864,7 +874,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
           <div className="our-team">
             <img
               className="img-responsive"
-              src="img/team-2.jpg"
+              src={NI}
               alt="team-2.jpg"
             />
             <div className="team-content">
