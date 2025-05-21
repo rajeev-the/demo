@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar';
 import Header from '../Components/Header';
 import Footer from '../Components/Fottter';
 import homevideo from "../assets/MIPL Video MS_v3 (1) (1).mp4"
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import navbarimg from '/img/logo-light.png'
 import {data1} from '../Data/Service'
 import VA from "../assets/profilepic/1516875468370.jpeg"
@@ -14,6 +14,8 @@ import PP from "../assets/profilepic/head.jpg"
 const Home = () => {
   
   const [value,setValue] = useState("Execution")
+
+
 
 
   const firstImages = [
@@ -795,26 +797,42 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
           
       <div className="row  teampp" style={{ marginBottom: "50px" }}>
-  <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-    <div className="our-team">
+  <Link  to={"/profile/1"} className="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div  className="our-team">
       <img
         className="img-responsive"
         src={PP}
         alt="team-1.jpg"
       />
+           
       <div className="team-content">
         <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
         <span className="post">Chairman | Director</span>
         <ul className="social">
           <li>
-            <a href="#">
-              <i className="fab fa-linkedin" />
-            </a>
+         
+             <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
           </li>
         </ul>
       </div>
     </div>
-  </div>
+  </Link>
 </div>
 
    
@@ -824,7 +842,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
         
         
        
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <Link to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
@@ -838,16 +856,30 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <ul className="social">
                
                 <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
+                  <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </Link>
 
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <Link to={"/profile/3"}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
@@ -860,17 +892,31 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <ul className="social">
               
                 <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
+                  <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </Link>
 
 
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        <Link  to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
@@ -883,15 +929,29 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <ul className="social">
               
                 <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
+                   <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i  style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div   className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+        </Link>
+        <Link    to={"/profile/5"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
               className="img-responsive"
@@ -903,14 +963,28 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <span className="post">Technical Director</span>
               <ul className="social">
                 <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
+                   <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i  style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
+        </Link>
       
        
       </div>

@@ -7,6 +7,7 @@ import VA from "../assets/profilepic/1516875468370.jpeg"
 import VIA from '../assets/profilepic/1746091391533.jpeg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
+import { Link } from 'react-router-dom'
 
 
 const About = () => {
@@ -344,7 +345,7 @@ const About = () => {
           </div>
         </div>
         <div className='team-content-col'>
-          <div style={{
+          <Link  to={"/profile/1"} style={{
            marginBottom:"100px"
 
         }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
@@ -353,22 +354,22 @@ const About = () => {
             <div className="team-box-content">
               <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
               <span className="post">Chairman I Director</span>
-              <a
+              <span
                 className="icon"
                 href="mailto:someone@example.com"
                 title="Mail Me"
               >
                 <i className="fa fa-paper-plane" />
-              </a>
+              </span>
             </div>
           </div>
-        </div>
+        </Link>
         </div>
       </div>
       
       <div className="row">
       
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        <Link  to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src={VA}/>
             <div className="team-box-content">
@@ -383,8 +384,8 @@ const About = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        </Link>
+        <Link  to={"/profile/3"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src={VIA} />
             <div className="team-box-content">
@@ -399,24 +400,24 @@ const About = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        </Link>
+        <Link   to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
             <img src={NI} />
             <div className="team-box-content">
               <h3 className="title">Mr. Nitin Malhan</h3>
               <span className="post">Executive Director</span>
-              <a
+              <span
                 className="icon"
                 href="mailto:someone@example.com"
                 title="Mail Me"
               >
                 <i className="fa fa-paper-plane" />
-              </a>
+              </span>
             </div>
           </div>
-        </div>
-        <div  style={{
+        </Link>
+        <Link  to={"/profile/5"} style={{
           marginTop:"40px"
         }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
@@ -424,16 +425,16 @@ const About = () => {
             <div className="team-box-content">
               <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>
-              <a
+              <span
                 className="icon"
                 href="mailto:someone@example.com"
                 title="Mail Me"
               >
                 <i className="fa fa-paper-plane" />
-              </a>
+              </span>
             </div>
           </div>
-        </div>
+        </Link>
       
         
       </div>

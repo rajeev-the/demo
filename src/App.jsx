@@ -14,6 +14,7 @@ import BlogPage from './Pages/BlogPage'
 import ScrollToTop from './Components/ScrollToTop'
 import PrivacyPolicy from "./Pages/PrivacyPolicy"
 import Servicedetails from './Pages/Servicedetails'
+import ProfileDetails from './Pages/ProfileDetails'
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
     <Route path='/blog/:id' element={<BlogPage/>}/>
       <Route path='/service/:id' element={<Servicedetails/>}/>
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
+            <Route path='/profile/:id' element={<ProfileDetails/>}/>
 
      </Routes>
      </>
