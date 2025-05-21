@@ -350,7 +350,7 @@ const About = () => {
 
         }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src={PP} />
+            <img src="/img/team-1.jpg" />
             <div className="team-box-content">
               <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
               <span className="post">Chairman I Director</span>
@@ -421,7 +421,9 @@ const About = () => {
           marginTop:"40px"
         }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="img/team-3.jpg" />
+            <img style={{
+              height:"400px"
+            }} src={PP} />
             <div className="team-box-content">
               <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>

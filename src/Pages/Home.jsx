@@ -801,7 +801,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     <div  className="our-team">
       <img
         className="img-responsive"
-        src={PP}
+        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
         alt="team-1.jpg"
       />
            
@@ -835,6 +835,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
   </Link>
 </div>
 
+ 
    
       
       <div className="row" >
@@ -954,8 +955,11 @@ With expertise spanning underground infrastructure, hydropower development, mini
         <Link    to={"/profile/5"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
+            style={{
+              height:"270px"
+            }}
               className="img-responsive"
-              src="img/team-3.jpg"
+              src={PP}
               alt="team-3.jpg"
             />
             <div  className="team-content">
@@ -980,6 +984,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
           }
         } className="fab fa-linkedin" />
                   </span>
+                 
                 </li>
               </ul>
             </div>
