@@ -5,17 +5,20 @@ export const data = [
   {
     id: 1 ,
     img:"/img/project-1-2.jpg",
+    title:"Ghodazari Branch Canal of Gosikhurd"
    
   
     },  {
     id: 2 ,
     img:"/img/project-1-1.png",
+    title:"Underground excavation and slope protection works of CCVT and ADIT"
     
   
   },
     {
-          id: 5 ,
+          id: 3 ,
           img:"/img/project-1-5.jpg",
+          title:"Slope Protection Works - Dibang DT Inlet works"
          
         
           },
@@ -23,25 +26,29 @@ export const data = [
       {
         id: 4 ,
         img:"/img/project-1-4.jpg",
+        title:"New Railway Line Project in East Coast Railway"
        
       
         },
         {
-              id: 7 ,
+              id: 5 ,
               img:"/img/project-1-7.jpg",
+              title:"Sri Siddharth Infratech & Service (I) Private Limited"
              
             
               },
         {
-      id: 3 ,
+      id: 6 ,
       img:"/img/project-1-3.jpg",
+      title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road"
      
     
       },
       
           {
-            id: 6 ,
+            id: 7 ,
             img:"/img/project-1-6.jpg",
+            title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir"
             
           
             },

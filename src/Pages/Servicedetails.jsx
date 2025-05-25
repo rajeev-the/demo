@@ -91,12 +91,7 @@ const [product, setProduct] = useState(null);
       </button>
     </div>
   
-              <div className="text-box">
-                
-                <p>
-                <strong></strong>{product?.content} 
-                </p>
-              </div>
+
               
             </div>
 
@@ -105,10 +100,15 @@ const [product, setProduct] = useState(null);
             <section className="row">
   <div className="card shadow-lg border-0">
     <div className="card-body p-4">
-    <div dangerouslySetInnerHTML={{ __html: product?.content1 }} />
-    <div dangerouslySetInnerHTML={{ __html: product?.content2 }} />
-    <div dangerouslySetInnerHTML={{ __html: product?.content3 }} />
-    <div dangerouslySetInnerHTML={{ __html: product?.content4 }} />
+   <div class="project-details">
+  <p><strong>Project Name:</strong> [Enter Project Name]</p>
+  <p><strong>Prime Client:</strong> [Enter Prime Client]</p>
+  <p><strong>Contractor:</strong> [Enter Contractor]</p>
+  <p><strong>Sub Contractor:</strong> Machino International</p>
+  <p><strong>Scope of Work:</strong> [Enter Scope of Work]</p>
+  <p><strong>Work Completion Status:</strong> [Enter Completion Status]</p>
+</div>
+
     {  product?.img1 ? <img
         src={product?.img1}
         alt="Gallery"
@@ -195,110 +195,7 @@ const [product, setProduct] = useState(null);
             </div>
           
           
-            <div className=" mt30 hia_according">
-              <div
-                className="panel-group"
-                id="accordion"
-                role="tablist"
-                aria-multiselectable="true"
-              >
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingOne">
-                    <h4 className="panel-title">
-                      <a
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        How Can I Contact For Support?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseOne"
-                    className="panel-collapse collapse in"
-                    role="tabpanel"
-                    aria-labelledby="headingOne"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        Go to Our Profile Page Here.., Mail Us. As Soon As
-                        Possible In Our Supported Schdule We will reply you.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingTwo">
-                    <h4 className="panel-title">
-                      <a
-                        className="collapsed"
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        Where should I incorporate my business?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    className="panel-collapse collapse"
-                    role="tabpanel"
-                    aria-labelledby="headingTwo"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        A considerable lot of our XLX enlisted workers are
-                        mentioned as principle favored Guilds were away for
-                        relationship of craftsmans and Merchant that supervised
-                        the primary generation and circulation of a specific
-                        great has been over stream..
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingThree">
-                    <h4 className="panel-title">
-                      <a
-                        className="collapsed"
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        What is certification?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    className="panel-collapse collapse"
-                    role="tabpanel"
-                    aria-labelledby="headingThree"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        Many of our XLX registered staff are requested as main
-                        most well-liked Guilds were gone for associations of
-                        artisans and businessperson that oversaw the most
-                        production and distribution of a particular smart has
-                        been over flow.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        
           </div>
           {/* /.single-blog-content */}
         </div>
@@ -335,57 +232,47 @@ const [product, setProduct] = useState(null);
               </div>
              <ul className="links-list">
   <li>
-    <Link style={{ color: id === '1' ? '#ffa801' : '' }} to={'/products/1'}>
+    <Link style={{ color: id === '1' ? '#ffa801' : '' }} to={'/service/1'}>
       Ghodazari Branch Canal of Gosikhurd
     </Link>
   </li>
   <li>
-    <Link style={{ color: id === '2' ? '#ffa801' : '' }} to={'/products/2'}>
+    <Link style={{ color: id === '2' ? '#ffa801' : '' }} to={'/service/2'}>
       Underground excavation and slope protection works of CCVT and ADIT
     </Link>
   </li>
   <li>
-    <Link style={{ color: id === '3' ? '#ffa801' : '' }} to={'/products/3'}>
+    <Link style={{ color: id === '3' ? '#ffa801' : '' }} to={'/service/3'}>
       Slope Protection Works - Dibang DT Inlet works
     </Link>
   </li>
   <li>
-    <Link style={{ color: id === '4' ? '#ffa801' : '' }} to={'/products/4'}>
+    <Link style={{ color: id === '4' ? '#ffa801' : '' }} to={'/service/4'}>
       New Railway Line Project in East Coast Railway
     </Link>
   </li>
   <li>
-    <Link style={{ color: id === '5' ? '#ffa801' : '' }} to={'/products/5'}>
+    <Link style={{ color: id === '5' ? '#ffa801' : '' }} to={'/service/5'}>
       Sri Siddharth Infratech & Service (I) Private Limited
     </Link>
   </li>
   <li>
-    <Link style={{ color: id === '6' ? '#ffa801' : '' }} to={'/products/6'}>
+    <Link style={{ color: id === '6' ? '#ffa801' : '' }} to={'/service/6'}>
       Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road
     </Link>
   </li>
-  <li>
-    <Link style={{ color: id === '7' ? '#ffa801' : '' }} to={'/products/7'}>
-      Sri Siddharth Infratech & Service (I) Private Limited
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '8' ? '#ffa801' : '' }} to={'/products/8'}>
-      Sri Siddharth Infratech & Service (I) Private Limited
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '9' ? '#ffa801' : '' }} to={'/products/9'}>
-      AMR
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '10' ? '#ffa801' : '' }} to={'/products/10'}>
+  
+
+   <li>
+    <Link style={{ color: id === '7' ? '#ffa801' : '' }} to={'/service/7'}>
       Slope Protection Work at Chenab Bridge, Jammu & Kashmir
     </Link>
   </li>
+
+
+ 
   <li>
-    <Link style={{ color: id === '11' ? '#ffa801' : '' }} to={'/products/11'}>
+    <Link style={{ color: id === '11' ? '#ffa801' : '' }} to={'/service/11'}>
       Piperoofing Work at TBM Adit of Pipalkoti H.E.P
     </Link>
   </li>

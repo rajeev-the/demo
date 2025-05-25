@@ -1,12 +1,29 @@
-import React from 'react'
-import logo from "/img/logo-light.png"
-import banner from '/img/banner-1-1.jpg'
+import React, { useEffect ,useState } from 'react'
+
 import Navbar from '../Components/Navbar'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Header from '../Components/Header'
 import navbarimg from "/img/logo-light.png"
+import {data1} from '../Data/Service'
 
 const Service_Details_Sale = () => {
+  
+   const { id } = useParams()
+const [product, setProduct] = useState(null);
+
+
+
+useEffect(() => { 
+ 
+  const data = data1.find((item)=> item.id === parseInt(id));
+  if (data) {
+    setProduct(data);
+  } else {
+    console.error('Product not found');
+  }
+
+
+}, [id])
   return (
     <>
     <div className='active-preloader-ovh'>
@@ -30,7 +47,7 @@ const Service_Details_Sale = () => {
       }} className="inner-banner">
     <div className="inner">
       <div className="thm-container clearfix">
-        <h2 className="pull-left">Sale Of Used Tunnelling Equipment</h2>
+        <h2 className="pull-left">{product?.title}</h2>
       
         {/* /.breadcrumb */}
       </div>
@@ -44,16 +61,14 @@ const Service_Details_Sale = () => {
           <div className="single-blog-content">
             <div className="single-blog-style-one mb30">
               <div className="img-box mb20">
-                <img src="/img/DSC02237_JPG.avif" alt="Awesome Image" />
+                <img src={product?.img} alt="Awesome Image" />
               </div>
               <div className="text-box">
                 
                 <p>
-                <strong>MIPL</strong> Used equipment has proven itself by supplying high-quality tunneling equipments across Indian market 
-                for over 5 years now.  We pride ourselves in working hard to achieve competitive prices, time efficient navigation
-                of the whole sales process for our customers. With a convenient, washed, prepared and delivery, we aim to provide 
-                both a professional service and peace of mind. We specialize Atlas Copco, Sandvik, Putzmeister, Cifa and other major brands,
-                offering quality used equipment sales.
+               {
+                product?.content
+               }
                 </p>
               </div>
               
@@ -159,192 +174,28 @@ const Service_Details_Sale = () => {
             </div>
           
           
-            <div className=" mt30 hia_according">
-              <div
-                className="panel-group"
-                id="accordion"
-                role="tablist"
-                aria-multiselectable="true"
-              >
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingOne">
-                    <h4 className="panel-title">
-                      <a
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        How Can I Contact For Support?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseOne"
-                    className="panel-collapse collapse in"
-                    role="tabpanel"
-                    aria-labelledby="headingOne"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        Go to Our Profile Page Here.., Mail Us. As Soon As
-                        Possible In Our Supported Schdule We will reply you.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingTwo">
-                    <h4 className="panel-title">
-                      <a
-                        className="collapsed"
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        Where should I incorporate my business?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    className="panel-collapse collapse"
-                    role="tabpanel"
-                    aria-labelledby="headingTwo"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        A considerable lot of our XLX enlisted workers are
-                        mentioned as principle favored Guilds were away for
-                        relationship of craftsmans and Merchant that supervised
-                        the primary generation and circulation of a specific
-                        great has been over stream..
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="panel panel-default">
-                  <div className="panel-heading" role="tab" id="headingThree">
-                    <h4 className="panel-title">
-                      <a
-                        className="collapsed"
-                        role="button"
-                        data-toggle="collapse"
-                        data-parent="#accordion"
-                        href="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        What is certification?
-                      </a>
-                    </h4>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    className="panel-collapse collapse"
-                    role="tabpanel"
-                    aria-labelledby="headingThree"
-                  >
-                    <div className="panel-body">
-                      <p>
-                        Many of our XLX registered staff are requested as main
-                        most well-liked Guilds were gone for associations of
-                        artisans and businessperson that oversaw the most
-                        production and distribution of a particular smart has
-                        been over flow.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
           </div>
           {/* /.single-blog-content */}
         </div>
         {/* /.col-md-9 */}
         <div className="col-md-3">
           <div className="sidebar">
-            <div className="single-sidebar">
-              <form action="#" className="search-form">
-                <input
-                  type="text"
-                  name="search"
-                  placeholder="Enter Your Text..."
-                />
-                <button type="submit">
-                  <i className="fa fa-search" />
-                </button>
-              </form>
-              {/* /.search-form */}
-            </div>
-            {/* /.single-sidebar */}
-            <div className="siderbar-service-widget single-sidebar">
-              <div className="title-box">
-                <h3>All Service</h3>
-                <div className="line" />
-              </div>
-              <div className="list-group">
-                <Link
-                  to={'/service/execution'}
-                  className="list-group-item list-group-item-action active"
-                >
-                  Execution
-                </Link>
-                <Link to={'/service/rentals'} className="list-group-item list-group-item-action">
-                Rentals
-                </Link>
-              
-              </div>
-            </div>
-            {/* /.single-sidebar */}
+            
+         
             <div className="single-sidebar">
               <div className="title-box">
-                <h3>Documents</h3>
+                <h3>Rental Project</h3>
                 <div className="line" />
               </div>
-              <ul className="tags-list">
-                <li>
-                  <a href="#">Document1.csv</a>
-                </li>
-                <li>
-                  <a href="#">Document2.DOC</a>
-                </li>
-                <li>
-                  <a href="#">Document3.PDF</a>
-                </li>
-              </ul>
-            </div>
-            {/* /.single-sidebar */}
-            <div className="single-sidebar">
-              <div className="title-box">
-                <h3>Categories</h3>
-                <div className="line" />
-              </div>
-              <ul className="links-list">
-                <li>
-                  <a href="#">Construction</a>
-                </li>
-                <li>
-                  <a href="#">Interior</a>
-                </li>
-                <li>
-                  <a href="#">Metal Roofing</a>
-                </li>
-                <li>
-                  <a href="#">Home Expansion</a>
-                </li>
-                <li>
-                  <a href="#">Tower Construction</a>
-                </li>
-                <li>
-                  <a href="#">Industrial</a>
-                </li>
-              </ul>
+             <ul className="links-list">
+  {data1.map(item => (
+    <li key={item.id}>
+      <Link to={`/rental/${item.id}`}>{item.title.trim()}</Link>
+    </li>
+  ))}
+</ul>
+
             </div>
             {/* /.single-sidebar */}
           </div>

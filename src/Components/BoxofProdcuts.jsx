@@ -5,7 +5,7 @@ const BoxofProdcuts = ({title,img,content,link , icons}) => {
   return (
       <>
       
-      <Link to={`/details${link}`} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+      <Link to={`/rental/${link}`} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
             <div className="single-what-we-do">
               <div className="img-box">
                 <img  src={img} alt="Awesome Image" />

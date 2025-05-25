@@ -50,12 +50,12 @@ const ServiceRentals = () => {
     <section className="sec-pad what-we-do gray-bg">
     
       <div className="thm-container">
-      <h1 className='text-start'>Machin-Equipment</h1>
+      <h1 className='text-start'>Our Equipments</h1>
         <div className="row  ">
             
            {
             data1.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`/service/${item.id}`} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
+              <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`${item.id}`} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
             ))
            }
             

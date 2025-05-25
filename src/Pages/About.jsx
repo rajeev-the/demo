@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
 import navbarimg from '/img/logo-light.png'
 import VA from "../assets/profilepic/1516875468370.jpeg"
-import VIA from '../assets/profilepic/1746091391533.jpeg'
+import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import { Link } from 'react-router-dom'

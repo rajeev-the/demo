@@ -4200,3 +4200,12 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
     animation-play-state: paused;
   }
 }
+
+
+.partner-header{
+  text-align: center;
+ color: #000;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 40px;
+}

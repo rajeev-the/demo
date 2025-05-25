@@ -7,7 +7,7 @@ import { Link,useNavigate } from 'react-router-dom';
 import navbarimg from '/img/logo-light.png'
 import {data1} from '../Data/Service'
 import VA from "../assets/profilepic/1516875468370.jpeg"
-import VIA from '../assets/profilepic/1746091391533.jpeg'
+import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import {partners} from "../Data/profile"
@@ -970,11 +970,11 @@ With expertise spanning underground infrastructure, hydropower development, mini
                 <li>
                    <span 
             style={{
-    width: "40px",
-    height: "40px",
-    padding: "10px",
-    borderRadius: "50%",
-    background: "#ffa801"
+    // width: "40px",
+    // height: "40px",
+    // padding: "10px",
+    // borderRadius: "50%",
+    // background: "#ffa801"
   }}
 
              
@@ -1005,7 +1005,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
 
 
     {/* / partner Sections */}
+
   <section className="partner-carousel">
+        <h2 className='partner-header'>Our Clients</h2>
       <div className="carousel-container">
         <div className="carousel-track">
           {[...partners, ...partners].map((partner, index) => (
@@ -1341,6 +1343,41 @@ With expertise spanning underground infrastructure, hydropower development, mini
         </div>
       </div>
       <div className="row">
+
+          <div style={{
+            marginRight:"20px",
+  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
+}}
+  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+  <div className="single-blog-style-one">
+    <div className="img-box">
+      <img  style={
+        {
+          height:"200px"
+        }
+      } src={VIA} alt="Awesome Image" />
+      <div className="overlay">
+        <div className="box">
+          <div className="content">
+            <a href="#" className="fa fa-link" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="text-box">
+      <div className="meta-info">
+      
+      </div>
+      {/* /.meta-info */}
+      <Link  to="https://www.nbmcw.com/interviews/vishal-agarwal-director-machino-international.html">
+        <h3 style={{
+          padding:"10px"
+        }} >The New Austrian Tunneling Method is increasingly used in road and railway projects.</h3>
+      </Link>
+     
+    </div>
+  </div>
+</div>
       <div style={{
   boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
 }}
@@ -1365,7 +1402,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
       
       </div>
       {/* /.meta-info */}
-      <Link  to="/blog/mipl-infrastructure-solutions">
+      <Link  to="/blog/1">
         <h3 style={{
           padding:"10px"
         }} >MIPL: Driving India’s Infrastructure with Tunneling Excellence</h3>

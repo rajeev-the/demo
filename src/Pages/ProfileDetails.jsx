@@ -6,7 +6,7 @@ import { datapro } from "../Data/profile";
 import { FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import Fottter from '../Components/Fottter';
 import VA from "../assets/profilepic/1516875468370.jpeg"
-import VIA from '../assets/profilepic/1746091391533.jpeg'
+import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 
