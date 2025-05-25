@@ -10,49 +10,13 @@ import VA from "../assets/profilepic/1516875468370.jpeg"
 import VIA from '../assets/profilepic/1746091391533.jpeg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
-import Partners from '../Components/Partners ';
+import {partners} from "../Data/profile"
+
 
 const Home = () => {
   
   const [value,setValue] = useState("Execution")
 
-const partners = [
-  { 
-    id: 1, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
-    alt: 'Google'
-  },
-  { 
-    id: 2, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg',
-    alt: 'Microsoft'
-  },
-  { 
-    id: 3, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
-    alt: 'Apple'
-  },
-  { 
-    id: 4, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg',
-    alt: 'Amazon'
-  },
-  { 
-    id: 5, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg',
-    alt: 'Tesla'
-  },
-  { 
-    id: 6, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Facebook_logo_36x36.svg',
-    alt: 'Facebook'
-  },
-  { 
-    id: 7, 
-    image: 'https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg',
-    alt: 'BMW'
-  }
-];
 
 
   const firstImages = [

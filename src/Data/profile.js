@@ -2,6 +2,23 @@ import VA from "../assets/profilepic/1516875468370.jpeg"
 import VIA from '../assets/profilepic/1746091391533.jpeg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
+import gril from "../assets/logo/gril.jpeg"
+import national from "../assets/logo/national-hydroelectric-power-corporation-seeklogo.png"
+import ucil from "../assets/logo/UCIL.svg.png"
+import vedanta from "../assets/logo/Vedanta-Logo-JPG.jpg"
+import Afcons from "../assets/logo/AFCONS_logo.svg.png"
+import gmr from "../assets/logo/gmr-seeklogo.png"
+import hindustan from "../assets/logo/hindustan-construction-company-logo-png_seeklogo-310953.png"
+import itd from "../assets/logo/itd-cem-seeklogo.png"
+import navayuga from "../assets/logo/Navayuga.png"
+import NTPC from "../assets/logo/NTPC_Logo.png"
+import image2 from "../assets/logo/images (2).jpg"
+import rvnll from "../assets/logo/RvnlLOGO.png"
+import hzl from "../assets/logo/HZL_Logo.png"
+import ilfs from "../assets/logo/6a32a3e706380bb3b3c86b03dec5e714.jpg"
+import meil from "../assets/logo/channels4_profile.jpg"
+import gammon from "../assets/logo/Gammon_India_Logo.svg.png"
+import hutti from "../assets/logo/Hutti_Gold_Mines-01_CuDMRtP.png"
 
 
 export const  datapro = [
@@ -49,5 +66,113 @@ export const  datapro = [
       "id":5,
        "linkedin":"https://www.linkedin.com/in/vinod-rajora-82ab49a/"
     }
+
+]
+
+
+export const partners =[
+ { 
+    id: 1, 
+    image: gril,
+    alt: 'gril',
+  },
+  { 
+    id: 2, 
+    image: national,
+    alt: 'National Hydroelectric Power Corporation'
+  
+  },
+  { 
+    id: 3, 
+    image: ucil,
+    alt: 'Uranium Corporation of India Limited'
+    
+  },
+  { 
+    id: 4, 
+    image:vedanta,
+
+    alt: 'Vedanta'
+
+  },
+  { 
+    id: 5, 
+    image: Afcons,
+    alt: 'Afcons Infrastructure Limited'
+  
+  },
+  { 
+    id: 6, 
+    image: gmr,
+    alt: 'GMR Group'
+  
+  },
+  { 
+    id: 7, 
+    image: hindustan,
+    alt: 'Hindustan Construction Company' 
+ 
+  },
+  { 
+    id: 8, 
+    image: itd,
+    alt: 'ITD Cementation India Limited'
+  
+  },
+  { 
+    id: 9, 
+    image: navayuga,
+    alt: 'Navayuga Engineering Company Limited'
+  
+  },
+  { 
+    id: 10, 
+    image: NTPC,
+    alt: 'NTPC Limited'
+  
+  },
+  { 
+    id: 11, 
+    image: rvnll,
+    alt: 'RVNL'
+  
+  },
+  { 
+    id: 12, 
+    image: hzl,
+    alt: 'Hindustan Zinc Limited'
+  
+  },
+  { 
+    id: 13, 
+    image: ilfs,
+    alt: 'IL&FS Engineering and Construction Company Limited'
+  
+  },
+  { 
+    id: 14, 
+    image: meil,
+    alt: 'MEIL'
+  
+  },
+  { 
+    id: 15, 
+    image: gammon,
+    alt: 'Gammon India Limited'
+  
+  },
+  { 
+    id: 16, 
+    image: hutti,
+    alt: 'Hutti Gold Mines'
+  
+  },
+  { 
+    id: 17, 
+    image: image2,
+    alt: 'Image 2'
+  
+  },
+  
 
 ]

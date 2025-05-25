@@ -24,65 +24,63 @@ const ProfileDetails = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="profile-details-page">
-        <header className="profile-header">
-          <div className="header-content container">
-            <div className="header-text">
-              <h1 className="profile-name">{profile?.name}</h1>
-              <p className="profile-title">{profile?.title}</p>
-             
-            </div>
+  <Navbar />
+  <div className="profile-details-page">
+    
+    <header className="profile-header" />
+     <h1 className="team-heading">Our Team</h1>
+ <div className="team-title container">
+   
+  </div>
+    <main className="profile-main container">
+      
+      <div className="profile-grid">
+        <div className="profile-aside">
+          <div className="profile-card">
+            <img 
+              src={profile?.img} 
+              alt={profile?.name} 
+              className="profile-image" 
+            />
+
+            <h1 className="profile-name">{profile?.name}</h1>
+            <p className="profile-title">{profile?.title}</p>
+
             <div className="header-actions">
-              <a target="_blank"
-  rel="noopener noreferrer" href={profile?.linkedin} className="contact-button linkedin">
-                <FaLinkedin /> Connect
-              </a>
-              <a href={`mailto:${profile?.email}`} className="contact-button email">
-                <FaEnvelope /> Email
-              </a>
-            </div>
-          </div>
-        </header>
-
-        <main className="profile-main container">
-          <div className="profile-grid">
-            <div className="profile-aside">
-              <div className="profile-card">
-                <img 
-                  src={profile?.img} 
-                  alt={profile?.name} 
-                  className="profile-image" 
-                />
-                <div className="contact-info">
-                  {profile?.phone && (
-                    <a href={`tel:${profile?.phone}`} className="contact-item">
-                      <FaPhone /> {profile?.phone}
-                    </a>
-                  )}
-                  {profile?.email && (
-                    <a href={`mailto:${profile?.email}`} className="contact-item">
-                      <FaEnvelope /> {profile?.email}
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
-
-            <div className="profile-content">
-              <section className="about-section">
-                <h2>Professional Profile</h2>
-               {profile?.description?.split('\n').map((para, index) => (
-  <p key={index}>{para}</p>
-))}
-
-              </section>
+              {profile?.linkedin && (
+                <a 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  href={profile?.linkedin} 
+                  className="contact-button linkedin"
+                >
+                  <FaLinkedin /> Connect
+                </a>
+              )}
               
-
-            </div>
+                <a href={`mailto:${profile?.email}`} className="contact-button email">
+                  <FaEnvelope /> Email
+                </a>
             
+            </div>
+
+         
           </div>
-             <div style={{
+        </div>
+
+        <div className="profile-content">
+          <section className="about-section">
+            <h2>Professional Profile</h2>
+            {profile?.description?.split('\n').map((para, index) => (
+              <p key={index}>{para}</p>
+            ))}
+
+
+          </section>
+        </div>
+      </div>
+
+   <div style={{
               marginTop:"50px"
              }}  className="row" >
 
@@ -276,11 +274,14 @@ const ProfileDetails = () => {
       
        
       </div>
-      
-        </main>
-      </div>
-      <Fottter img={navbarimg} />
-    </>
+    
+
+    </main>
+  </div>
+
+  <Fottter img={navbarimg} />
+</>
+
   );
 };
 

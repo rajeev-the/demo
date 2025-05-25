@@ -3933,72 +3933,21 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 
 /* Modern Professional Styling without root variables */
 
+
 .profile-details-page {
-  background: #F9FAFB; /* var(--light-bg) */
+  background: #F9FAFB;
   min-height: 100vh;
 }
 
-.profile-header {
-  background: linear-gradient(135deg, #2C3E50 0%, #2980B9 100%); /* var(--primary), var(--accent) */
-  color: white;
-  padding: 4rem 0;
-  margin-top: 70px;
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-}
-
-.profile-name {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+.team-heading {
+  text-align: center;
+  padding: 30px;
+  font-size: 3.5rem;
+  color: black;
+  margin-Top:60px;
   font-weight: 600;
-}
+  background-color:#ffa801;
 
-.profile-title {
-  font-size: 1.25rem;
-  opacity: 0.9;
-  margin-bottom: 1.5rem;
-}
-
-.profile-meta {
-  display: flex;
-  gap: 2rem;
-  font-size: 0.95rem;
-  opacity: 0.9;
-}
-
-.header-actions {
-  display: flex;
-  gap: 1rem;
-}
-
-.contact-button {
-  padding: 0.8rem 1.5rem;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.contact-button.linkedin {
-  background: #0A66C2;
-  color: white;
-}
-
-.contact-button.email {
-  background: #EA4335;
-  color: white;
-}
-
-.contact-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .profile-main {
@@ -4023,25 +3972,73 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
 }
 
 .profile-image {
   width: 100%;
   border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.profile-title {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
+}
+
+.contact-button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-button.linkedin {
+  background: #0A66C2;
+  color: white;
+}
+
+.contact-button.email {
+  background: #EA4335;
+  color: white;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.75rem;
-  color: #34495E; /* var(--text) */
+  color: #34495E;
   text-decoration: none;
   padding: 0.75rem;
   border-radius: 8px;
@@ -4049,7 +4046,7 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 }
 
 .contact-item:hover {
-  background: #ECF0F1; /* var(--border) */
+  background: #ECF0F1;
 }
 
 .profile-content {
@@ -4064,91 +4061,41 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 }
 
 .about-section h2 {
-  color: #2C3E50; /* var(--primary) */
+  color: #2C3E50;
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #3498DB; /* var(--secondary) */
-}
-
-.details-grid {
-  display: grid;
-  gap: 2rem;
-}
-
-.skills-section h3,
-.education-section h3 {
-  color: #2C3E50; /* var(--primary) */
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.skill-tag {
-  background: #3498DB; /* var(--secondary) */
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
-.education-item {
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  border-left: 3px solid #3498DB; /* var(--secondary) */
-}
-
-.education-item h4 {
-  margin-bottom: 0.25rem;
-  color: #2C3E50; /* var(--primary) */
+  border-bottom: 2px solid #3498DB;
 }
 
 @media (max-width: 1200px) {
   .profile-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .profile-aside {
     position: static;
   }
 }
 
 @media (max-width: 768px) {
-  .header-content {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
-  }
-  
-  .profile-name {
-    font-size: 2rem;
-  }
-  
-  .header-actions {
-    flex-wrap: wrap;
-  }
-  
   .profile-main {
     padding: 2rem 1rem;
+  }
+
+  .header-actions {
+    justify-content: center;
   }
 }
 
 @media (max-width: 480px) {
-  .profile-meta {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
   .contact-button {
     width: 100%;
     justify-content: center;
   }
 }
+
+
 
 /* Partners.css */
 .partner-carousel {
@@ -4185,7 +4132,7 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   height: auto;
   max-height: 60px;
   object-fit: contain;
-  filter: grayscale(100%);
+ 
   transition: filter 0.3s ease;
 }
 
