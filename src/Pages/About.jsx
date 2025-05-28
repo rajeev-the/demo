@@ -99,16 +99,16 @@ const About = () => {
     <div className="inner">
       <div className="thm-container text-center">
       <h3>
-          Your Trusted Partner in  <span>Tunneling Innovation</span><span> , Tunnel & Underground Solution</span><span> , Hydropower Project</span>
-
+          Your Trusted Partner in    <span>Tunneling Innovation,</span> <br /> <span>Tunnel & Underground Solution,</span> <br /> <span>Hydropower Project,</span><br /> <span>Excavation & Slope Protection Work,</span> <br /> <span>Pumped Storage Project</span>
+ 
         </h3>
         <p>
         Machino International Pvt. Ltd. (MIPL) Engineering India’s Infrastructure with Innovation and Integrity
 
         </p>
-        <a href="#" className="btn-thm">
+        <Link to={'/contact'} className="btn-thm">
           Contact Our Experts
-        </a>
+        </Link>
       </div>
     </div>
   </section>

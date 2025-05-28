@@ -968,13 +968,13 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <span className="post">Technical Director</span>
               <ul className="social">
                 <li>
-                   <span 
+                  <span 
             style={{
-    // width: "40px",
-    // height: "40px",
-    // padding: "10px",
-    // borderRadius: "50%",
-    // background: "#ffa801"
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
   }}
 
              
@@ -1369,7 +1369,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
       
       </div>
       {/* /.meta-info */}
-      <Link  to="https://www.nbmcw.com/interviews/vishal-agarwal-director-machino-international.html">
+      <Link  to="/blog/2">
         <h3 style={{
           padding:"10px"
         }} >The New Austrian Tunneling Method is increasingly used in road and railway projects.</h3>

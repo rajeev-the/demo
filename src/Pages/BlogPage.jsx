@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../Components/Header'
 import Navbar from '../Components/Navbar'
 import Fottter from '../Components/Fottter'
+import navbarimg from '/img/logo-light.png'
+import { Link } from 'react-router-dom'
 
 const BlogPage = () => {
   return (
@@ -133,10 +135,10 @@ const BlogPage = () => {
               <div className="post-navigation">
                 <ul className="post-list clearfix">
                   <li className="prev">
-                    <a href="#">
+                    <Link to={"/blog/2"}>
                       <i className="fa fa-caret-left" />
                       Previous Post
-                    </a>
+                    </Link>
                   </li>
                   <li className="next">
                     <a href="#">
@@ -259,7 +261,7 @@ const BlogPage = () => {
       </div>
     </section>
   
-   <Fottter/>
+   <Fottter  img={navbarimg} />
   </div>
   
   )

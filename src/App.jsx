@@ -15,6 +15,7 @@ import ScrollToTop from './Components/ScrollToTop'
 import PrivacyPolicy from "./Pages/PrivacyPolicy"
 import Servicedetails from './Pages/Servicedetails'
 import ProfileDetails from './Pages/ProfileDetails'
+import BlogPage2 from './Pages/BlogPage2'
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
     <Route path="/rental/:id" element={<Service_Details_Sale/>}/>
     <Route path="/download" element={<Download/>}/>
     <Route path='/contact' element={<ContactUs/>}/>
-    <Route path='/blog/:id' element={<BlogPage/>}/>
+    <Route path='/blog/1' element={<BlogPage/>}/>
+   <Route path='/blog/2' element={<BlogPage2/>}/>
       <Route path='/service/:id' element={<Servicedetails/>}/>
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
             <Route path='/profile/:id' element={<ProfileDetails/>}/>
