@@ -51,9 +51,7 @@ const ContactUs = () => {
                     <h2>Get In Touch</h2>
                     <div className="line" />
                     <p>
-                      Bake it in deploy powerpoint Bunny, nor cloud strategy great
-                      plan! let me diarize this, and we can synchronise ourselves
-                      at
+                     Have questions or need assistance? We're here to help—reach out to us anytime, and our team will get back to you as soon as possible.
                     </p>
                   </div>
                 </div>

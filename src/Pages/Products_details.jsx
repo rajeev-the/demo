@@ -262,6 +262,10 @@ console.log(product?.img[0])
   <Link to="/contact" className="enquiry-link">
     Enquiry
   </Link>
+ &nbsp; &nbsp;&nbsp;
+   <Link to="/download" className="enquiry-link">
+    Download
+  </Link>
 </div>
 
             
