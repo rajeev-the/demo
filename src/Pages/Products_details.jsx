@@ -90,9 +90,11 @@ console.log(product?.img[0])
     </div>
   
               <div className="text-box">
+               
+               <h2><strong> {product?.subtitle} </strong> </h2>
                 
                 <p>
-                <strong></strong>{product?.content} 
+                {product?.content} 
                 </p>
               </div>
               
@@ -107,6 +109,7 @@ console.log(product?.img[0])
     <div dangerouslySetInnerHTML={{ __html: product?.content2 }} />
     <div dangerouslySetInnerHTML={{ __html: product?.content3 }} />
     <div dangerouslySetInnerHTML={{ __html: product?.content4 }} />
+     <div dangerouslySetInnerHTML={{ __html: product?.content5 }} />
     {  product?.img1 ? <img
         src={product?.img1}
         alt="Gallery"

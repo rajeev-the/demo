@@ -48,7 +48,7 @@ const Product = () => {
     <section className="sec-pad what-we-do gray-bg">
     
       <div className="ttt">
-      <h1 className='text-start'>Pipe Roofing Support System</h1>
+      <h1 className='text-start'>Underground Support System</h1>
         <div className="cardx-container">
             
         {
@@ -79,7 +79,7 @@ const Product = () => {
         
       </div>
       <div className="ttt">
-      <h1 className='text-start'> Rocktools</h1>
+      <h1 className='text-start'>Rock Drilling Tools</h1>
         <div className="cardx-container">
             
         {
@@ -110,6 +110,41 @@ const Product = () => {
 
         
       </div>
+
+      
+      <div className="ttt">
+      <h1 className='text-start'>Grouting</h1>
+        <div className="cardx-container">
+            
+        {
+  products_data.map((item, index) =>
+    item.prodcut_type === "Grouting" ? (
+      <ProdcutsBox 
+      
+        key={index}
+        title={item.title}
+        img={item.img[0]}
+        content={item.content}
+        id={item.id}
+        link={item.link}
+        
+        
+        short_title={item.prodcut_type}
+        
+      />
+    ) : null
+  )
+}
+
+         
+            
+      
+            
+        </div>
+
+        
+      </div>
+
 
       <div className="ttt">
       <h1 className='text-start'>Spare Parts</h1>

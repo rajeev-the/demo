@@ -10,12 +10,13 @@ export const products_data = [
         prodcut_type : "Pipe Roofing Support System",
         img :[
            
-            "/img/prodcuts/2f3bd3_3c8410c05be7431ab0a93aba6ac9a542~mv2.avif",
-            "/img/prodcuts/2f3bd3_25f6a9d0e27c47cfaf0949ec9dba3f9c~mv2_d_1878_1547_s_2.avif",
+         "/img/prodcuts/image__1.jpg",
+         "/img/prodcuts/image__2.jpg",
       
             "/img/prodcuts/2f3bd3_31523b6a45b24f8385db9ca5bca4ee94~mv2 (1).avif",
+            "/img/prodcuts/image__4.jpg"
         ],
-        img1 :"/img/prodcuts/Table for Website.avif",
+        img1 :"/img/prodcuts/table__1.jpg",
     
 
 
@@ -46,7 +47,7 @@ export const products_data = [
         title:"MIDAS WATER EXPANDABLE BOLT",
         content:"MIDAS - Expandable Friction bolt is used for temporary rock reinforcement in underground works. This rock bolt is made of a welded tube folded on itself and sealed at one end while the other end is consisting of special head bushing used for inflation. It is expanded using a high-pressure water pump. The high load bearing capacity combined with excellent elongation properties ensure safer working conditions and faster excavation cycles for low costs.",
         img :[
-          "/img/prodcuts/swellex.avif",
+          "/img/prodcuts/image_1.jpg",
 
          
         ],
@@ -60,47 +61,27 @@ export const products_data = [
         
 
     },
-    {
-        id:4,
-        title:"Fiber Glass Bolt FRP/GRP-Rock Bolting System",
-        content:"MIDAS Fiberglass Rock Bolts are used in both permanent and temporary ground support applications. It's ideal applications include Hard Rock Mining, Ground Stabilization, Salt Mines, Tunneling and Tibacks. Our Fiberglass Rock Bolts are non-corrosive, non-magnetic and non-conductive which guarantees that your project will not weaken due to rust. Inaddition, Fiberglass Rock Bolts are one quarter the weight of steel rock bolts or soil nails. It will save you money in transportation and labor costs.",
-        img :[
-       "/img/prodcuts/swellex.avif",
-
-         
-        ],
-        prodcut_type : "Pipe Roofing Support System",
-        img1 :"/img/prodcuts/Table for Website.avif",
-
-        content1:"<h3>Feature & Benefits:</h3><ul><li>High Corrosion Resistance</li><li>Extremely High Embedment Strengths</li><li>1/4 the Weight of Steel</li><li>2x Tensile Strength</li><li>Easy to Post Tension</li><li>Non-Magnetic</li><li>Low Electric Conductivity</li><li>Flexibility</li><li>Customization Option Available</li></ul>" ,
-        content2:"<h3>Specifications</h3><dl><dt>Various Capacity</dt><dd>120kN, 160kN, 240kN</dd><dt>Minimum Elongation</dt><dd>10%, 20%</dd><dt>Delivery Lengths</dt><dd>1–8 mtr.</dd></dl>",
-        content3:"<p>Face plates are used to create a local surface support around the bore hole collar area. They are also utilized to maintain local roof stability, to prevent key block movement and to retain surface support like mesh.The plates are manufactured from high quality steel and meet or exceed the properties stated in the individual specification.</p>",
-        content4:"<h3>Main Advantages of Expandable Friction Rock Bolts</h3><ul><li>Full load bearing capacity over the entire installed bolt length.</li><li>Ability to maintain load bearing capacity even during underground deformations.</li><li>Safe & easy installation with no additional building materials is required for installations.</li></ul>",
-        img1:"/img/prodcuts/Measurement Table swellex.avif"
-
-
-
-
-       
-
-    },
+   
     {
         id:5,
         title:"BUTTON BITS",
-        content:"All of the Robit® button bits are manufactured of new 100% recyclable steel. In the environmentally friendly steel production process the CO² emissions have been reduced 80% and 95% of the waste is recycled including the process smoke which is filtered. The new steel grade gives even more uniform properties and improved fatigue strength which is crucial in rock drilling process. Designed for particular applications from soft rock formations to extremely hard conditions. Models",
+        content:"Button bits are a crucial component of rock drilling tools, designed for efficient drilling in various rock types. These bits feature strategically placed buttons that absorb and distribute impact energy, ensuring effective rock penetration.",
         img :[
        "/img/prodcuts/button-bits-1.avif",
 
          
         ],
         prodcut_type : "Rocktools",
+        subtitle:"Button Bits: Enhancing Rock Drilling Efficiency",
       
 
-        content1:"<ul><li><strong>A, AR</strong> – medium and hard rock model</li><li><strong>B, BR</strong> – hard + abrasive rock model</li><li><strong>DS, DSR</strong> – drop center model for straighter holes</li><li><strong>M</strong> – soft and medium hard rock model</li><li><strong>S, SR</strong> – all around model</li></ul>" ,
-        content2:"",
-        content3:"",
-        content4:"",
+        content1:"<h2>Key Features and Benefits:</h2><ul><li><strong>Durable Buttons:</strong> Made from tungsten carbide, these buttons offer exceptional wear resistance and longevity.</li><li><strong>Optimized Button Placement:</strong> Strategically positioned buttons ensure efficient energy transfer and drilling performance.</li><li><strong>Variety of Button Types:</strong> Different button types (e.g., spherical, ballistic, or parabolic) cater to specific rock types and drilling conditions.</li><li><strong>Easy Maintenance:</strong> Button bits can be easily sharpened or replaced, reducing downtime.</li></ul>" ,
 
+        content2:"<h2>Applications:</h2><p>Button bits are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",
+        content3:"<h2>Importance of Proper Selection:</h2><p>When selecting button bits, consider factors such as:</p><ul><li><strong>Rock Type:</strong> Choose bits suitable for the specific rock type and drilling conditions.</li><li><strong>Button Type:</strong> Select bits with the appropriate button type for optimal performance.</li><li><strong>Bit Diameter:</strong> Ensure the bit diameter matches your drilling requirements.</li></ul>",
+        content4:"<h2>Benefits of Using Button Bits:</h2><ul><li><strong>Increased Drilling Speed:</strong> Efficient energy transfer and button design enable faster drilling.</li><li><strong>Improved Bit Life:</strong> Durable buttons and optimized design extend bit life.</li><li><strong>Reduced Downtime:</strong> Easy maintenance and replacement minimize downtime.</li></ul>",
+        content5:"<p>By utilizing high-quality button bits, industries can enhance drilling efficiency, increase productivity, and reduce costs.</p>"
+     
 
 
 
@@ -110,17 +91,21 @@ export const products_data = [
     },
     {
         id:6,
-        title:"COUPLINGS",
-        content:"Produced for optimum energy transfer on various drilling diameter.",
+        title:" COUPLING",
+        content:"Coupling sleeves are essential components in rock drilling tools, serving as a critical link between drill steel rods. These sleeves enable the efficient transfer of rotational force and impact energy, ensuring seamless drilling operations.",
+
         img :[
        "/img/prodcuts/Couplings-1.avif",
 
          
         ],
         prodcut_type : "Rocktools",
-        content1:"<p>Produced for optimum energy transfer on various drilling diameter.</p><ul><li>Coupling Sleeve, Coupling Adapter, Bit Adapter</li><li>Available with semi-bridge or full-bridge</li></ul>" ,
-        content3:"",
-        content4:"",
+        content1:"<h2>Key Features and Benefits:</h2><ul><li><strong>Secure Connection:</strong> Coupling sleeves provide a robust and reliable connection between drill steel rods, minimizing the risk of thread damage or rod separation.</li><li><strong>Efficient Energy Transfer:</strong> They facilitate the smooth transfer of impact energy and rotational force, optimizing drilling performance and reducing wear on equipment.</li><li><strong>Easy Installation:</strong> Coupling sleeves are designed for straightforward installation and removal, reducing downtime and increasing productivity.</li><li><strong>Durability:</strong> High-quality materials and precise manufacturing ensure a longer lifespan and reduced maintenance costs.</li></ul>" ,
+
+        content3:"<h2>Applications:</h2><p>Coupling sleeves are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",
+
+        content4:"<h2>Importance of Proper Selection:</h2><p>When selecting coupling sleeves, consider factors such as:</p><ul><li><strong>Drill Steel Type:</strong> Ensure compatibility with your drill steel type and size.</li><li><strong>Thread Type:</strong> Choose a sleeve that matches the thread type of your drill steel.</li><li><strong>Operating Conditions:</strong> Select a sleeve suitable for the operating conditions, including temperature, pressure, and drilling environment.</li></ul>",
+        content5:""
      
 
 
@@ -130,17 +115,22 @@ export const products_data = [
     },
     {
         id:7,
-        title:"SHANKS",
-        content:"With specially developed alloys, shanks are with optimum hardenability and balance of core and case properties to offer extended wear and fatigue life.",
+        title:"SHANKS ADAPTER",
+        subtitle:"Shank Adapter Rock Drilling Tools: Enhancing Drilling Efficiency",
+
+
+        content:"Shank adapters are a crucial component of rock drilling tools, playing a vital role in connecting drill steel to the drill rig. These adapters enable the efficient transfer of impact energy from the drill rig to the drill bit, facilitating effective rock penetration.",
         img :[
        "/img/prodcuts/Shanks-1.avif",
 
          
         ],
         prodcut_type : "Rocktools",
-        content1:"<p>• Compatible with most types of drills in the market</p>" ,
-        content3:"",
-        content4:"",
+        content1:"<h2>Key Features and Benefits:</h2><ul><li><strong>Durability:</strong> Shank adapters are designed to withstand high impact forces, ensuring a longer lifespan and reduced maintenance costs.</li><li><strong>Compatibility:</strong> They are available in various sizes and types, making them compatible with different drill rigs and drill steel.</li><li><strong>Efficient Energy Transfer:</strong> Shank adapters optimize the transfer of impact energy, resulting in improved drilling performance and reduced wear on equipment.</li><li><strong>Easy Installation:</strong> They are designed for straightforward installation and removal, minimizing downtime and increasing productivity.</li></ul>" ,
+        content3:"<h2>Applications:</h2><p>Shank adapters are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",
+
+        content4:"<h2>Selection Criteria:</h2><p>When selecting shank adapters, consider factors such as:</p><ul><li><strong>Drill Rig Type:</strong> Ensure compatibility with your drill rig.</li><li><strong>Drill Steel Size:</strong> Choose an adapter that matches your drill steel size.</li><li><strong>Rock Type:</strong> Select an adapter suitable for the rock type you're drilling through.</li></ul>",
+        content5:"By understanding the importance and benefits of shank adapters in rock drilling tools, industries can optimize their drilling operations, increase efficiency, and reduce costs."
   
        
 
@@ -148,16 +138,21 @@ export const products_data = [
     {
         id:8,
         title:"RODS",
-        content:"Produced from the carefully selected hollow drill steels, drill rods provide the advantages of the maximum strength with long thread life.",
+        subtitle:"Rock Drilling Tools: Drifters, MF Rods, and Extension Rods",
+        content:"Drifter rods are a type of drill steel used in rock drilling operations, particularly in top hammer drilling applications. They are designed to withstand high impact forces and stresses, ensuring efficient drilling performance",
         img :[
        "/img/prodcuts/Rods-1.avif",
 
          
         ],
         prodcut_type : "Rocktools",
-        content1:"<ul><li>Hexagonal Drifter Rods, Single & Tandem Thread Rods, Male-Female Rods</li><li>Available with most types of threads</li></ul>" ,
-        content3:"",
-        content4:"",
+        content1:"<h2>Key Features:</h2><ul><li><strong>High-Quality Steel:</strong> Made from high-strength steel alloys for durability and longevity.</li><li><strong>Threaded Connections:</strong> Allow for easy coupling with drill bits and other rods.</li><li><strong>Impact Resistance:</strong> Designed to absorb and transmit impact energy effectively.</li></ul>" ,
+        content2:"<h2>MF (Male-Female) Rods:</h2><p>MF rods are a type of drill steel rod featuring a male thread on one end and a female thread on the other. This design enables efficient and secure connections with drill bits and other rods.</p>",
+        content3:"<h2>Key Features:</h2><ul><li><strong>Easy Coupling:</strong> MF rods facilitate quick and easy connections, reducing downtime.</li><li><strong>Secure Thread Connection:</strong> Ensures a strong and reliable bond between rods and bits.</li><li><strong>Flexibility:</strong> Suitable for various drilling applications and rock types.</li></ul>",
+        content4:"<h2>Key Features:</h2><ul><li><strong>High-Strength Material:</strong> Made from durable materials to withstand demanding drilling conditions.</li><li><strong>Threaded Connections:</strong> Enable secure and efficient connections with other rods and drill bits.</li><li><strong>Precision Manufacturing:</strong> Ensures accurate and reliable performance.</li></ul><h2>Applications:</h2><p>These drill rods are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul><h2>Importance of Proper Selection:</h2><p>When selecting drifter rods, MF rods, or extension rods, consider factors such as:</p><ul><li><strong>Rock Type:</strong> Choose rods suitable for the specific rock type and drilling conditions.</li><li><strong>Drilling Method:</strong> Select rods compatible with your drilling method and equipment.</li><li><strong>Quality and Durability:</strong> Opt for high-quality rods that ensure longevity and reliability.</li></ul>",
+        content5:"By utilizing the right drill rods, industries can optimize drilling performance, increase efficiency, and reduce costs."
+        
+
   
        
 
@@ -221,6 +216,109 @@ export const products_data = [
         content4:"",
   
        
+
+    },
+     {
+        id:12,
+        title:"GROUT SWIVEL",
+        content:" Grout Swivels are used for simultaneous drilling and grout installation, to inject grout into the bore of rotating Hollow Bar ",
+        img :[
+       "/img/prodcuts/grouting_1.jpg",
+       "/img/prodcuts/grouting_2.jpg",
+ 
+
+
+         
+        ],
+        prodcut_type : "Grouting",
+        content1:"<h2>Installation Process:</h2><ul><li><strong>Step-1:</strong> Begin drilling using standard drilling equipment with rotary injection adapter or Grout swivel.</li><li><strong>Step-2:</strong> Extension of the SDA by using couplers.</li><li><strong>Step-3:</strong> As drilling progresses, grout is injected simultaneously through the adaptor, ensuring continuous filling.</li><li><strong>Step-4:</strong> Once the grout is cured, the SDA installation is completed.</li></ul>" ,
+        content3:"<h2>Key Benefits of the Grout Swivel:</h2><ul><li>Enhanced Efficiency</li><li>Improved Precision</li><li>Cost-Effective</li><li>Space Optimization</li><li>Reduced Equipment Mobilization Time</li></ul>",
+        content4:"<h2>Conclusion:</h2><p>By attaching the Rotary Injection Adaptor to existing drilling equipment, we can simultaneously carry out both operations, enhancing productivity, reducing costs, and ensuring precision in grouting.</p>",
+  
+       
+
+    },
+      {
+        id:13,
+        title:"HIGH PRESSURE WATER PUMP",
+        subtitle:"For setting bolts in ceilings of tunnels and mines",
+        content:"We offer multiple high pressure pumps for setting bolts in ceilings of tunnels and mines. The pump model HD is available with an electric or hydraulic drive unit. This standardizes and simplifies the spares inventory for pumps which are equal in volume.",
+        img :[
+       "/img/prodcuts/water__1.jpg",
+       "/img/prodcuts/water__2.jpg",
+        "/img/prodcuts/water__3.jpg",
+ 
+
+
+         
+        ],
+        prodcut_type : "Grouting",
+        content1:"<h2>High Pressure Electric Pump HD-E</h2><p>In the 14l water or 21l water per minute at 300 bar model available. The solution depends on your specific task.</p><h2>High Pressure Hydraulic Pump HD-H</h2><p>From 14l water per minute at 300 bar up to 40l water per minute at 300 bar. Also available without steel frame, e.g. for installation on a tunneling rig.</p><h2>High Pressure Pump Accessories</h2><p>For setting bolts in ceilings of tunnels and mines as well as for cleaning purposes for the offered Hydraulic- (HD-H) and Electric- (HD-E) Pumps.</p>" ,
+      
+
+    },
+          {
+        id:14,
+        title:"GROUT PUMP",
+        subtitle:"Gropt pump",
+        content:"The grout mixing pump MAI M400 NT developed especially for extremely stressful underground conditions. It has been used successfully around the world in mining, tunnel construction, civil engineering and shoring of slopes, hill sides and building excavations.",
+     
+        img :[
+       "/img/prodcuts/group_1.jpg",
+ 
+ 
+
+
+         
+        ],
+        prodcut_type : "Grouting",
+        content1:"<h2>Areas of Use</h2><p>The proven mixing and delivery technology is especially suitable for:</p><ul><li>Injection Work</li><li>Re-Injection Grouting</li><li>Drill Hole Filling</li><li>Back Filling</li><li>Anchor Mortar</li></ul><h2>Patented Technology</h2><p>The MAI M400 NT is a fully automatic mortar mixing pump for continuous processing of any type of pumpable anchor mortars and site cements. The material is mixed in one pass by a single main motor and delivered without a problem in the desired quantity. The mixed and delivered quantity can and may be varied at will using worm pumps with different dimensions. The patented and time-tested MAI mixing/conveying technology ensures top mixing results.</p><h2>Indestructible</h2><p>Thanks to its high quality, achieved through the most modern manufacturing methods available, and its service-friendly modular construction, the MAI M400 NT stands apart with its long service life, low susceptibility to error, and economy.</p>"
+,       content2:"<h2>Scope of Delivery</h2><ul><li>Spur gear motor 6 kW / 200 rpm</li><li>Vibrator</li><li>Worm pump Mp3 “L” (standard equipment) 60 L/h</li><li>20 m high pressure mortar hose NW25 with quick release couplings</li><li>Automatic reverse drive</li><li>Automatic screen safety feature</li><li>Tools</li><li>Cleaning equipment</li><li>Water pump - optional</li><li>Automatically polarity control - optional</li></ul>"
+
+      
+
+    },
+          {
+        id:15,
+        title:"INFLATABLE PACKERS",
+        subtitle:"General Description",
+        content:"Inflatable packers are used around the world (universal), as underground test devices for liquid pressure measurements and major elements used where drilling and injection are done by injection consolidating or waterproofing grouts, and have many applications related to construction sites mentioned below."
+,
+     
+        img :[
+       "/img/prodcuts/inflatable_1.jpg",
+ 
+ 
+
+
+         
+        ],
+        img1 :"/img/prodcuts/image.png",
+        prodcut_type : "Grouting",
+        content1:"<p>We offer an exceptional range of packer diameters (28 to 170 mm) for use in boreholes ranging from 50 to 350 mm.</p><p>Packers are manufactured using layers of steel cable bedded into natural rubber, giving them the strength to withstand the rough conditions of work sites. The exceptional expansion capacity, achieved using hydraulic liquid or gas pressure, ensures a reliable seal in both regular and uneven boreholes, while also facilitating easy insertion and retrieval.</p>"
+,       content2:"<h3>Packers Technical Specification</h3><p>We manufacture an exceptional range of complete inflatable packers, differing in diameter and length as mentioned below.</p>"
+
+      
+
+    },
+          {
+        id:16,
+        title:"MECHANICAL   PACKER",
+        subtitle:"Mechanical Packer",
+        content:"Mechanical Packer is a reusable packer used as a seal when grouting, it is placed inside the grout hole and tightened against the wall of the hole by a mechanically expanding rubber sleeve.",
+     
+        img :[
+       "/img/prodcuts/Mechanical.jpg",
+ 
+ 
+
+
+         
+        ],
+        img1:"/img/prodcuts/image copy.png",
+        prodcut_type : "Grouting",
+        content1:"<p>The rubber bush expands and is wedged in the drill hole when the handle on the sleeve is turned.<br/>It slides the outer tube on the inner tube thereby expanding the rubber sleeve.<br/>The non return valve at the end prevents the risk of getting hardened grout in the shut off valves and grout hoses.<br/>The packer can be flushed clean after the passing of grout is completed.</p>",
+      
 
     },
 ]

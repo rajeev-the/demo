@@ -3756,12 +3756,12 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   max-width: 350px;
-  margin: 20px auto;
+  margin: 20px; /* Important: remove 'auto' to prevent centering */
   transition: transform 0.3s ease-in-out;
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Horizontally center children */
+  align-items: center;
   justify-content: space-between;
   text-align: center;
 }
@@ -3831,13 +3831,36 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 .cardx-button:hover {
   background-color: #e69900;
 }
+
 .cardx-container {
   display: flex;
- 
-  justify-content: flex-start; /* Align items to the start of each row */
-  align-items: flex-start;    /* Align items to the top of the container */
-  gap: 20px;             
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60px;
 }
+
+@media (max-width: 768px) {
+  .cardx-container {
+   gap: 40px; /* Adjust gap for smaller screens */
+  }
+  
+  .cardx {
+    max-width: 100%;
+    margin: 10px 0; /* Adjust margin for smaller screens */
+  }
+  
+  .cardx-image {
+    height: 180px; /* Adjust image height for smaller screens */
+  }
+  
+  .cardx-button {
+    font-size: 16px; /* Adjust button font size for smaller screens */
+  }
+  
+}
+
+
 
 
 
