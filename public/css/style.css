@@ -4232,3 +4232,10 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   margin-bottom: 50px;
   font-size: 40px;
 }
+
+
+.imgres {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

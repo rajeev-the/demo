@@ -105,11 +105,11 @@ console.log(product?.img[0])
             <section className="row">
   <div className="card shadow-lg border-0">
     <div className="card-body p-4">
-    <div dangerouslySetInnerHTML={{ __html: product?.content1 }} />
+    <div  dangerouslySetInnerHTML={{ __html: product?.content1 }} />
     <div dangerouslySetInnerHTML={{ __html: product?.content2 }} />
     <div dangerouslySetInnerHTML={{ __html: product?.content3 }} />
-    <div dangerouslySetInnerHTML={{ __html: product?.content4 }} />
-     <div dangerouslySetInnerHTML={{ __html: product?.content5 }} />
+    <div className='imgres' dangerouslySetInnerHTML={{ __html: product?.content4 }} />
+     <div className='imgres' dangerouslySetInnerHTML={{ __html: product?.content5 }} />
     {  product?.img1 ? <img
         src={product?.img1}
         alt="Gallery"
@@ -232,32 +232,23 @@ console.log(product?.img[0])
                 <div className="line" />
               </div>
               <ul className="links-list">
-                <li>
-                  <Link  style={{
-                    color: id === '1' ? '#ffa801' : ''
-                  }}  to={'/products/1'}  >Pipe Roofing System</Link>
-                </li>
-                <li>
-                <Link  style={{
-                    color: id === '2' ? '#ffa801' : ''
-                  }}  to={'/products/2'}  >Self Drilling Anchors & Accessories</Link>
-              
-                </li>
-                <li>
-                <Link  style={{
-                    color: id === '3' ? '#ffa801' : ''
-                  }}  to={'/products/3'}  >Water Expandable Bolt</Link>
-            
-                </li>
-                <li>
-                  <a href="#">Grout Swivel</a>
-                </li>
-                <li>
-                  <a href="#">Inflatable / Mechanical Packers</a>
-                </li>
-                <li>
-                  <a href="#">Industrial</a>
-                </li>
+
+                {
+
+                  products_data.map((item) => (
+                    <li key={item.id}>
+                      <Link style={{
+                        color: item.id === parseInt(id) ? '#ffa801' : ''
+                      }} to={`/products/${item.id}`}>{item.title}</Link>
+                    </li>
+
+
+                  ))
+                }
+             
+               
+               
+                
               </ul>
               
             </div>

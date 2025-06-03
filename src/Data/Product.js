@@ -1,17 +1,17 @@
 export const products_data = [
     {
         id: 1,
-        title: "ROBIT - PIPE ROOFING SYSTEM & CASING SYSTEM",
+        title: "MIDAS - PIPE ROOFING SYSTEM & CASING SYSTEM",
         content :"Pipe Roofing System / Umbrella System is a support system used in loose ground conditions in conventional and mechanized tunneling. It is used to enhance round properties to stabilize and reduce risk in tunnel works. It is a method of supporting tunnel by driving pipes ahead of excavation. It is also used in developing the portal sections and for the re-excavation of collapsed sections in underground works.",
         content1: "<p>Fields of Application :</p><ul> <li><strong>Weak Ground Structure</strong></li>  <li><strong>Portal Sections</strong></li> <li><strong>Frequently Changing Ground Conditions</strong></li> <li><strong>Re-Excavation of Collapsed Tunnels</strong></li> <li><strong>Urban Tunnelling</strong></li> </ul>",
         content2:"<p>The installation of the Pipe Roof System is simple and quick and has the following effects:</p><ul><li>Reducing the ground loss by creating a boundary of stiff material between the soil and tunnel core.</li><li>Stabilizing the ground in the area of newly excavated and unsupported excavation round.</li><li>Distributing loads acting upon the tunnel roof above the freshly excavated round into the in-situ ground ahead of the face and the lined tunnel behind the face.</li><li>Confinement of the tunnel excavation area ahead of the tunnel face.</li><li>Enhancing tunnel face stability by reducing loads acting upon the tunnel face.</li><li>Reducing surface settlement.</li></ul>",
-        content3:"<p><strong>Pipe Roofing Components:</strong></p><ul><li><strong>Starter Pipe:</strong> First pipe welded with ring bit on one end & female threading on the other end, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Extension Pipe:</strong> Male-female threaded pipe for extension, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Pilot Bit</strong></li><li><strong>Drill Rods</strong></li><li><strong>Grout Plugs / Injection Cap</strong></li></ul>",
+        content3:`<img src="/img/prodcuts/image__2.jpg" alt="Product Image" style="max-width: 100%; height: auto; display: block;">  <p><strong>Pipe Roofing Components:</strong></p><ul><li><strong>Starter Pipe:</strong> First pipe welded with ring bit on one end & female threading on the other end, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Extension Pipe:</strong> Male-female threaded pipe for extension, which can be perforated/non-perforated as per the design requirement.</li><li><strong>Pilot Bit</strong></li><li><strong>Drill Rods</strong></li><li><strong>Grout Plugs / Injection Cap</strong></li></ul>`,
         content4:"<p><strong>Threads:</strong> Pipe has a trapezoidal thread with double start.</p><p><strong>Sizes for Pipe Roofing System:</strong> 76.1, 88.9, 101.6, 114.3, 139.7, 159, 168.3</p>",
         prodcut_type : "Pipe Roofing Support System",
         img :[
            
          "/img/prodcuts/image__1.jpg",
-         "/img/prodcuts/image__2.jpg",
+       
       
             "/img/prodcuts/2f3bd3_31523b6a45b24f8385db9ca5bca4ee94~mv2 (1).avif",
             "/img/prodcuts/image__4.jpg"
@@ -28,12 +28,12 @@ export const products_data = [
         content:"The MIDAS Hollow bar is a fully threaded self-drilling anchorage system which can be simultaneously drilled and grouted into loose or collapsing soils and brittle rock without the need for a casing. MIDAS Self Drilling Anchor System provide superior and cost effective bolting solution for unstable ground conditions such as sand, gravel, silt, and clays and in fractured rock formations. The self drilling anchor is optimized and tailored to the projects needs. Lean manufacturing methods are adopted to keep the lead times low and deliveries reliable. The production process is closely monitored and quality is controlled at every stage of the manufacturing process.The self drilling anchor bolt works with drilling a hole in cohesive and non-cohesive soil or loose rock, with a sacrificial drill bit and a hollow rod. A resin is injected at high pressure into the hollow and cavity which reinforces the surrounding area, later the hollow rod is locked with a retaining plate",
         img :[
             "/img/prodcuts/hower image.avif",
-            "/img/prodcuts/Untitled-2.avif",
+            
 
          
         ],
         prodcut_type : "Pipe Roofing Support System",
-        content1:"<p><strong> A Self-Drilling Anchor Consists of:</strong></p><ul><li>Hollow Anchor Rod</li><li>Drill Bit</li><li>Extension Couplings</li><li>Bearing Plate</li><li>Hexagonal Nut</li></ul>",
+        content1:`<img src="/img/prodcuts/hower image.avif" alt="Hover Image" style="max-width: 100%; height: auto; display: block;"> <br/>  <p><strong> A Self-Drilling Anchor Consists of:</strong></p><ul><li>Hollow Anchor Rod</li><li>Drill Bit</li><li>Extension Couplings</li><li>Bearing Plate</li><li>Hexagonal Nut</li></ul>`,
         content2:"<p><strong>Extension Couplings:</strong> The coupling enables direct end-to-end energy transmission between each bar, reducing losses and ensuring maximum percussive energy at the drill bit. To enable the correct seating of each bar within the coupler, all bars are chamfered with precision to enable the bar ends to have face-to-face contact.</p>",
         content3:"<p><strong>Galvanised System:</strong> Extra corrosion protection over the full nail length if the full nail length is in fill material or where corrosion potential is higher. The galvanizing of all MIDAS Drill hollow bars is in accordance with EN 1461 / ASMT A-153.</p>",
         img1 :"/img/prodcuts/Table for Website.avif",
@@ -52,12 +52,12 @@ export const products_data = [
          
         ],
         content1:"<h3>Installation Procedure</h3><ul><li>Drilling of hole in the rock</li><li>Insert the Expandable Friction Rock Bolt</li><li>Inflation of bolt to a set pressure using a high pressure water pump.</li></ul>" ,
-        content2:"<h3>Specifications</h3><dl><dt>Various Capacity</dt><dd>120kN, 160kN, 240kN</dd><dt>Minimum Elongation</dt><dd>10%, 20%</dd><dt>Delivery Lengths</dt><dd>1–8 mtr.</dd></dl>",
+        content2:"<h3>Specifications</h3><table ><tr><th>Parameter</th><th>Details</th></tr><tr><td>Various Capacity :</td><td>120kN, 160kN, 240kN</td></tr><tr><td>Minimum Elongation :  &nbsp; </td> <td>10%, 20%</td></tr><tr><td>Delivery Lengths :</td><td>1–8 mtr.</td></tr></table> <br/>",
         content3:"<p>Face plates are used to create a local surface support around the bore hole collar area. They are also utilized to maintain local roof stability, to prevent key block movement and to retain surface support like mesh.The plates are manufactured from high quality steel and meet or exceed the properties stated in the individual specification.</p>",
         content4:"<h3>Main Advantages of Expandable Friction Rock Bolts</h3><ul><li>Full load bearing capacity over the entire installed bolt length.</li><li>Ability to maintain load bearing capacity even during underground deformations.</li><li>Safe & easy installation with no additional building materials is required for installations.</li></ul>",
         img1:"/img/prodcuts/Measurement Table swellex.avif",
         prodcut_type : "Pipe Roofing Support System",
-        img1 :"/img/prodcuts/Table for Website.avif",
+       
         
 
     },
@@ -224,14 +224,14 @@ export const products_data = [
         content:" Grout Swivels are used for simultaneous drilling and grout installation, to inject grout into the bore of rotating Hollow Bar ",
         img :[
        "/img/prodcuts/grouting_1.jpg",
-       "/img/prodcuts/grouting_2.jpg",
+      
  
 
 
          
         ],
         prodcut_type : "Grouting",
-        content1:"<h2>Installation Process:</h2><ul><li><strong>Step-1:</strong> Begin drilling using standard drilling equipment with rotary injection adapter or Grout swivel.</li><li><strong>Step-2:</strong> Extension of the SDA by using couplers.</li><li><strong>Step-3:</strong> As drilling progresses, grout is injected simultaneously through the adaptor, ensuring continuous filling.</li><li><strong>Step-4:</strong> Once the grout is cured, the SDA installation is completed.</li></ul>" ,
+        content1:`<img src="/img/prodcuts/grouting_2.jpg" alt="Grouting Image" style="max-width: 100%; height: auto; display: block;"> <h2>Installation Process:</h2><ul><li><strong>Step-1:</strong> Begin drilling using standard drilling equipment with rotary injection adapter or Grout swivel.</li><li><strong>Step-2:</strong> Extension of the SDA by using couplers.</li><li><strong>Step-3:</strong> As drilling progresses, grout is injected simultaneously through the adaptor, ensuring continuous filling.</li><li><strong>Step-4:</strong> Once the grout is cured, the SDA installation is completed.</li></ul>  ` ,
         content3:"<h2>Key Benefits of the Grout Swivel:</h2><ul><li>Enhanced Efficiency</li><li>Improved Precision</li><li>Cost-Effective</li><li>Space Optimization</li><li>Reduced Equipment Mobilization Time</li></ul>",
         content4:"<h2>Conclusion:</h2><p>By attaching the Rotary Injection Adaptor to existing drilling equipment, we can simultaneously carry out both operations, enhancing productivity, reducing costs, and ensuring precision in grouting.</p>",
   
