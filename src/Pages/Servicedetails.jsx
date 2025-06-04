@@ -79,7 +79,7 @@ const [product, setProduct] = useState(null);
       style={{
         height:"600px"
       }}
-        src={product?.img}
+        src={product?.img[currentIndex]}
         alt="Gallery"
         className="slider-image"
       />
@@ -96,8 +96,12 @@ const [product, setProduct] = useState(null);
             </div>
 
             <div className="blog-details-page ">
+              <h3>{product?.subtitle}</h3>
+              <br />
+              
             <div className="thm-container">
             <section className="row">
+             
   <div className="card shadow-lg border-0">
     <div className="card-body p-4">
    <div class="project-details">

@@ -4239,3 +4239,17 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   height: auto;
   display: block;
 }
+
+.demo{
+  display: flex;
+
+  align-items: start;
+  justify-content: start;
+  padding: 10px;
+  background-color: #ffa801;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #fff;
+  font-weight: 600;
+ 
+}

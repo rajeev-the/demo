@@ -4,42 +4,46 @@ export const data = [
 
   {
     id: 1 ,
-    img:"/img/project-1-2.jpg",
-    title:"Ghodazari Branch Canal of Gosikhurd"
+    img: ["/img/project-1-2.jpg"],
+    title:"Ghodazari Branch Canal of Gosikhurd",
+    subtitle:" Construction of Tunnel at Godhazari Branch Canal of Gosikhurd Project Below Railway Line - Nagbhid. Maharashtra"
+    
    
   
     },  {
     id: 2 ,
-    img:"/img/project-1-1.png",
-    title:"Underground excavation and slope protection works of CCVT and ADIT"
+    img:["/img/project-1-1.png"],
+    title:"Underground excavation and slope protection works of CCVT and ADIT",
+    subtitle:" Construction of Tunnel Work for Cable Cum Ventilation Tunnel (CCTV) and ADIT to Power House Top - Dibang, Arunachal"
     
   
   },
     {
           id: 3 ,
-          img:"/img/project-1-5.jpg",
-          title:"Slope Protection Works - Dibang DT Inlet works"
+          img:["/img/project-1-5.jpg" , "/img/project_3_2.jpg"],
+          title:"Slope Protection Works - Dibang DT Inlet works",
+          subtitle:"Construction of Tunnel Work for New Railway Line Project in East Coast Railway, Odisha-Boudh District"
          
         
           },
     
       {
         id: 4 ,
-        img:"/img/project-1-4.jpg",
+        img:["/img/project-1-4.jpg" , "/img/project_4_2.jpg" ,"/img/project_4_3.jpg"],
         title:"New Railway Line Project in East Coast Railway"
        
       
         },
         {
               id: 5 ,
-              img:"/img/project-1-7.jpg",
+              img:["/img/project-1-7.jpg"],
               title:"Sri Siddharth Infratech & Service (I) Private Limited"
              
             
               },
         {
       id: 6 ,
-      img:"/img/project-1-3.jpg",
+      img:["/img/project-1-3.jpg"],
       title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road"
      
     
@@ -47,7 +51,7 @@ export const data = [
       
           {
             id: 7 ,
-            img:"/img/project-1-6.jpg",
+            img:["/img/project-1-6.jpg"],
             title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir"
             
           
@@ -55,7 +59,7 @@ export const data = [
             
               {
                 id: 8 ,
-                img:"/img/project-1-8.jpg",
+                img:["/img/project-1-8.jpg"],
               
               
                 },
