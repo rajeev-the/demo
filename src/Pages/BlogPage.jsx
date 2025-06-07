@@ -20,13 +20,13 @@ const BlogPage = () => {
     <section className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Blog Page</h2>
+          <h2 className="pull-left">Media Page</h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>
             </li>
             <li>
-              <span>Blog Page</span>
+              <span>Media Page</span>
             </li>
           </ul>
           {/* /.breadcrumb */}
@@ -44,15 +44,7 @@ const BlogPage = () => {
                   <img src="/img/blog-1-1.jpg" alt="Awesome Image" />
                 </div>
                 <div className="text-box">
-                  <div className="meta-info">
-                   
-                    <a href="#">
-                      <i className="far fa-calendar" /> 8 Aug 2018
-                    </a>
-                    <a href="#">
-                      <i className="far fa-comments" /> 3 Comments
-                    </a>
-                  </div>
+                 
                   <h3>
                   MIPL: Driving India’s Infrastructure with Tunneling Excellence
                   </h3>
@@ -97,164 +89,14 @@ const BlogPage = () => {
 </p>
 
                 </div>
+            
+            
+             
+               
+                
+            
               </div>
-              <div className="share-box">
-                <ul className="share-list">
-                  <li className="facebook">
-                    <a href="#">
-                      <i className="fab fa-facebook-square" />
-                      Share
-                    </a>
-                  </li>
-                  <li className="twitter">
-                    <a href="#">
-                      <i className="fab fa-twitter-square" />
-                      Tweet
-                    </a>
-                  </li>
-                  <li className="google">
-                    <a href="#">
-                      <i className="fab fa-google-plus" />
-                      Google +
-                    </a>
-                  </li>
-                  <li className="more">
-                    <a href="#">
-                      <i className="fa fa-plus-square" />
-                      More
-                    </a>
-                  </li>
-                  <li className="count">
-                    <span className="labled">
-                      <i className="fa fa-share-alt" />
-                      255 shares
-                    </span>
-                  </li>
-                </ul>
-              </div>
-              <div className="post-navigation">
-                <ul className="post-list clearfix">
-                  <li className="prev">
-                    <Link to={"/blog/2"}>
-                      <i className="fa fa-caret-left" />
-                      Previous Post
-                    </Link>
-                  </li>
-                  <li className="next">
-                    <a href="#">
-                      Next Post <i className="fa fa-caret-right" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="author-box">
-                <div className="img-box">
-                  <i className="far fa-user" />
-                </div>
-                <div className="text-box">
-                  <h3>Dayna Siaperas</h3>
-                  <div className="social">
-                    <a href="#" className="fab fa-twitter" />
-                    <a href="#" className="fab fa-facebook-f" />
-                    <a href="#" className="fab fa-youtube" />
-                    <a href="#" className="fab fa-pinterest" />
-                  </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nos trud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehe
-                  </p>
-                </div>
-              </div>
-              <div className="title-box">
-                <h2>2 Comments</h2>
-                <div className="line" />
-              </div>
-              <div className="comment-box">
-                <div className="single-comment-box">
-                  <div className="img-box">
-                    <img src="img/testi-1-1.jpg" alt="Awesome Image" />
-                  </div>
-                  <div className="text-box">
-                    <h3>
-                      Herlinda Dray<span>02 Dec, 2018</span>
-                    </h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and etting
-                      industry orem Ipsum has been the industry's standard my text
-                      printer.
-                    </p>
-                    <a href="#" className="reply">
-                      Reply
-                    </a>
-                  </div>
-                </div>
-                <div className="single-comment-box level-2">
-                  <div className="img-box">
-                    <img src="img/testi-1-2.jpg" alt="Awesome Image" />
-                  </div>
-                  <div className="text-box">
-                    <h3>
-                      Patrick Nietupski<span>02 Dec, 2018</span>
-                    </h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and etting
-                      industry orem Ipsum has been the industry's standard my text
-                      printer.
-                    </p>
-                    <a href="#" className="reply style2">
-                      Reply
-                    </a>
-                  </div>
-                </div>
-                <div className="single-comment-box">
-                  <div className="img-box">
-                    <img src="img/testi-1-3.jpg" alt="Awesome Image" />
-                  </div>
-                  <div className="text-box">
-                    <h3>
-                      Nikita Ginnery<span>02 Dec, 2018</span>
-                    </h3>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and etting
-                      industry orem Ipsum has been the industry's standard my text
-                      printer.
-                    </p>
-                    <a href="#" className="reply">
-                      Reply
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="title-box">
-                <h2>Leave Comment</h2>
-                <div className="line" />
-              </div>
-              <div className="comment-form-wrapper">
-                <form action="inc/sendemail.php" className="contact-form row">
-                  <div className="col-md-4">
-                    <input type="text" placeholder="Name" name="name" />
-                  </div>
-                  <div className="col-md-4">
-                    <input type="text" placeholder="Email Address" name="email" />
-                  </div>
-                  <div className="col-md-4">
-                    <input type="text" placeholder="Phone" name="phone" />
-                  </div>
-                  <div className="col-md-12">
-                    <textarea
-                      name="message"
-                      placeholder="Type message here"
-                      defaultValue={""}
-                    />
-                    <button className="btn-thm bgc-thm" type="submit">
-                      Submit Comment
-                    </button>
-                  </div>
-                </form>
-              </div>
+             
             </div>
           </div>
         </div>

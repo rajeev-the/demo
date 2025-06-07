@@ -4231,6 +4231,7 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   font-weight: bold;
   margin-bottom: 50px;
   font-size: 40px;
+ 
 }
 
 
@@ -4253,3 +4254,36 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
   font-weight: 600;
  
 }
+.demo1{
+  display: flex;
+
+  align-items: start;
+  justify-content: start;
+  padding: 10px;
+  background-color: #ffa801;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #fff;
+  font-weight: 600;
+ 
+
+}
+.lineee{
+  width: 40px;
+  height: 2px;
+  background-color: #ffa801;
+  margin: 0 auto;
+}
+.form-control {
+  width: 100%;
+height: auto;
+  font-size: 16px;
+  color: black;                     /* White text */
+  background-color: #f5f5f5;   
+  margin-top: 6px;      /* Dark background (you can change this) */
+ 
+
+
+
+}
+

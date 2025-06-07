@@ -4,6 +4,17 @@ import Fottter from '../Components/Fottter'
 import Header from '../Components/Header'
 
 const Download = () => {
+
+  const handleDownload = (path) => {
+  const link = document.createElement("a");
+  link.href = path;
+  link.download = path.split('/').pop(); // get filename from path
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
+
     const cards = [
         {
           image: '/img/ISOCertificate2019_page-0001.avif',
@@ -13,6 +24,7 @@ const Download = () => {
         {
           image: '/img/ctalog front page.avif',
           title: 'Credentials',
+          File:"../assets/Download/MIPL - Corporate Profile NATM (1).pdf"
         },
       ];
   return (
@@ -34,12 +46,13 @@ const Download = () => {
             </div>
             <div className="cardi-content">
               <h3 className="cardi-title">{card.title}</h3>
-              <button className="premiumi-button">
-                View Document
-                <svg className="buttoni-icon" viewBox="0 0 24 24">
-                  <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
-                </svg>
-              </button>
+            <button className="premiumi-button" onClick={() => handleDownload(card.File)}>
+  View Document
+  <svg className="buttoni-icon" viewBox="0 0 24 24">
+    <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/>
+  </svg>
+</button>
+
             </div>
           </div>
         ))}

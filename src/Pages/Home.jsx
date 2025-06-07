@@ -12,6 +12,9 @@ import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import {partners} from "../Data/profile"
 
+import { data } from '../Data/Service'
+
+
 
 const Home = () => {
   
@@ -483,147 +486,56 @@ With expertise spanning underground infrastructure, hydropower development, mini
         className="row masonary-layout filter-layout"
         data-filter-class="filter"
       >
+        {
+
+          data.slice(0, 8).map((e, index) => (
+
+              <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img src={e.img[0]} alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <Link
+                     to={`/service/${e.id}`}
+                      className="img-popup read-more fas fa-link"
+                    >
+                   </Link>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+             
+            </div>
+               <h4 className='demo1'> 
+                
+   {e.title ? (
+    <>
+      {e.title.split(' ').slice(0, 7).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  
+  </h4>
+          </div>
+        </div>
+       
+
+           ) )
+        }
       
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-2.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-2.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item metal">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-1.png" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-1.png"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-5.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-5.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-4.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-4.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item plumbing interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-7.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-7.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-3.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-3.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
+         
+     
         
       
       
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-6.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-6.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       
-        <div className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item interior">
-          <div className="single-project-style-two">
-            <div className="img-box">
-              <img src="img/project-1-8.jpg" alt="Awesome Image" />
-              <div className="overlay">
-                <div className="box">
-                  <div className="content">
-                    <a
-                      href="img/project-1-8.jpg"
-                      className="img-popup read-more fas fa-link"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
       </div>
  
  
@@ -1007,7 +919,10 @@ With expertise spanning underground infrastructure, hydropower development, mini
     {/* / partner Sections */}
 
   <section className="partner-carousel">
-        <h2 className='partner-header'>Our Clients</h2>
+        <h2 className='partner-header'>Our Clients     <div className='lineee'></div></h2>
+ 
+         
+         
       <div className="carousel-container">
         <div className="carousel-track">
           {[...partners, ...partners].map((partner, index) => (
@@ -1044,52 +959,8 @@ With expertise spanning underground infrastructure, hydropower development, mini
       <div className="row">
         <div className="col-lg-12">
           <div className="testimonials-carousel">
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-1.jpg"
-                    alt="testi-1-1.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-2.jpg"
-                    alt="testi-1-2.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
+           
+          
             <div className="item">
               <div className="testimonial_five">
                 <div className="t_thumb_five">
@@ -1216,16 +1087,16 @@ With expertise spanning underground infrastructure, hydropower development, mini
             <div className="col-md-6">
               <input type="text" placeholder="Phone Number" />
             </div>
-            <div className="col-md-6">
-              <select className="selectpicker">
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-              </select>
-            </div>
+           <div className="col-md-6">
+  <select className="form-control">
+    <option value="">Select Option</option>
+    <option value="execution">Execution</option>
+    <option value="manufacturing">Manufacturing</option>
+    <option value="rental">Rental</option>
+  </select>
+</div>
+
+          
             <div className="col-md-12">
               <input type="text" placeholder="Message Subjet" />
             </div>
@@ -1388,7 +1259,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
         {
           height:"200px"
         }
-      } src="img/blog-1-1.png" alt="Awesome Image" />
+      } src={NI} alt="Awesome Image" />
       <div className="overlay">
         <div className="box">
           <div className="content">
