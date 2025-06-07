@@ -4276,11 +4276,11 @@ form.get-a-qoute .bootstrap-select .dropdown-menu > li.selected > a {
 }
 .form-control {
   width: 100%;
-height: auto;
+height: 45px;
   font-size: 16px;
-  color: black;                     /* White text */
+  color: #485460;                     /* White text */
   background-color: #f5f5f5;   
-  margin-top: 6px;      /* Dark background (you can change this) */
+  margin-top: 2px;      /* Dark background (you can change this) */
  
 
 
