@@ -107,20 +107,16 @@ const Navbar = () => {
                 style={{ cursor: 'pointer', color: isNewsActive ? '#ffa801' : 'white' }}
               >
                
-              <span className='mobile-services'> Media & Events</span> <i className="fa fa-chevron-down" style={{ fontSize: '10px', marginLeft: '5px' }}></i>
+              <Link style={{
+                color: isActive('/contact') ? '#ffa801' : 'white',
+
+              }} to={'/media'} className='mobile-services'> Media & Events</Link> 
               </span>
-              <ul className="dropdown-menu" style={{ maxHeight: '300px', overflowY: 'auto', overflowX: 'hidden' }}>
-                <li><a>Blog Grid</a></li>
-                <li><a>Blog Single Sidebar Less</a></li>
-                <li><a>Blog Single Left Sidebar</a></li>
-                <li><a>Blog Single Right Sidebar</a></li>
-                <li><a>Blog Classic Sidebar Less</a></li>
-                <li><a>Blog Classic Left Sidebar</a></li>
-                <li><a>Blog Classic Right Sidebar</a></li>
-              </ul>
+             
             </li>
 
-            <li>       <span
+            <li>   
+                  <span
                 className="dropdown-toggle"
                 style={{ cursor: 'pointer', color: isNewsActive ? '#ffa801' : 'white' }}
               >
