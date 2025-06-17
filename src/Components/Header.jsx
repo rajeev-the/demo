@@ -50,7 +50,13 @@ const Header = () => {
                   <a href="#" className="fab fa-twitter" />
                   <a href="#" className="fab fa-linkedin-in" />
                   <a href="#" className="fab fa-google-plus-g" />
-                  <a href="#" className="fab fa-youtube" />
+                <a
+  href="https://www.youtube.com/@mipl_int"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fab fa-youtube"
+/>
+
                 </p>
              
               </div>
