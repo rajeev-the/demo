@@ -1156,7 +1156,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
             <div className="col-md-6">
               <input type="text" placeholder="Phone Number" />
             </div>
-           <div className="col-md-6">
+           <div style={{
+            marginBottom:"20px"
+           }} className="col-md-6">
   <select className="form-control">
     <option value="">Select Option</option>
     <option value="execution">Execution</option>
