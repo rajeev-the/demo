@@ -19,6 +19,7 @@ import ilfs from "../assets/logo/6a32a3e706380bb3b3c86b03dec5e714.jpg"
 import meil from "../assets/logo/channels4_profile.jpg"
 import gammon from "../assets/logo/Gammon_India_Logo.svg.png"
 import hutti from "../assets/logo/Hutti_Gold_Mines-01_CuDMRtP.png"
+import PK from "../assets/profilepic/PK.jpg"
 
 
 export const  datapro = [
@@ -27,7 +28,7 @@ export const  datapro = [
       "name": "Mr. Pradeep Kumar Agarwal",
       "title": "Director – Strategic Vision & Institutional Development",
       "description": "Under Mr. Pradeep Kumar Agarwal’s visionary leadership, MIPL has transitioned from servicing government contracts to becoming a trusted name in India’s infrastructure development.\nHis guidance has steered the company into high-impact sectors including hydropower, railway tunnels, and highway projects.\nHis focus on long-term partnerships, governance, and capability building continues to lay the foundation for MIPL’s future.",
-      "img":"",
+      "img":PK,
        "id":1,
         "linkedin":""
 

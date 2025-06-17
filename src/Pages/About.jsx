@@ -8,6 +8,7 @@ import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import { Link } from 'react-router-dom'
+import PK from "../assets/profilepic/PK.jpg"
 
 
 const About = () => {
@@ -250,16 +251,22 @@ const About = () => {
             <div className="col-md-6">
               <input type="text" placeholder="Phone Number" />
             </div>
-            <div className="col-md-6">
-              <select className="selectpicker">
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-                <option value={1}>Select Topics</option>
-              </select>
-            </div>
+            <div style={{
+            marginBottom:"20px",
+          
+           }} className="col-md-6">
+  <select  style={
+    {
+      border: "none"
+
+    }
+  } className="form-control">
+    <option value="">Select Option</option>
+    <option value="execution">Execution</option>
+    <option value="manufacturing">Manufacturing</option>
+    <option value="rental">Rental</option>
+  </select>
+</div>
             <div className="col-md-12">
               <input type="text" placeholder="Message Subjet" />
             </div>
@@ -338,8 +345,8 @@ const About = () => {
       <div className="row">
         <div className="col-md-8 col-md-offset-2">
           <div className="sec-title text-center">
-            <h1>Experts</h1>
-            <h2>Our Team</h2>
+     
+            <h2>Our Management</h2>
             <div className="line" />
           
           </div>
@@ -350,7 +357,7 @@ const About = () => {
 
         }}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img src="/img/team-1.jpg" />
+            <img src={PK} />
             <div className="team-box-content">
               <h3 className="title">Mr. Pradip Kumar Agarwal</h3>
               <span className="post">Chairman I Director</span>
@@ -437,6 +444,77 @@ const About = () => {
             </div>
           </div>
         </Link>
+      
+        
+      </div>
+    </div>
+  </section>
+
+  <section className="sec-pad team-style-one">
+    <div className="thm-container">
+      <div className="row">
+        <div className="col-md-8 col-md-offset-2">
+          <div className="sec-title text-center">
+     
+            <h2>Our Team</h2>
+            <div className="line" />
+          
+          </div>
+        </div>
+        
+      </div>
+      
+      <div className="row">
+      
+        <Link  to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
+            <div className="team-box-content">
+              <h3 className="title"> </h3>
+              <span className="post">not found</span>
+              <a
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </a>
+            </div>
+          </div>
+        </Link>
+        <Link  to={"/profile/3"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+            <div className="team-box-content">
+              <h3 className="title"> </h3>
+              <span className="post">not found</span>
+              <a
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </a>
+            </div>
+          </div>
+        </Link>
+        <Link   to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+          <div className="team-box">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
+            <div className="team-box-content">
+              <h3 className="title"> </h3>
+              <span className="post">not found</span>
+              <span
+                className="icon"
+                href="mailto:someone@example.com"
+                title="Mail Me"
+              >
+                <i className="fa fa-paper-plane" />
+              </span>
+            </div>
+          </div>
+        </Link>
+       
       
         
       </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Headers from '../Components/Header'
 import Fottter from '../Components/Fottter'
+import navbarimg from '/img/logo-light.png'
 
 const ContactUs = () => {
   return (
@@ -67,16 +68,21 @@ const ContactUs = () => {
               <div className="col-md-6">
                 <input type="text" placeholder="Phone Number" />
               </div>
-              <div className="col-md-6">
-                <select className="selectpicker">
-                  <option value={1}>Select Topics</option>
-                  <option value={1}>Select Topics</option>
-                  <option value={1}>Select Topics</option>
-                  <option value={1}>Select Topics</option>
-                  <option value={1}>Select Topics</option>
-                  <option value={1}>Select Topics</option>
-                </select>
-              </div>
+               <div style={{
+            marginBottom:"20px"
+           }} className="col-md-6">
+  <select style={
+    {
+      border: "none"
+
+    }
+  } className="form-control">
+    <option value="">Select Option</option>
+    <option value="execution">Execution</option>
+    <option value="manufacturing">Manufacturing</option>
+    <option value="rental">Rental</option>
+  </select>
+</div>
               <div className="col-md-12">
                 <input type="text" placeholder="Message Subjet" />
               </div>
@@ -107,7 +113,7 @@ const ContactUs = () => {
   ></iframe>
 </div>
 
-   <Fottter/>
+   <Fottter img={navbarimg}/>
    
     {/* google map helper */}
   </>

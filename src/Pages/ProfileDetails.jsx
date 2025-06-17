@@ -9,6 +9,7 @@ import VA from "../assets/profilepic/1516875468370.jpeg"
 import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
+import PR from "../assets/profilepic/PK.jpg"
 
 
 
@@ -88,8 +89,12 @@ const ProfileDetails = () => {
          <Link  to={"/profile/1"} className="col-12 col-sm-6 col-md-4 col-lg-3">
             <div  className="our-team">
               <img
+              style={{
+                height:"270px",
+                objectFit:"cover"
+              }}
                 className="img-responsive"
-                src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                src={PR}
                 alt="team-1.jpg"
               />
                    
