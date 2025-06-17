@@ -4285,5 +4285,39 @@ height: 45px;
 
 
 
+
+
 }
 
+
+
+.cer-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.cer-btn {
+  background-color: #ffa801;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+
+
+}
+
+.cer-btn:hover {
+  background-color: #e19000;
+  color: white;
+}

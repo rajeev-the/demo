@@ -113,6 +113,22 @@ const [product, setProduct] = useState(null);
   <p><strong>Work Completion Status:</strong> [Enter Completion Status]</p>
 </div>
 
+ <div className="cer-btn-container">
+      <Link to="/contact" className="cer-btn">
+        Project Certificates
+         <div className="inner">
+                      <i className="glyphicon glyphicon-ok-sign" />
+                    </div>    
+      </Link>
+
+      <Link to="/contact" className="cer-btn">
+        Certification Competition
+         <div className="inner">
+                      <i className="glyphicon glyphicon-ok-sign" />
+                    </div>    
+      </Link>
+    </div>
+
     {  product?.img1 ? <img
         src={product?.img1}
         alt="Gallery"
