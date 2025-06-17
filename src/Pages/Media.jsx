@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom'
 
 const Media = () => {
   return (
-   <div className="active-preloader-ovh">
-    <div className="">
-      <div className="spinner" />
-    </div>{" "}
-    {/* /.preloader */}
-
-    <Header/>
-    <Navbar/>
+   <div className="">
+   
+   <div className="" /> {/* /.preloader */}
+  <header className="header header-home-one">
+ <Header/>
+  <Navbar/>
+  
+  </header>
  
     {/* /.header */}
     <section className="inner-banner">

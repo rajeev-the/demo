@@ -7,13 +7,15 @@ import { Link } from 'react-router-dom';
 
 const Events = () => {
   return (
-    <div className="active-preloader-ovh">
-      <div className="">
-        <div className="spinner" />
-      </div>
-
-      <Header />
-      <Navbar />
+  <div className="">
+   
+   <div className="" /> {/* /.preloader */}
+  <header className="header header-home-one">
+ <Header/>
+  <Navbar/>
+  
+  </header>
+ 
 
       {/* Inner Banner */}
       <section className="inner-banner">
