@@ -72,6 +72,7 @@ const rentalimg = [
     <div className="carousel-inner" role="listbox">
       <div
         className="item active slide-1"
+         loading="lazy" 
         style={{
           backgroundImage: "url(img/banner-1-2.jpg)",
           backgroundPosition: "center center"
@@ -111,6 +112,7 @@ const rentalimg = [
       </div>
       <div
         className="item slide-2"
+         loading="lazy" 
         style={{
           backgroundImage: "url(img/male-worker-factory.jpg)",
           backgroundPosition: "center center"
@@ -150,6 +152,7 @@ const rentalimg = [
       </div>
       <div
         className="item slide-3"
+         loading="lazy" 
         style={{
           backgroundImage: "url(img/pppop.jpg)",
           backgroundPosition: "center center"
@@ -1123,124 +1126,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     </section>
 
 
-  {/* Testimonials */}
-  <section className="sec-pad bgc-f1">
-    
-    <div className="thm-container">
-      <div className="row">
-        <div className="col-md-6 col-md-offset-3">
-          <div className="sec-title title-box text-center">
-            <h2>Clients Feedbacks</h2>
-            <div className="line" />
-            <p>
-              Submit an Office Ipsum Cross functi onal teams enable out of the
-              box brainstorming good optics globalize.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="testimonials-carousel">
-           
-          
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-1.jpg"
-                    alt="testi-1-1.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-2.jpg"
-                    alt="testi-1-2.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-1.jpg"
-                    alt="testi-1-1.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonial_five">
-                <div className="t_thumb_five">
-                  <img
-                    className="img-responsive img-thumbnail pull-left"
-                    src="img/testi-1-2.jpg"
-                    alt="testi-1-2.jpg"
-                  />
-                </div>
-                <div className="details_five">
-                  <p>
-                    {" "}
-                    <span className="fa fa-quote-left text-thm" /> It was
-                    popularised in the 1960s with the of Letraset sheets
-                    containing Lorem Ipsum passages, like Letraset sheets Lorem
-                    Ipsum. <span className="fa fa-quote-right text-thm" />{" "}
-                  </p>
-                  <h3>
-                    Benjamin <small>- CEO, Ben Tech</small>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
   {/* /.testimonials-style-one */}
   {/* Divider */}
   <section className="sec-pad">

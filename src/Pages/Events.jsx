@@ -11,7 +11,7 @@ const Events = () => {
    
    <div className="" /> {/* /.preloader */}
   <header className="header header-home-one">
- <Header/>
+
   <Navbar/>
   
   </header>

@@ -13,7 +13,7 @@ const Media = () => {
    
    <div className="" /> {/* /.preloader */}
   <header className="header header-home-one">
- <Header/>
+
   <Navbar/>
   
   </header>
