@@ -8,7 +8,7 @@ const Navbar = () => {
   const isActive = (path) => currentPath === path;
   const isServiceActive = currentPath.startsWith('/service');
   const isProductsActive = currentPath.startsWith('/products');
-  const isNewsActive = currentPath.startsWith('/news');
+  const isNewsActive = currentPath.startsWith('/media') || currentPath === '/events';
 
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -102,18 +102,24 @@ const Navbar = () => {
             </li>
 
             <li className={`dropdown ${isNewsActive ? 'current' : ''}`}>
-              <span
+             <span
                 className="dropdown-toggle"
-                style={{ cursor: 'pointer', color: isNewsActive ? '#ffa801' : 'white' }}
+                data-toggle="dropdown"
+                role="button"
+                style={{  color: isNewsActive ? '#ffa801' : 'white' }}
               >
-               
-              <Link style={{
-                color: isActive('/contact') ? '#ffa801' : 'white',
+                <span className='mobile-services'>Media & Events</span> <i className="fa fa-chevron-down" style={{ fontSize: '10px', marginLeft: '5px' }}></i>
 
-              }} to={'/media'} className='mobile-services'> Media & Events</Link> 
+
               </span>
+              <ul className="dropdown-menu">
+                <li><NavLink to="/media" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Media</NavLink></li>
+                <li><NavLink to="/events" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Events</NavLink></li>
+              </ul>
              
             </li>
+
+             
 
             <li>   
                   <span

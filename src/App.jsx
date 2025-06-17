@@ -17,6 +17,7 @@ import Servicedetails from './Pages/Servicedetails'
 import ProfileDetails from './Pages/ProfileDetails'
 import BlogPage2 from './Pages/BlogPage2'
 import Media from './Pages/Media'
+import Events from './Pages/Events'
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
             <Route path='/profile/:id' element={<ProfileDetails/>}/>
              <Route path='/media' element={<Media/>}/>
+               <Route path='/events' element={<Events/>}/>
 
 
      </Routes>

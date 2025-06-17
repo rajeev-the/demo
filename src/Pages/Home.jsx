@@ -11,6 +11,7 @@ import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import {partners} from "../Data/profile"
+import PK from "../assets/profilepic/PK.jpg"
 
 import { data } from '../Data/Service'
 
@@ -692,18 +693,17 @@ With expertise spanning underground infrastructure, hydropower development, mini
     </div>
   </section>
   {/* /.call-to-action-style-one */}
-  {/* Our Team */}
+  {/* Our Memebr */}
   <section className="sec-pad team-style-one">
     <div className="thm-container">
       <div className="row">
         <div className="col-md-6 col-md-offset-3">
           <div className="sec-title text-center">
-            <h1>Experts</h1>
-            <h2>Our Team</h2>
+           
+            <h2>Our Management</h2>
             <div className="line" />
             <p>
-            Our team consists of skilled professionals dedicated to innovation, collaboration, and delivering
-            exceptional results across every project.
+           Our management is a skilled professional dedicated to innovation, collaboration, and delivering exceptional results in every project.
             </p>
           </div>
         </div>
@@ -714,7 +714,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     <div  className="our-team">
       <img
         className="img-responsive"
-        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        src={PK}
         alt="team-1.jpg"
       />
            
@@ -878,6 +878,189 @@ With expertise spanning underground infrastructure, hydropower development, mini
             <div  className="team-content">
               <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>
+              <ul className="social">
+                <li>
+                  <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i  style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
+                 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+
+
+
+      
+       
+      </div>
+    </div>
+
+
+  </section>
+
+    {/* Our Team */}
+  <section className="sec-pad team-style-one">
+    <div className="thm-container">
+      <div className="row">
+        <div className="col-md-6 col-md-offset-3">
+          <div className="sec-title text-center">
+           
+            <h2>Our Team</h2>
+            <div className="line" />
+            <p>
+            Our team consists of skilled professionals dedicated to innovation, collaboration, and delivering
+            exceptional results across every project.
+            </p>
+          </div>
+        </div>
+      </div>
+          
+       
+ 
+      
+      <div className="row" >
+
+        
+        
+       
+        <Link to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+              className="img-responsive"
+              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+              alt="team-1.jpg"
+            />
+            <div className="team-content">
+              <h3 className="title"></h3>
+              <span className="post">Not Found 
+              </span>
+              <ul className="social">
+               
+                <li>
+                  <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+
+        <Link to={"/profile/3"}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+              className="img-responsive"
+              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+              alt="team-2.jpg"
+            />
+            <div className="team-content">
+              <h3 className="title"> </h3>
+              <span className="post">Not Found</span>
+              <ul className="social">
+              
+                <li>
+                  <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+
+
+        <Link  to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+              className="img-responsive"
+              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+              alt="team-2.jpg"
+            />
+            <div className="team-content">
+              <h3 className="title"> </h3>
+              <span className="post">Not Found</span>
+              <ul className="social">
+              
+                <li>
+                   <span 
+            style={{
+    width: "40px",
+    height: "40px",
+    padding: "10px",
+    borderRadius: "50%",
+    background: "#ffa801"
+  }}
+
+             
+             >
+                    <i  style={
+          {
+            color:"white"
+          }
+        } className="fab fa-linkedin" />
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Link>
+        <Link    to={"/profile/5"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
+          <div className="our-team">
+            <img
+            style={{
+              height:"270px"
+            }}
+              className="img-responsive"
+              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+              alt="team-3.jpg"
+            />
+            <div  className="team-content">
+              <h3 className="title"> </h3>
+              <span className="post">Not Found</span>
               <ul className="social">
                 <li>
                   <span 
