@@ -1291,7 +1291,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
       <div className="row">
 
-          <div style={{
+          <div style={{ width:"300px",
             marginRight:"20px",
   boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
 }}
@@ -1319,13 +1319,14 @@ With expertise spanning underground infrastructure, hydropower development, mini
       <Link  to="/blog/2">
         <h3 style={{
           padding:"10px"
-        }} >The New Austrian Tunneling Method is increasingly used in road and railway projects.</h3>
+        }} >The New Austrian Tunneling Method is increasingly...</h3>
       </Link>
      
     </div>
   </div>
 </div>
       <div style={{
+        width:"300px",
   boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
 }}
   className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
@@ -1333,7 +1334,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
     <div className="img-box">
       <img  style={
         {
-          height:"200px"
+          height:"200px",
+    
+          
         }
       } src={NI} alt="Awesome Image" />
       <div className="overlay">
