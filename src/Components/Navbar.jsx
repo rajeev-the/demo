@@ -113,8 +113,10 @@ const Navbar = () => {
 
               </span>
               <ul className="dropdown-menu">
-                <li><NavLink to="/media" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Media</NavLink></li>
-                <li><NavLink to="/events" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Events</NavLink></li>
+                <li style={{
+                  Hover:Backgoubn
+                }} className='hoverin'><NavLink to="/media" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Media</NavLink></li>
+                <li  className='hoverin'><NavLink to="/events" className={({ isNewsActive }) => (isActive ? 'current' : '')}>Events</NavLink></li>
               </ul>
              
             </li>

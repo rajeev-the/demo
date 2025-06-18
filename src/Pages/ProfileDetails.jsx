@@ -29,7 +29,7 @@ const ProfileDetails = () => {
   <div className="profile-details-page">
     
     <header className="profile-header" />
-     <h1 className="team-heading">Our Team</h1>
+     <h1 className="team-heading">Our Management</h1>
  <div className="team-title container">
    
   </div>
@@ -45,7 +45,7 @@ const ProfileDetails = () => {
             />
 
             <h1 className="profile-name">{profile?.name}</h1>
-            <p className="profile-title">{profile?.title}</p>
+            <p className="profile-title">{profile?.subtitle}</p>
 
             <div className="header-actions">
               {profile?.linkedin && (
@@ -71,7 +71,7 @@ const ProfileDetails = () => {
 
         <div className="profile-content">
           <section className="about-section">
-            <h2>Professional Profile</h2>
+            <h2>{profile?.title}</h2>
             {profile?.description?.split('\n').map((para, index) => (
               <p key={index}>{para}</p>
             ))}

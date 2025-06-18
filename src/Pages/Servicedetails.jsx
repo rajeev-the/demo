@@ -114,15 +114,10 @@ const [product, setProduct] = useState(null);
     </div>
 
  <div className="cer-btn-container">
-      <Link to="/contact" className="cer-btn">
-        Project Certificates
-         <div className="inner">
-                      <i className="glyphicon glyphicon-ok-sign" />
-                    </div>    
-      </Link>
+      
 
       <Link to="/contact" className="cer-btn">
-        Certification Competition
+        Competition Certification 
          <div className="inner">
                       <i className="glyphicon glyphicon-ok-sign" />
                     </div>    
@@ -173,7 +168,7 @@ const [product, setProduct] = useState(null);
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>Super Safety</h3>
+                    <h3>Safety</h3>
                     <p>
                     Built-in safety features and strict protocols for total peace of mind.
                 
@@ -204,7 +199,7 @@ const [product, setProduct] = useState(null);
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>24/7 Support</h3>
+                    <h3>Support</h3>
                     <p>
                     Round-the-clock expert assistance, whenever and wherever you need it.
                       

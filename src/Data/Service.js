@@ -5,6 +5,7 @@ export const data = [
   {
     id: 1 ,
     img: ["/img/project-1-2.jpg"],
+    statustype:"ongoing",
     title:"Ghodazari Branch Canal of Gosikhurd",
     subtitle:" Construction of Tunnel at Godhazari Branch Canal of Gosikhurd Project Below Railway Line - Nagbhid. Maharashtra",
     Project_Name: "Construction of Tunnel from RD 15466 to 15561 at Ghodazari Branch Canal of Gosikhurd Project below Railway line at Rly. Km. 1136/6-7 between Nagbhid-Talodhi Road station on Gondia-Chandafort Section (B.G)",
@@ -20,7 +21,8 @@ export const data = [
     id: 2 ,
     img:["/img/project-1-1.png"],
     title:"Underground excavation and slope protection works of CCVT and ADIT",
-    subtitle:" Construction of Tunnel Work for Cable Cum Ventilation Tunnel (CCTV) and ADIT to Power House Top - Dibang, Arunachal"
+    subtitle:" Construction of Tunnel Work for Cable Cum Ventilation Tunnel (CCTV) and ADIT to Power House Top - Dibang, Arunachal",
+     statustype:"ongoing",
     
   
   },
@@ -28,7 +30,8 @@ export const data = [
           id: 3 ,
           img:["/img/project-1-5.jpg" , "/img/project_3_2.jpg"],
           title:"Slope Protection Works - Dibang DT Inlet works",
-          subtitle:"Construction of Tunnel Work for New Railway Line Project in East Coast Railway, Odisha-Boudh District"
+          subtitle:"Construction of Tunnel Work for New Railway Line Project in East Coast Railway, Odisha-Boudh District",
+           statustype:"ongoing",
          
         
           },
@@ -36,21 +39,24 @@ export const data = [
       {
         id: 4 ,
         img:["/img/project-1-4.jpg" , "/img/project_4_2.jpg" ,"/img/project_4_3.jpg"],
-        title:"New Railway Line Project in East Coast Railway"
+        title:"New Railway Line Project in East Coast Railway",
+         statustype:"completed",
        
       
         },
         {
               id: 5 ,
               img:["/img/project-1-7.jpg"],
-              title:"Sri Siddharth Infratech & Service (I) Private Limited"
+              title:"Sri Siddharth Infratech & Service (I) Private Limited",
+               statustype:"ongoing",
              
             
               },
         {
       id: 6 ,
       img:["/img/project-1-3.jpg"],
-      title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road"
+      title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road",
+       statustype:"ongoing",
      
     
       },
@@ -58,7 +64,8 @@ export const data = [
           {
             id: 7 ,
             img:["/img/project-1-6.jpg"],
-            title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir"
+            title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir",
+             statustype:"ongoing",
             
           
             },

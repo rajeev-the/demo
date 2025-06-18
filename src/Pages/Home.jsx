@@ -12,6 +12,7 @@ import NI from "../assets/profilepic/1709974074945.jpeg"
 import PP from "../assets/profilepic/head.jpg"
 import {partners} from "../Data/profile"
 import PK from "../assets/profilepic/PK.jpg"
+import {products_data} from "../Data/Product"
 
 import { data } from '../Data/Service'
 
@@ -41,12 +42,7 @@ const Home = () => {
 ];
 
 
-const rentalimg = [
-"/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
-"/img/2f3bd3_30747b16744847f2999a25757bd6f7c4~mv2.avif",
-"/img/rental (2).jpg"
 
-]
 
  
 
@@ -221,61 +217,67 @@ const rentalimg = [
   <section className="sec-pad about-us-one pb50">
     <div className="thm-container">
       <div className="row feature_service_row">
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        <Link to={"/service/execution"}    className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div   className="service_box">
             <img  src="img/Exu.jpg" />
             <div className="service-content">
               <span className="service-icon">
-                <i className="hialeah-icon-chainsaw" />
+           <svg fill="#ffa801" viewBox="-184.32 -184.32 880.64 880.64" xmlns="http://www.w3.org/2000/svg" stroke="#ffa801"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M272 96c26.51 0 48-21.49 48-48S298.51 0 272 0s-48 21.49-48 48 21.49 48 48 48zM113.69 317.47l-14.8 34.52H32c-17.67 0-32 14.33-32 32s14.33 32 32 32h77.45c19.25 0 36.58-11.44 44.11-29.09l8.79-20.52-10.67-6.3c-17.32-10.23-30.06-25.37-37.99-42.61zM384 223.99h-44.03l-26.06-53.25c-12.5-25.55-35.45-44.23-61.78-50.94l-71.08-21.14c-28.3-6.8-57.77-.55-80.84 17.14l-39.67 30.41c-14.03 10.75-16.69 30.83-5.92 44.86s30.84 16.66 44.86 5.92l39.69-30.41c7.67-5.89 17.44-8 25.27-6.14l14.7 4.37-37.46 87.39c-12.62 29.48-1.31 64.01 26.3 80.31l84.98 50.17-27.47 87.73c-5.28 16.86 4.11 34.81 20.97 40.09 3.19 1 6.41 1.48 9.58 1.48 13.61 0 26.23-8.77 30.52-22.45l31.64-101.06c5.91-20.77-2.89-43.08-21.64-54.39l-61.24-36.14 31.31-78.28 20.27 41.43c8 16.34 24.92 26.89 43.11 26.89H384c17.67 0 32-14.33 32-32s-14.33-31.99-32-31.99z"></path></g></svg>
               </span>
               <h3 className="title">Execution</h3>
-              <p className="description">
+              <p  style={{
+                color:"#938d8a"
+              }} className="description">
               Each project is executed under stringent safety protocols and
                sustainable engineering practices, ensuring timely 
 
               </p>
-              <Link to={'/service/execution'} className="btn-thm">
+              <p className="btn-thm">
                 Read More
-              </Link>
+              </p>
             </div>
           </div>
-        </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        </Link>
+        <Link  to={'/products'} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
             <img src="img/mau.jpg" />
             <div className="service-content">
               <span className="service-icon">
-                <i className="hialeah-icon-paint-roller" />
+            <svg viewBox="-6.24 -6.24 28.48 28.48" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15 2V15H13V10H11V15H1V5L7 2H8V5L14 2H15ZM9 8H7V12H9V8ZM5 8H3V12H5V8Z" fill="#ffa801"></path> </g></svg>
               </span>
               <h3 className="title">Manufacturing</h3>
-              <p className="description">
+              <p  style={{
+                color:"#938d8a"
+              }} className="description">
               Every product undergoes rigorous quality control and adheres to international industry
                standards, ensuring reliability on the field.
 
               </p>
-              <Link to={'/products'} className="btn-thm">
+              <p className="btn-thm">
                 Read More
-              </Link>
+              </p>
             </div>
           </div>
-        </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+        </Link>
+        <Link   to={'/service/rentals'} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="service_box">
             <img src="img/rental (1).jpg" />
             <div className="service-content">
               <span className="service-icon">
-                <i className="hialeah-icon-planer" />
+               <svg viewBox="-9.12 -9.12 34.24 34.24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 5.5C16 8.53757 13.5376 11 10.5 11H7V13H5V15L4 16H0V12L5.16351 6.83649C5.0567 6.40863 5 5.96094 5 5.5C5 2.46243 7.46243 0 10.5 0C13.5376 0 16 2.46243 16 5.5ZM13 4C13 4.55228 12.5523 5 12 5C11.4477 5 11 4.55228 11 4C11 3.44772 11.4477 3 12 3C12.5523 3 13 3.44772 13 4Z" fill="#ffa801"></path> </g></svg>
               </span>
               <h3 className="title">Rental</h3>
-              <p className="description">
+              <p style={{
+                color:"#938d8a"
+              }} className="description">
               Our machinery is regularly serviced and managed by trained technicians to ensure high uptime and site productivity.
             </p>
-              <Link to={'/service/rentals'} className="btn-thm">
+              <p className="btn-thm">
                 Read More
-              </Link>
+              </p>
             </div>
           </div>
-        </div>
+        </Link>
 
       </div>
     </div>
@@ -333,9 +335,16 @@ With expertise spanning underground infrastructure, hydropower development, mini
     }}
   ></video>      
           </div>
+          
           {/* /.video-box */}
         </div>
+        
+        
       </div>
+       <div  className="text-center btn-box">
+        <Link to={'/about'} className="btn-thm">About Us</Link>
+    </div>
+      
     </div>
   </section>
   {/* /.sec-pad about-us */}
@@ -497,7 +506,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
           <div className="single-project-style-two">
             <div className="img-box">
-              <img src={e.img[0]} alt="Awesome Image" />
+              <img  style={{
+                height:"200px"
+              }} src={e.img[0]} alt="Awesome Image" />
               <div className="overlay">
                 <div className="box">
                   <div className="content">
@@ -560,38 +571,48 @@ With expertise spanning underground infrastructure, hydropower development, mini
   className="row masonary-layout filter-layout"
   data-filter-class="filter"
 >
-  {firstImages.map((e, index) => (
-    <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
-      <div
-        className="single-project-style-two"
-        style={{
-          width: "100%",
-          height: "300px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          overflow: "hidden",
-          position: "relative",
-        
-          borderRadius: "8px",
-        }}
-      >
-        <div className="img-box" style={{ width: "100%", height: "100%" }}>
-          <img
-            src={e}
-            alt="Awesome Image"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "contain", // or "cover" if you want to fill and crop
-            }}
-          />
-       
-          
-       
+  {products_data.map((e, index) => (
+         <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img style={{
+                height:"200px"
+              }} src={e.img[0]} alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <Link
+                     to={`/products/${e.id}`}
+                      className="img-popup read-more fas fa-link"
+                    >
+                   </Link>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+             
+            </div>
+               <h4  style={{
+    minHeight: '1.5em', // Ensures consistent height
+    display: 'block',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap'
+  }} className='demo1'> 
+                
+   {e.title ? (
+    <>
+      {e.title.split(' ').slice(0, 8).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  
+  </h4>
+          </div>
         </div>
-      </div>
-    </div>
   ))}
 </div>
 
@@ -624,37 +645,47 @@ With expertise spanning underground infrastructure, hydropower development, mini
   data-filter-class="filter"
 >
   {data1.slice(0, 8).map((e, index) => (
-    <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
-      <div
-        className="single-project-style-two"
-        style={{
-         
-      
-        
-          borderRadius: "8px",
-    
-    
-         
-        }}
-
-
-      >
-        <div className="img-box" style={{ width: "100%", height: "100%" }}>
-          <img
-            src={e.img}
-            alt="Awesome Image"
-            style={{
-              width: "280px",
-              height: "220px",
-              objectFit: "fill", // or "cover" if you want to fill and crop
-            }}
-          />
-       
-          
-       
+     <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
+          <div className="single-project-style-two">
+            <div className="img-box">
+              <img style={{
+                height:"200px"
+              }} src={e.img} alt="Awesome Image" />
+              <div className="overlay">
+                <div className="box">
+                  <div className="content">
+                    <Link
+                     to={`/service/rentals${e.id}`}
+                      className="img-popup read-more fas fa-link"
+                    >
+                   </Link>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+             
+            </div>
+               <h4  style={{
+    minHeight: '1.5em', // Ensures consistent height
+    display: 'block',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap'
+  }} className='demo1'> 
+                
+   {e.title ? (
+    <>
+      {e.title.split(' ').slice(0, 8).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  
+  </h4>
+          </div>
         </div>
-      </div>
-    </div>
   ))}
 </div>
 
@@ -917,188 +948,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
 
   </section>
 
-    {/* Our Team */}
-  <section className="sec-pad team-style-one">
-    <div className="thm-container">
-      <div className="row">
-        <div className="col-md-6 col-md-offset-3">
-          <div className="sec-title text-center">
-           
-            <h2>Our Team</h2>
-            <div className="line" />
-            <p>
-            Our team consists of skilled professionals dedicated to innovation, collaboration, and delivering
-            exceptional results across every project.
-            </p>
-          </div>
-        </div>
-      </div>
-          
-       
- 
-      
-      <div className="row" >
 
-        
-        
-       
-        <Link to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
-            <img
-              className="img-responsive"
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-              alt="team-1.jpg"
-            />
-            <div className="team-content">
-              <h3 className="title"></h3>
-              <span className="post">Not Found 
-              </span>
-              <ul className="social">
-               
-                <li>
-                  <span 
-            style={{
-    width: "40px",
-    height: "40px",
-    padding: "10px",
-    borderRadius: "50%",
-    background: "#ffa801"
-  }}
-
-             
-             >
-                    <i style={
-          {
-            color:"white"
-          }
-        } className="fab fa-linkedin" />
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Link>
-
-        <Link to={"/profile/3"}  className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
-            <img
-              className="img-responsive"
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-              alt="team-2.jpg"
-            />
-            <div className="team-content">
-              <h3 className="title"> </h3>
-              <span className="post">Not Found</span>
-              <ul className="social">
-              
-                <li>
-                  <span 
-            style={{
-    width: "40px",
-    height: "40px",
-    padding: "10px",
-    borderRadius: "50%",
-    background: "#ffa801"
-  }}
-
-             
-             >
-                    <i style={
-          {
-            color:"white"
-          }
-        } className="fab fa-linkedin" />
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Link>
-
-
-        <Link  to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
-            <img
-              className="img-responsive"
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-              alt="team-2.jpg"
-            />
-            <div className="team-content">
-              <h3 className="title"> </h3>
-              <span className="post">Not Found</span>
-              <ul className="social">
-              
-                <li>
-                   <span 
-            style={{
-    width: "40px",
-    height: "40px",
-    padding: "10px",
-    borderRadius: "50%",
-    background: "#ffa801"
-  }}
-
-             
-             >
-                    <i  style={
-          {
-            color:"white"
-          }
-        } className="fab fa-linkedin" />
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Link>
-        <Link    to={"/profile/5"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
-          <div className="our-team">
-            <img
-            style={{
-              height:"270px"
-            }}
-              className="img-responsive"
-              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-              alt="team-3.jpg"
-            />
-            <div  className="team-content">
-              <h3 className="title"> </h3>
-              <span className="post">Not Found</span>
-              <ul className="social">
-                <li>
-                  <span 
-            style={{
-    width: "40px",
-    height: "40px",
-    padding: "10px",
-    borderRadius: "50%",
-    background: "#ffa801"
-  }}
-
-             
-             >
-                    <i  style={
-          {
-            color:"white"
-          }
-        } className="fab fa-linkedin" />
-                  </span>
-                 
-                </li>
-              </ul>
-            </div>
-          </div>
-        </Link>
-
-
-
-      
-       
-      </div>
-    </div>
-
-
-  </section>
 
 
 
@@ -1291,11 +1141,11 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
       <div className="row">
 
-          <div style={{ width:"300px",
+          <div style={{ 
             marginRight:"20px",
   boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
 }}
-  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+  className=" responsive-box col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-blog-style-one">
     <div className="img-box">
       <img  style={
@@ -1326,10 +1176,10 @@ With expertise spanning underground infrastructure, hydropower development, mini
   </div>
 </div>
       <div style={{
-        width:"300px",
+       
   boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
 }}
-  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+  className= " responsive-box   col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-blog-style-one">
     <div className="img-box">
       <img  style={
@@ -1361,6 +1211,47 @@ With expertise spanning underground infrastructure, hydropower development, mini
     </div>
   </div>
 </div>
+
+          {/* /.single-blog-style-one */}
+     
+     
+      </div>
+    </div>
+  </section>
+
+
+   <section className="sec-pad blog-style-one">
+    <div className="thm-container">
+      <div className="row">
+        <div className="col-md-6 col-md-offset-3">
+          <div className="sec-title text-center">
+            
+            <h2>Events</h2>
+            <div className="line" />
+            <p>
+           Join us for an evening of networking, innovation, and exciting announcements!.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+
+      <div className="col-md-12 text-center">
+              <div
+                style={{
+                  padding: '50px 20px',
+                  border: '1px solid #e0e0e0',
+                  borderRadius: '10px',
+                  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.05)',
+                  backgroundColor: '#fff',
+                }}
+              >
+                <h3 style={{ color: '#777' }}>No events available right now.</h3>
+                <p style={{ marginTop: '10px', color: '#999' }}>
+                  Please check back later for upcoming events and announcements.
+                </p>
+              </div>
+            </div>
 
           {/* /.single-blog-style-one */}
      

@@ -53,20 +53,82 @@ const ServiceExecution = () => {
     <section className="sec-pad what-we-do gray-bg">
     
       <div className="thm-container">
-      <h1 className='text-start'>Execution Projects</h1>
+      <h1 className='text-start'>Ongoing Projects</h1>
         <div className="row">
             
            {
             data.map((item) => (
-                <Link to={`/service/${item.id}`} key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+
+              
+          item.statustype =="ongoing"   ?     <Link to={`/service/${item.id}`} key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-what-we-do">
     <div className="img-box">
       <img src={item.img[0]} alt="Awesome Image" />
-      <h4 className='demo'>{item.title}</h4>
+      
+       <h4  style={{
+    minHeight: '3.5em', // Ensures consistent height
+    display: 'block',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+   
+  }} className='demo'> 
+                
+   {item.title ? (
+    <>
+      {item.title.split(' ').slice(0, 11).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  
+  </h4>
+   
     </div>
    
   </div>
-</Link>
+</Link>:""
+
+            ))
+           }
+            
+        </div>
+
+          <h1 className='text-start'>Completed Projects</h1>
+        <div className="row">
+            
+           {
+            data.map((item) => (
+
+              
+          item.statustype =="completed"   ?     <Link to={`/service/${item.id}`} key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+  <div className="single-what-we-do">
+    <div className="img-box">
+      <img src={item.img[0]} alt="Awesome Image" />
+      
+       <h4  style={{
+    minHeight: '3.5em', // Ensures consistent height
+    display: 'block',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+   
+  }} className='demo'> 
+                
+   {item.title ? (
+    <>
+      {item.title.split(' ').slice(0, 11).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  
+  </h4>
+   
+    </div>
+   
+  </div>
+</Link>:""
 
             ))
            }
