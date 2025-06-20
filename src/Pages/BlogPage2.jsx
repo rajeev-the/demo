@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Components/Header'
+import Headers from '../Components/Header'
 import Navbar from '../Components/Navbar'
 import Fottter from '../Components/Fottter'
 import navbarimg from '/img/logo-light.png'
@@ -13,16 +13,17 @@ const BlogPage2 = () => {
     <div className="">
       <div className="spinner" />
     </div>{" "}
-    {/* /.preloader */}
-
-    <Header/>
+       <header className="header header-home-one inner-page-header">
+      <Headers/>
     <Navbar/>
+    </header>
+   
  
     {/* /.header */}
     <section className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Blog Page</h2>
+          <h2 className="pull-left">Media Page</h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>
@@ -151,45 +152,8 @@ DBM will continue to be the preferred method for construction of hydro tunnels. 
 
                 </div>
               </div>
-              <div className="share-box">
-                <ul className="share-list">
-                  <li className="facebook">
-                    <a href="#">
-                      <i className="fab fa-facebook-square" />
-                      Share
-                    </a>
-                  </li>
-                  <li className="twitter">
-                    <a href="#">
-                      <i className="fab fa-twitter-square" />
-                      Tweet
-                    </a>
-                  </li>
-                  <li className="google">
-                    <a href="#">
-                      <i className="fab fa-google-plus" />
-                      Google +
-                    </a>
-                  </li>
-                 
-                 
-                </ul>
-              </div>
-              <div className="post-navigation">
-                <ul className="post-list clearfix">
-                  <li className="prev">
-                    <a href="#">
-                      <i className="fa fa-caret-left" />
-                      Previous Post
-                    </a>
-                  </li>
-                  <li className="next">
-                    <Link to="/blog/1"> 
-                      Next Post <i className="fa fa-caret-right" />
-                    </  Link>
-                  </li>
-                </ul>
-              </div>
+             
+             
              
             
            

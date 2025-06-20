@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Components/Header'
+import Headers from '../Components/Header'
 import Navbar from '../Components/Navbar'
 import Fottter from '../Components/Fottter'
 import navbarimg from '/img/logo-light.png'
@@ -10,17 +10,18 @@ const BlogPage = () => {
     <div className="active-preloader-ovh">
     <div className="">
       <div className="spinner" />
-    </div>{" "}
-    {/* /.preloader */}
-
-    <Header/>
+    </div>
+       <header className="header header-home-one inner-page-header">
+      <Headers/>
     <Navbar/>
+    </header>
+   
  
     {/* /.header */}
     <section className="inner-banner">
       <div className="inner">
         <div className="thm-container clearfix">
-          <h2 className="pull-left">Media Page</h2>
+          <h2 className="pull-left">Blog Page</h2>
           <ul className="breadcrumb pull-right">
             <li>
               <a href="index.html">Home</a>

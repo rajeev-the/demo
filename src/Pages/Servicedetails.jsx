@@ -108,7 +108,7 @@ const [product, setProduct] = useState(null);
       <p><strong>Project Name:</strong> {product?.Project_Name || "[Enter Project Name]"}</p>
       <p><strong>Prime Client:</strong> {product?.Prime_Client || "[Enter Prime Client]"}</p>
       <p><strong>Contractor:</strong> {product?.Contractor || "[Enter Contractor]"}</p>
-      <p><strong>Sub Contractor:</strong> {product?.Sub_Contractor || "Machino International"}</p>
+      <p><strong>Execution Contractor:</strong> {product?.Sub_Contractor || "Machino International"}</p>
       <p><strong>Scope of Work:</strong> {product?.Scope_of_Work || "[Enter Scope of Work]"}</p>
       <p><strong>Work Completion Status:</strong> {product?.Work_Completion_Status || "[Enter Completion Status]"}</p>
     </div>

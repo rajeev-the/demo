@@ -4347,3 +4347,16 @@ height: 45px;
   cursor: pointer;
 }
 
+
+.dropdown-menu li a {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  color: #ffa801; /* Orange on hover */
+}
+
+.dropdown.current > .dropdown-toggle {
+  color: #ffa801;
+}
