@@ -450,76 +450,7 @@ const About = () => {
     </div>
   </section>
 
-  <section className="sec-pad team-style-one">
-    <div className="thm-container">
-      <div className="row">
-        <div className="col-md-8 col-md-offset-2">
-          <div className="sec-title text-center">
-     
-            <h2>Our Team</h2>
-            <div className="line" />
-          
-          </div>
-        </div>
-        
-      </div>
-      
-      <div className="row">
-      
-        <Link  to={"/profile/2"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="team-box">
-            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"/>
-            <div className="team-box-content">
-              <h3 className="title"> </h3>
-              <span className="post">not found</span>
-              <a
-                className="icon"
-                href="mailto:someone@example.com"
-                title="Mail Me"
-              >
-                <i className="fa fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        </Link>
-        <Link  to={"/profile/3"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="team-box">
-            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
-            <div className="team-box-content">
-              <h3 className="title"> </h3>
-              <span className="post">not found</span>
-              <a
-                className="icon"
-                href="mailto:someone@example.com"
-                title="Mail Me"
-              >
-                <i className="fa fa-paper-plane" />
-              </a>
-            </div>
-          </div>
-        </Link>
-        <Link   to={"/profile/4"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-          <div className="team-box">
-            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
-            <div className="team-box-content">
-              <h3 className="title"> </h3>
-              <span className="post">not found</span>
-              <span
-                className="icon"
-                href="mailto:someone@example.com"
-                title="Mail Me"
-              >
-                <i className="fa fa-paper-plane" />
-              </span>
-            </div>
-          </div>
-        </Link>
-       
-      
-        
-      </div>
-    </div>
-  </section>
+  
 
  <Fottter img={navbarimg}/>
 </>
