@@ -84,6 +84,8 @@ useEffect(() => {
               
             </div>
 
+            
+
             <div className="blog-details-page ">
             <div className="thm-container">
             <section class="row">
@@ -109,6 +111,15 @@ useEffect(() => {
 </section>
 
             </div>
+             <div className="cer-btn-container">
+                  
+            
+                 <div>
+                  <Link to="/contact" className="enquiry-link">
+                    Enquiry
+                  </Link>
+                </div>
+                </div>
               
               </div>
 

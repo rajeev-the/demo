@@ -224,16 +224,7 @@ export const data = [
       content: "Compact batching plant CP-30 for consistent and efficient concrete mixing and delivery.",
       img: "/img/Batching.png"
     },
-    {
-      id: 14,
-      title: "CIFA CSSS-3",
-      content: "Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.",
-      img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
-       Make: "CIFA India",
-    Model: "CSS-3",
-    YOM: ""
 
-    },
      {
       id: 11,
       title: "Telehandler Up-to 11m Reach with Man Basket",
@@ -246,5 +237,16 @@ export const data = [
       content: "Heavy-duty dump trucks and transit mixers available for rent to support your material transport needs.",
       img: "/img/Trucks.png"
     },
+    {
+    id: 11,
+    title: "CIFA CSSS-3",
+    content: "Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.",
+    img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
+    Make: "CIFA India",
+    Model: "CSS-3",
+    YOM: ""
+  },
+
   ];
   
+   

@@ -61,10 +61,10 @@ const About = () => {
 
             </p>
             <p>
-            Founded in 2008, with a foundation built on over 30 years of industry experience,
-             Machino International Pvt. Ltd. (MIPL) is a leading name in India’s <br /> infrastructure development landscape.
-              We specialize in tunneling, slope protection, and geotechnical engineering, delivering technically demanding projects
-               with unwavering commitment to safety, sustainability, and quality.
+         Established in 2008, Machino International Pvt. Ltd. (MIPL) has rapidly evolved into a prominent force in India’s infrastructure development sector. Built upon a foundation of over three decades of technical excellence and hands-on industry experience, MIPL has consistently delivered high-performance solutions that meet the evolving needs of modern infrastructure.
+ <br />
+We specialize in tunneling, slope stabilization, and geotechnical engineering, where our projects are not only technically demanding but also executed with an uncompromising focus on safety, sustainability, and top-tier quality standards. From complex underground networks to steep terrain reinforcement, our methods are engineered to withstand the test of time and terrain.
+
 
             </p>
             <div className="icon-box mb0">
