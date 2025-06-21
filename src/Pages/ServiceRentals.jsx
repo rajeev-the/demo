@@ -58,11 +58,15 @@ const ServiceRentals = () => {
               <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`${item.id}`} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
             ))
            }
+
+
+
             
         </div>
         
       </div>
     </section>
+
 
 <div class="maintt">
   <Link to={"/contact"} class="enquiry-btn" >Equipments Enquiry</Link>

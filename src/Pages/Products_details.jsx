@@ -140,7 +140,7 @@ console.log(product?.img[0])
                     <h3>Quality</h3>
                     <p>
 
-                    tier equipment and service you can rely on—every project, every time.
+                    Where attention to detail meets commitment to top-tier results.
               
                     </p>
                   </div>
@@ -154,7 +154,7 @@ console.log(product?.img[0])
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>Super Safety</h3>
+                    <h3>Safety</h3>
                     <p>
                     Built-in safety features and strict protocols for total peace of mind.
                 
@@ -185,7 +185,7 @@ console.log(product?.img[0])
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>24/7 Support</h3>
+                    <h3>Support</h3>
                     <p>
                     Round-the-clock expert assistance, whenever and wherever you need it.
                       
@@ -201,6 +201,8 @@ console.log(product?.img[0])
           {/* /.single-blog-content */}
         </div>
         {/* /.col-md-9 */}
+
+
         <div className="col-md-3">
           <div className="sidebar">
             <div className="single-sidebar">

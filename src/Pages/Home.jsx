@@ -13,6 +13,7 @@ import PP from "../assets/profilepic/head.jpg"
 import {partners} from "../Data/profile"
 import PK from "../assets/profilepic/PK.jpg"
 import {products_data} from "../Data/Product"
+import {event_page} from "../Data/ourdata"
 
 import { data } from '../Data/Service'
 
@@ -24,22 +25,6 @@ const Home = () => {
 
 
 
-  const firstImages = [
-
-
-
-
-  "/img/prodcuts/button-bits-1.avif",
-  "/img/prodcuts/Couplings-1.avif",
-   "/img/prodcuts/Rods-1.avif",
-  "/img/prodcuts/Shanks-1.avif",
-     "/img/prodcuts/hower image.avif",
-        "/img/prodcuts/swellex.avif",
- 
-  "/img/prodcuts/2.avif",
-  "/img/prodcuts/3.avif",
-
-];
 
 
 
@@ -571,7 +556,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
   className="row masonary-layout filter-layout"
   data-filter-class="filter"
 >
-  {products_data.map((e, index) => (
+  {products_data.slice(0, 8).map((e, index) => (
          <div key={index} className="col-md-3 col-sm-6 col-xs-12 masonary-item single-filter-item painting">
           <div className="single-project-style-two">
             <div className="img-box">
@@ -1139,83 +1124,41 @@ With expertise spanning underground infrastructure, hydropower development, mini
           </div>
         </div>
       </div>
-      <div className="row">
-
-          <div style={{ 
-            marginRight:"20px",
-  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
-}}
-  className=" responsive-box col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-  <div className="single-blog-style-one">
-    <div className="img-box">
-      <img  style={
-        {
-          height:"200px"
-        }
-      } src={VIA} alt="Awesome Image" />
-      <div className="overlay">
-        <div className="box">
-          <div className="content">
-            <a href="#" className="fa fa-link" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="text-box">
-      <div className="meta-info">
+       <div className="event-flex-wrapper">
+              
+                <div  className="event-card">
+                  <Link to={`/blog/2`} className="event-card-link">
+                    <div className="img-box">
+                      <img src={VIA} alt="Event" className="event-img" />
+                      <div className="overlay">
+                        <div className="box">
+                         
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-box">
+                      <h2 className="event-title">The New Austrian Tunneling Method is increasingly...</h2>
+                    </div>
+                  </Link>
+                </div>
+                 <div  className="event-card">
+                  <Link to={`/blog/1`} className="event-card-link">
+                    <div className="img-box">
+                      <img src={NI} alt="Event" className="event-img" />
+                      <div className="overlay">
+                        <div className="box">
+                         
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-box">
+                      <h2 className="event-title">MIPL: Driving India’s Infrastructure with Tunneling Excellence...</h2>
+                    </div>
+                  </Link>
+                </div>
+              
+            </div>
       
-      </div>
-      {/* /.meta-info */}
-      <Link  to="/blog/2">
-        <h3 style={{
-          padding:"10px"
-        }} >The New Austrian Tunneling Method is increasingly...</h3>
-      </Link>
-     
-    </div>
-  </div>
-</div>
-      <div style={{
-       
-  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)'
-}}
-  className= " responsive-box   col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-  <div className="single-blog-style-one">
-    <div className="img-box">
-      <img  style={
-        {
-          height:"200px",
-    
-          
-        }
-      } src={NI} alt="Awesome Image" />
-      <div className="overlay">
-        <div className="box">
-          <div className="content">
-            <a href="#" className="fa fa-link" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="text-box">
-      <div className="meta-info">
-      
-      </div>
-      {/* /.meta-info */}
-      <Link  to="/blog/1">
-        <h3 style={{
-          padding:"10px"
-        }} >MIPL: Driving India’s Infrastructure with Tunneling Excellence</h3>
-      </Link>
-     
-    </div>
-  </div>
-</div>
-
-          {/* /.single-blog-style-one */}
-     
-     
-      </div>
     </div>
   </section>
 
@@ -1236,22 +1179,71 @@ With expertise spanning underground infrastructure, hydropower development, mini
       </div>
       <div className="row">
 
-      <div className="col-md-12 text-center">
-              <div
-                style={{
-                  padding: '50px 20px',
-                  border: '1px solid #e0e0e0',
-                  borderRadius: '10px',
-                  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.05)',
-                  backgroundColor: '#fff',
-                }}
-              >
-                <h3 style={{ color: '#777' }}>No events available right now.</h3>
-                <p style={{ marginTop: '10px', color: '#999' }}>
-                  Please check back later for upcoming events and announcements.
-                </p>
-              </div>
-            </div>
+
+ {              
+
+ event_page.slice(0,4).map((e)=>
+      <div
+  style={{
+    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+    maxWidth: '320px', // Control box width
+    margin: '10px auto', // Center on smaller screens
+    borderRadius: '8px',
+    overflow: 'hidden',
+    backgroundColor: '#fff'
+  }}
+  className="responsive-box col-xxs-12 col-xs-6 col-sm-6 col-md-4"
+>
+  <Link  to={`/events/${e.id}`}  className="single-blog-style-one">
+    <div className="img-box">
+      <img
+        style={{
+          height: '200px',
+          width: '100%',
+          objectFit: 'cover'
+        }}
+        src={e.src[0]}
+        alt="Awesome Image"
+      />
+      <div className="overlay">
+        <div className="box">
+          <div className="content">
+            <a href="#" className="fa fa-link" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div
+  className="text-box"
+  style={{
+    width: '100%',           // Full width within the parent
+    padding: '10px 15px',    // Internal padding
+    boxSizing: 'border-box', // Ensures padding doesn't break layout
+    minHeight: '85px',       // Optional: enforce consistent height
+    overflow: 'hidden',      // Prevents content spill
+        // Optional: center text
+  }}
+>
+  <div className="meta-info" />
+  <h2 style={{ fontSize: '2.1rem', margin: 0 }}>{e.title}</h2>
+</div>
+
+
+
+  </Link>
+</div>
+
+
+ )
+
+
+
+ }
+        
+    
+
+
 
           {/* /.single-blog-style-one */}
      

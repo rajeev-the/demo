@@ -46,10 +46,13 @@ const Header = () => {
             <div className="col-lg-5">
               <div className="right-contact-info text-right tac-smd">
                 <p className="social">
-                  <a href="#" className="fab fa-facebook-f" />
-                  <a href="#" className="fab fa-twitter" />
-                  <a href="#" className="fab fa-linkedin-in" />
-                  <a href="#" className="fab fa-google-plus-g" />
+                  <a href="https://www.facebook.com/p/Machino-International-100063894159919/"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-facebook-f" />
+                
+                  <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-linkedin-in" />
+                  <a href="https://www.machinoindia.com/"   target="_blank"
+  rel="noopener noreferrer" className="fab fa-google-plus-g" />
                 <a
   href="https://www.youtube.com/@mipl_int"
   target="_blank"

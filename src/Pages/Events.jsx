@@ -3,6 +3,7 @@ import Header from '../Components/Header';
 import Navbar from '../Components/Navbar';
 import Fottter from '../Components/Fottter';
 import navbarimg from '/img/logo-light.png';
+import {event_page} from "../Data/ourdata"
 import { Link } from 'react-router-dom';
 
 const Events = () => {
@@ -31,28 +32,32 @@ const Events = () => {
       </section>
 
       {/* Events Section */}
-      <section className="blog-details-page sec-pad">
-        <div className="thm-container">
-          <div className="row">
-            <div className="col-md-12 text-center">
-              <div
-                style={{
-                  padding: '50px 20px',
-                  border: '1px solid #e0e0e0',
-                  borderRadius: '10px',
-                  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.05)',
-                  backgroundColor: '#fff',
-                }}
-              >
-                <h3 style={{ color: '#777' }}>No events available right now.</h3>
-                <p style={{ marginTop: '10px', color: '#999' }}>
-                  Please check back later for upcoming events and announcements.
-                </p>
+   
+
+     <div className="event-section-container">
+  <div className="event-flex-wrapper">
+    {event_page.map((e) => (
+      <div key={e.id} className="event-card">
+        <Link to={`/events/${e.id}`} className="event-card-link">
+          <div className="img-box">
+            <img src={e.src[0]} alt="Event" className="event-img" />
+            <div className="overlay">
+              <div className="box">
+               
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <div className="text-box">
+            <h2 className="event-title">{e.title}</h2>
+          </div>
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>
+
+
+
 
       <Fottter img={navbarimg} />
     </div>

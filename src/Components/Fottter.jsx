@@ -20,11 +20,19 @@ const Fottter = ({img}) => {
               Founded in 2008 with over 30 years of expertise, Machino International Pvt. Ltd. excels in tunneling, slope protection, and geotechnical engineering, delivering safe, sustainable infrastructure solutions across India.
               </p>
               <div className="social">
-                <a href="#" className="fab fa-facebook-f" />
-                <a href="#" className="fab fa-twitter" />
-                <a href="#" className="fab fa-linkedin-in" />
-                <a href="#" className="fab fa-google-plus-g" />
-                <a href="#" className="fab fa-youtube" />
+               <a href="https://www.facebook.com/p/Machino-International-100063894159919/"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-facebook-f" />
+                
+                  <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-linkedin-in" />
+                  <a href="https://www.machinoindia.com/"   target="_blank"
+  rel="noopener noreferrer" className="fab fa-google-plus-g" />
+                <a
+  href="https://www.youtube.com/@mipl_int"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fab fa-youtube"
+/>
               </div>
             </div>
           </div>
@@ -53,10 +61,17 @@ const Fottter = ({img}) => {
                     <i className="fa fa-angle-right" />
                     Rentals
                   </Link>
-                    <Link to={'/PrivacyPolicy'}>
+                
+                </li>
+                <li>
+                   <Link to={'/PrivacyPolicy'}>
                     <i className="fa fa-angle-right" />
                     Privacy Policy
                   </Link>
+                </li>
+          
+                <li>
+
                 </li>
               
               </ul>
@@ -116,10 +131,14 @@ New Delhi - 110039, India
         </p>
       </div>
       <div className="right-social pull-right">
-        <a href="#" className="fab fa-facebook-f" />
-        <a href="#" className="fab fa-twitter" />
-        <a href="#" className="fab fa-linkedin-in" />
-        <a href="#" className="fab fa-google-plus-g" />
+       <a href="https://www.facebook.com/p/Machino-International-100063894159919/"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-facebook-f" />
+                
+                  <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  target="_blank"
+  rel="noopener noreferrer" className="fab fa-linkedin-in" />
+                  <a href="https://www.machinoindia.com/"   target="_blank"
+  rel="noopener noreferrer" className="fab fa-google-plus-g" />
+        
         <a
   href="https://www.youtube.com/@mipl_int"
   target="_blank"

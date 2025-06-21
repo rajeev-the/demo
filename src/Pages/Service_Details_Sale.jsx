@@ -71,15 +71,25 @@ useEffect(() => {
                 product?.content
                }
                 </p>
+                     <div className="project-details">
+      <p><strong>Equipment Name:</strong> {product?.Project_Name || "[Enter Project Name]"}</p>
+      <p><strong>Specifications:</strong> {product?.Prime_Client || "[Enter Prime Client]"}</p>
+      <p><strong>model:</strong> {product?.Contractor || "[Enter Contractor]"}</p>
+      <p><strong>Brand:</strong> {product?.Sub_Contractor || "Machino International"}</p>
+      <p><strong>Year Of Manufacturing:</strong> {product?.Scope_of_Work || "[Enter Scope of Work]"}</p>
+     
+    </div>
               </div>
+              
               
             </div>
 
             <div className="blog-details-page ">
             <div className="thm-container">
             <section class="row">
+              
   <div class="card shadow-lg border-0">
-    <div class="card-body p-4">
+    <div class="card-body ">
       <h2 style={
         {
             fontSize: "3rem",
@@ -119,7 +129,7 @@ useEffect(() => {
                     <h3>Quality</h3>
                     <p>
 
-                    tier equipment and service you can rely on—every project, every time.
+                   Where attention to detail meets commitment to top-tier results.
               
                     </p>
                   </div>
@@ -133,7 +143,7 @@ useEffect(() => {
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>Super Safety</h3>
+                    <h3>Safety</h3>
                     <p>
                     Built-in safety features and strict protocols for total peace of mind.
                 
@@ -164,7 +174,7 @@ useEffect(() => {
                     </div>
                   </div>
                   <div className="text-box">
-                    <h3>24/7 Support</h3>
+                    <h3>Support</h3>
                     <p>
                     Round-the-clock expert assistance, whenever and wherever you need it.
                       
