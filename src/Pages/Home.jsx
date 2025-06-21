@@ -784,7 +784,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
             />
             <div className="team-content">
               <h3 className="title">Mr. Vibhore Agarwal</h3>
-              <span className="post">Director 
+              <span className="post">Managing Director 
               </span>
               <ul className="social">
                
@@ -1143,8 +1143,9 @@ With expertise spanning underground infrastructure, hydropower development, mini
                 </div>
                  <div  className="event-card">
                   <Link to={`/blog/1`} className="event-card-link">
-                    <div className="img-box">
-                      <img src={NI} alt="Event" className="event-img" />
+                    <div className="event-img">
+                      <img  src={NI} alt="Event" className="event-img" />
+                                
                       <div className="overlay">
                         <div className="box">
                          

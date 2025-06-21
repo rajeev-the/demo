@@ -5,7 +5,7 @@ export const data = [
   {
     id: 1 ,
     img: ["/img/project-1-2.jpg"],
-    statustype:"ongoing",
+    statustype:"completed",
     title:"Ghodazari Branch Canal of Gosikhurd",
     subtitle:" Construction of Tunnel at Godhazari Branch Canal of Gosikhurd Project Below Railway Line - Nagbhid. Maharashtra",
     Project_Name: "Construction of Tunnel from RD 15466 to 15561 at Ghodazari Branch Canal of Gosikhurd Project below Railway line at Rly. Km. 1136/6-7 between Nagbhid-Talodhi Road station on Gondia-Chandafort Section (B.G)",
@@ -22,7 +22,7 @@ export const data = [
     img:["/img/project-1-1.png"],
     title:"Underground excavation and slope protection works of CCVT and ADIT",
     subtitle:" Construction of Tunnel Work for Cable Cum Ventilation Tunnel (CCTV) and ADIT to Power House Top - Dibang, Arunachal",
-     statustype:"ongoing",
+     statustype:"completed",
     
   
   },
@@ -48,7 +48,7 @@ export const data = [
               id: 5 ,
               img:["/img/project-1-7.jpg"],
               title:"Sri Siddharth Infratech & Service (I) Private Limited",
-               statustype:"ongoing",
+               statustype:"completed",
              
             
               },
@@ -56,7 +56,7 @@ export const data = [
       id: 6 ,
       img:["/img/project-1-3.jpg"],
       title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road",
-       statustype:"ongoing",
+       statustype:"completed",
      
     
       },
@@ -65,7 +65,7 @@ export const data = [
             id: 7 ,
             img:["/img/project-1-6.jpg"],
             title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir",
-             statustype:"ongoing",
+             statustype:"completed",
             
           
             },
@@ -76,6 +76,17 @@ export const data = [
               
               
                 },
+                {
+                  id:9,
+                  title:"Saundatti Pump Storage Project 1600 MW- Belgaum District, Karnataka",
+                  img:["/img/project-1-2.jpg"],
+                  Client:"Megha Engineering & Infrastructures Ltd.",
+                  Scope_of_Work:"Protection Works in MAT, VPS, Approach Road & Upper Intake",
+                  statustype:"ongoing",
+                 
+
+
+                }
 
 ]
 
@@ -131,19 +142,32 @@ export const data = [
       id: 1,
       title: "Hydraulic Drill Jumbo with Basket",
       content: "Powerful and reliable hydraulic drill jumbo suitable for underground operations, equipped with a man basket for elevated work.",
-      img: "/img/rental (2).jpg"
+      img: "/img/rental (2).jpg",
+    Make: "Sandvik Asia",
+    Model: "Ranger DX800",
+    YOM: ""
+
     },
     {
       id: 2,
       title: "Surface Drill Dx800             ",
       content: "Robust surface drill for quarrying and mining applications with precise drilling capability.",
-      img: "/img/img1.png"
+      img: "/img/img1.png",
+      Make: "Atlas Copco India Limited",
+       Model: "ROC D7",
+        YOM: ""
+
+
     },
     {
       id: 3,
       title: "Wet Shotcrete Machines 30m3/hr & 20m3/hr",
       content: "High-efficiency wet shotcrete machines available in 30m³/hr and 20m³/hr variants for tunneling and slope stabilization.",
-      img: "/img/2f3bd3_30747b16744847f2999a25757bd6f7c4~mv2.avif"
+      img: "/img/2f3bd3_30747b16744847f2999a25757bd6f7c4~mv2.avif",
+      Make: "Putzmeister Concrete Machines",
+    Model: "SPM 500 Wetkret",
+    YOM: ""
+
     },
     {
       id: 4,
@@ -173,7 +197,11 @@ export const data = [
       id: 8,
       title: "DG Set",
       content: "Durable and efficient DG Sets to provide uninterrupted power supply at your project site.",
-      img: "/img/DG Set.png"
+      img: "/img/DG Set.png",
+    Make: "Mahindra and Mahindra Limited",
+    Model: "3335 TCGM - C2",
+    YOM: "2018"
+
     },
     {
       id: 9,
@@ -200,7 +228,11 @@ export const data = [
       id: 14,
       title: "CIFA CSSS-3",
       content: "Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.",
-      img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif"
+      img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
+       Make: "CIFA India",
+    Model: "CSS-3",
+    YOM: ""
+
     },
      {
       id: 11,

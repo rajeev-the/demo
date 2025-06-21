@@ -63,7 +63,7 @@ const ServiceExecution = () => {
           item.statustype =="ongoing"   ?     <Link to={`/service/${item.id}`} key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
   <div className="single-what-we-do">
     <div className="img-box">
-      <img src={item.img[0]} alt="Awesome Image" />
+      <img src={item?.img[0]} alt="Awesome Image" />
       
        <h4  style={{
     minHeight: '3.5em', // Ensures consistent height

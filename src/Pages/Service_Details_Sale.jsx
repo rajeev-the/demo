@@ -72,11 +72,11 @@ useEffect(() => {
                }
                 </p>
                      <div className="project-details">
-      <p><strong>Equipment Name:</strong> {product?.Project_Name || "[Enter Project Name]"}</p>
+
       <p><strong>Specifications:</strong> {product?.Prime_Client || "[Enter Prime Client]"}</p>
-      <p><strong>model:</strong> {product?.Contractor || "[Enter Contractor]"}</p>
-      <p><strong>Brand:</strong> {product?.Sub_Contractor || "Machino International"}</p>
-      <p><strong>Year Of Manufacturing:</strong> {product?.Scope_of_Work || "[Enter Scope of Work]"}</p>
+      <p><strong>model:</strong> {product?.Model || "[Enter Contractor]"}</p>
+      <p><strong>Brand:</strong> {product?.Make || "Machino International"}</p>
+      <p><strong>Year Of Manufacturing:</strong> {product?.YOM || "[Enter Scope of Work]"}</p>
      
     </div>
               </div>

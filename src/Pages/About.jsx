@@ -381,7 +381,7 @@ const About = () => {
             <img src={VA}/>
             <div className="team-box-content">
               <h3 className="title">Mr. Vibhore Agarwal</h3>
-              <span className="post">Director</span>
+              <span className="post">Managing Director</span>
               <a
                 className="icon"
                 href="mailto:someone@example.com"

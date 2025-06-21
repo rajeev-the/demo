@@ -37,12 +37,5 @@ anunal3
     date: "2025-06-04 to 2025-06-05",
     src:[anunal17]
   },
-    {
-    id: 4,
-    title: "17th Annual Conference",
-    topic: "Tunnel Construction in India",
-    venue: "Holiday Inn, Mumbai",
-    date: "2025-06-04 to 2025-06-05",
-    src:[anunal17]
-  }
+  
 ];

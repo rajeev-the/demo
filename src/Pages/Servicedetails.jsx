@@ -154,7 +154,7 @@ const [product, setProduct] = useState(null);
                     <h3>Quality</h3>
                     <p>
 
-                    tier equipment and service you can rely on—every project, every time.
+                      Where attention to detail meets commitment to top-tier results.
               
                     </p>
                   </div>
