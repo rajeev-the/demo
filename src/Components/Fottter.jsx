@@ -93,12 +93,10 @@ const Fottter = ({img}) => {
               </p>
               <p>
                 <i className="far fa-clock" />
-                Mon - Fri: 9:00 - 21:00
+                Mon - Fri: 10:00 - 6:00
               </p>
               <p>
-                <i className="fa fa-map-marker" />ON - 261, Sector -1, Bawana Industrial Area
-
-New Delhi - 110039, India
+                <i className="fa fa-map-marker" />N-261, O block, Sector 1, Bawana industrial area, New Delhi 110039
               </p>
             </div>
           </div>

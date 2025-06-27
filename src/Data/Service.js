@@ -137,116 +137,71 @@ export const data = [
   
 
 
-  export const data1 = [
-    {
-      id: 1,
-      title: "Hydraulic Drill Jumbo with Basket",
-      content: "Powerful and reliable hydraulic drill jumbo suitable for underground operations, equipped with a man basket for elevated work.",
-      img: "/img/rental (2).jpg",
-    Make: "Sandvik Asia",
-    Model: "Ranger DX800",
-    YOM: ""
-
-    },
-    {
-      id: 2,
-      title: "Surface Drill Dx800             ",
-      content: "Robust surface drill for quarrying and mining applications with precise drilling capability.",
-      img: "/img/img1.png",
-      Make: "Atlas Copco India Limited",
-       Model: "ROC D7",
-        YOM: ""
 
 
-    },
-    {
-      id: 3,
-      title: "Wet Shotcrete Machines 30m3/hr & 20m3/hr",
-      content: "High-efficiency wet shotcrete machines available in 30m³/hr and 20m³/hr variants for tunneling and slope stabilization.",
-      img: "/img/2f3bd3_30747b16744847f2999a25757bd6f7c4~mv2.avif",
-      Make: "Putzmeister Concrete Machines",
-    Model: "SPM 500 Wetkret",
-    YOM: ""
 
-    },
-    {
-      id: 4,
-      title: "Pneumatic Crawler Drill With Compressor",
-      content: "Versatile pneumatic crawler drill paired with a high-power compressor, ideal for drilling in tough terrain.",
-      img: "/img/Pneumatic.png"
-    },
-    {
-      id: 5,
-      title: "Grout Pumps                              ",
-      content: "Reliable grout pumps suitable for a wide range of injection grouting applications.",
-      img: "/img/Pumps.png"
-    },
-    {
-      id: 6,
-      title: "Tunnel Excavator - EX 200 - Tunnel Variant With Breaker",
-      content: "Special tunnel variant of EX 200 with hydraulic breaker attachment for efficient excavation in confined spaces.",
-      img: "/img/Excavator.png"
-    },
-    {
-      id: 7,
-      title: "Excavator Mounted - Height Drilling ",
-      content: "Drilling machine mounted on excavator arm for high-reach operations .",
-      img: "/img/Mounted.png"
-    },
-    {
-      id: 8,
-      title: "DG Set",
-      content: "Durable and efficient DG Sets to provide uninterrupted power supply at your project site.",
-      img: "/img/DG Set.png",
-    Make: "Mahindra and Mahindra Limited",
-    Model: "3335 TCGM - C2",
-    YOM: "2018"
-
-    },
-    {
-      id: 9,
-      title: "Side Dump Wheel Loader - SDLG",
-      content: "Reliable SDLG side dump wheel loader for efficient material handling in tunnels and confined areas.",
-      img: "/img/Side.png"
-    },
-   
-   
-    
-    {
-      id: 12,
-      title: "EOT Crane-30T",
-      content: "High-capacity EOT crane with 30-ton lifting ability for industrial and construction site operations.",
-      img: "/img/EOT.png"
-    },
-    {
-      id: 13,
-      title: "Batching Plant CP-30",
-      content: "Compact batching plant CP-30 for consistent and efficient concrete mixing and delivery.",
-      img: "/img/Batching.png"
-    },
-
-     {
-      id: 11,
-      title: "Telehandler Up-to 11m Reach with Man Basket",
-      content: "Telehandlers with up to 11-meter reach and man basket for safe and efficient lifting operations.",
-      img: "/img/Telehandler.png"
-    },
-     {
-      id: 10,
-      title: "Dump Trucks & Transit Mixture",
-      content: "Heavy-duty dump trucks and transit mixers available for rent to support your material transport needs.",
-      img: "/img/Trucks.png"
-    },
-    {
-    id: 11,
-    title: "CIFA CSSS-3",
-    content: "Our Drill Jumbo rental service provides powerful and reliable equipment for all your underground drilling needs.",
-    img: "/img/2f3bd3_1d6649dc33414554a493b6d8e857f9fc~mv2.avif",
-    Make: "CIFA India",
-    Model: "CSS-3",
-    YOM: ""
+export const data1=  [
+  {
+    "id": 1,
+    "title": "Wet Shotcrete Machine",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.53%20PM.jpeg?updatedAt=1751034200774"
   },
+  {
+    "id": 2,
+    "title": "Drill Jumbo",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.54%20PM.jpeg?updatedAt=1751034200502"
+  },
+  {
+    "id": 3,
+    "title": "Excavators",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.55%20PM%20(1).jpeg?updatedAt=1751034200562"
+  },
+  {
+    "id": 4,
+    "title": "Surface Drill",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.55%20PM.jpeg?updatedAt=1751034200535"
+  },
+  {
+    "id": 5,
+    "title": "ROC compressor",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.56%20PM.jpeg?updatedAt=1751034200749"
+  },
+  {
+    "id": 6,
+    "title": "Boomer",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.57%20PM.jpeg?updatedAt=1751034200675"
+  },
+  {
+    "id": 7,
+    "title": "Transit Mixture",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.58%20PM%20(1).jpeg?updatedAt=1751034200738"
+  },
+  {
+    "id": 8,
+    "title": "Batching Plant",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.58%20PM.jpeg?updatedAt=1751034200753"
+  },
+  {
+    "id": 9,
+    "title": "Concrete Pump",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.59%20PM.jpeg?updatedAt=1751034200595"
+  },
+  {
+    "id": 10,
+    "title": "Tippers (Dumpers)",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.47.00%20PM.jpeg?updatedAt=1751034200671"
+  },
+  {
+    "id": 11,
+    "title": "TeleHandlers",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.47.01%20PM%20(1).jpeg?updatedAt=1751034204456"
+  },
+  {
+    "id": 12,
+    "title": "Gensets",
+    "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.47.01%20PM.jpeg?updatedAt=1751034204980"
+  }
+]
 
-  ];
   
    

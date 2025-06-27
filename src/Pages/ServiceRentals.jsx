@@ -47,25 +47,67 @@ const ServiceRentals = () => {
     </section>
     {/* /.inner-banner */}
     
-    <section className="sec-pad what-we-do gray-bg">
-    
-      <div className="thm-container">
-      <h1 className='text-start'>Our Equipments</h1>
-        <div className="row  ">
+
+  
             
-           {
-            data1.map((item) => (
-              <BoxofProdcuts key={item.id} title={item.title} img={item.img} link={`${item.id}`} content={item.content} icons={"hialeah-icon-bulldozer-1"} />
-            ))
-           }
+            <section className="sec-pad what-we-do gray-bg">
+               
+                 <div className="thm-container">
+                 <h1 className='text-start'>Our Equipments</h1>
+                   <div className="row">
+                       
+                      {
+                       data1.map((item) => (
+           
+                         
+                      <div  key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+             <div className="single-what-we-do">
+               <div className="img-box">
+                 <img style={{
+                  height:"200px",
+                 }} src={item?.src} alt="Awesome Image" />
+                 
+                  <h4  style={{
+               minHeight: '1.5em', // Ensures consistent height
+               display: 'block',
+               overflow: 'hidden',
+               textOverflow: 'ellipsis',
+              
+             }} className='demo'> 
+                           
+              {item.title ? (
+               <>
+                 {item?.title}
+            
+               </>
+             ) : (
+               'No title available'
+             )}
+             
+             </h4>
+              
+               </div>
+              
+             </div>
+           </div>
+           
+                       ))
+                      }
+                       
+                   </div>
+           
+                     
+                     
+                       
+                
+                   
+                 </div>
+               </section>
 
 
 
             
-        </div>
-        
-      </div>
-    </section>
+       
 
 
 <div class="maintt">

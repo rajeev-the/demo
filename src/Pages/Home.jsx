@@ -635,7 +635,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
             <div className="img-box">
               <img style={{
                 height:"200px"
-              }} src={e.img} alt="Awesome Image" />
+              }} src={e.src} alt="Awesome Image" />
               <div className="overlay">
                 <div className="box">
                   <div className="content">

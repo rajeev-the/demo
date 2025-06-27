@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const BoxofProdcuts = ({title,img,content,link , icons}) => {
+const BoxofProdcuts = ({title,img,content , icons}) => {
   return (
       <>
       
-      <Link to={`/rental/${link}`} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
+      <div  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
             <div className="single-what-we-do">
               <div className="img-box">
                 <img  src={img} alt="Awesome Image" />
@@ -33,7 +33,7 @@ const BoxofProdcuts = ({title,img,content,link , icons}) => {
               </div>
               {/* /.content-box */}
             </div>
-          </Link>
+          </div>
        
       
       </>
