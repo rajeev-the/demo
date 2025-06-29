@@ -222,6 +222,7 @@ export const products_data = [
         id:12,
         title:"GROUT SWIVEL",
         content:" Grout Swivels are used for simultaneous drilling and grout installation, to inject grout into the bore of rotating Hollow Bar ",
+    
         img :[
        "/img/prodcuts/grouting_1.jpg",
       
@@ -233,7 +234,7 @@ export const products_data = [
         prodcut_type : "Grouting",
         content1:`<img src="/img/prodcuts/grouting_2.jpg" alt="Grouting Image" style="max-width: 100%; height: auto; display: block;"> <h2>Installation Process:</h2><ul><li><strong>Step-1:</strong> Begin drilling using standard drilling equipment with rotary injection adapter or Grout swivel.</li><li><strong>Step-2:</strong> Extension of the SDA by using couplers.</li><li><strong>Step-3:</strong> As drilling progresses, grout is injected simultaneously through the adaptor, ensuring continuous filling.</li><li><strong>Step-4:</strong> Once the grout is cured, the SDA installation is completed.</li></ul>  ` ,
         content3:"<h2>Key Benefits of the Grout Swivel:</h2><ul><li>Enhanced Efficiency</li><li>Improved Precision</li><li>Cost-Effective</li><li>Space Optimization</li><li>Reduced Equipment Mobilization Time</li></ul>",
-        content4:"<h2>Conclusion:</h2><p>By attaching the Rotary Injection Adaptor to existing drilling equipment, we can simultaneously carry out both operations, enhancing productivity, reducing costs, and ensuring precision in grouting.</p>",
+        content4:"<section><h2>Grout Swivel</h2><p>MIPL keeps a large stock of finished thread combinations in stock HD shanks.</p><p>Assembly consists of a <strong>Grout Body</strong> and a <strong>Rotojec Shank</strong>. In order to have a complete Grout Swivel Assembly, you must order both.</p><p>Threads will be <strong>left-hand</strong> unless we are notified of <strong>right-hand</strong> requirements.</p><div><h3>HD Rotojec Shank Sizes:</h3><ul><li>T38XR32HD</li><li>T38XR38HD</li><li>T38XR51HD</li><li>T38XT76HD</li></ul></div><p>For any other thread combination, please feel free to <a href=\"mailto:support@mipl.com\">contact us</a>.</p></section> <h2>Conclusion:</h2><p>By attaching the Rotary Injection Adaptor to existing drilling equipment, we can simultaneously carry out both operations, enhancing productivity, reducing costs, and ensuring precision in grouting.</p>",
   
        
 

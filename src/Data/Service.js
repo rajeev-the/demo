@@ -8,6 +8,7 @@ export const data = [
     statustype:"completed",
     title:"Ghodazari Branch Canal of Gosikhurd",
     subtitle:" Construction of Tunnel at Godhazari Branch Canal of Gosikhurd Project Below Railway Line - Nagbhid. Maharashtra",
+    
     Project_Name: "Construction of Tunnel from RD 15466 to 15561 at Ghodazari Branch Canal of Gosikhurd Project below Railway line at Rly. Km. 1136/6-7 between Nagbhid-Talodhi Road station on Gondia-Chandafort Section (B.G)",
     Prime_Client: "Vidarbha Irrigation Development Corporation Nagpur (VIDC)",
     Contractor: "NCPL-MIPL JV",
