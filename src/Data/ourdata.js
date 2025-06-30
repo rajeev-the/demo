@@ -3,7 +3,7 @@
 export const event_page = [
   {
     id: 1,
-    title: "3rd Annual Conference",
+    title: "3rd Annual Conference North India Opportunities",
     topic: "Tunnel Construction – North India Opportunities",
     venue: "Le Meridien, New Delhi",
     date: "2024-11-25 to 2024-11-26",
@@ -51,7 +51,7 @@ export const event_page = [
   },
   {
     id: 2,
-    title: "Bauma Conexpo INDIA",
+    title: "Bauma Conexpo India 2024",
     venue: "India Expo Centre, Greater Noida/Delhi NCR",
     date: "2024-12-11 to 2024-12-14",
     src:["https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.42_d6486678.jpg?updatedAt=1751030615107"
@@ -67,7 +67,7 @@ export const event_page = [
   },
   {
     id: 3,
-    title: "Tunnelling Association of India",
+    title: "Inaugural Function of the World Tunnel Day",
     topic: "World Tunnel Day",
     venue: "Scope Convention Centre, Lodhi Road, New Delhi",
     date: "2024-12-04",
@@ -81,7 +81,7 @@ export const event_page = [
   },
   {
     id: 4,
-    title: "17th Annual Conference",
+    title: "17th Annual Conference Tunnel Construction India",
     topic: "Tunnel Construction in India",
     venue: "Holiday Inn, Mumbai",
     date: "2025-06-04 to 2025-06-05",
