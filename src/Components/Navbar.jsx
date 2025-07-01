@@ -73,7 +73,7 @@ const Navbar = () => {
               </span>
               <ul className="dropdown-menu">
                 <li><NavLink to="/service/execution" className={({ isActive }) => (isActive ? 'current' : '')}>Execution</NavLink></li>
-                <li><NavLink to="/service/rentals" className={({ isActive }) => (isActive ? 'current' : '')}>Rentals</NavLink></li>
+                <li><NavLink to="/service/rentals" className={({ isActive }) => (isActive ? 'current' : '')}>Equipment Assets</NavLink></li>
               </ul>
             </li>
 

@@ -466,7 +466,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
             <span> manufacturing </span>
           </li>
           <li onClick={()=>setValue("Rental")}   className={`filter ${value === "Rental" ? "active" : ""}`} data-filter=".painting">
-          <span >Rental</span>
+          <span >Equipment assets</span>
           </li>
         
         </ul>
