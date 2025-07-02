@@ -179,7 +179,9 @@ const About = () => {
 
       {/* Looking Ahead */}
       <section className="future-section">
-        <h2>Looking Ahead</h2>
+        <h2 style={{
+          color: "white",
+        }} >Looking Ahead</h2>
         <p className="future-text">
           MIPL continues to strengthen its position as a forward-thinking, solutions-driven organization in the infrastructure space. With a focus on technological advancement, safety compliance, and sustainable development, MIPL remains committed to delivering robust, future-ready infrastructure that supports India's growth story.
         </p>
