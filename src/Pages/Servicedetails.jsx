@@ -94,6 +94,7 @@ const [product, setProduct] = useState(null);
 
               
             </div>
+            
 
             <div className="blog-details-page ">
               <h3>{product?.subtitle}</h3>

@@ -60,70 +60,10 @@ const About = () => {
             Engineering India’s Infrastructure with Innovation and Integrity
 
             </p>
-            <div className="about-container">
-    
+       <div>
+     Machino International Pvt. Ltd. (MIPL) is a leading provider of infrastructure solutions with a strong footprint in India’s tunneling and geotechnical sectors. Established in 2008, MIPL builds on a legacy spanning over 40 years. The company was founded by Mr. Pradeep Kumar Agarwal, a visionary leader whose expertise and strategic guidance continue to shape its growth and success.
 
-      <div className="about-section">
-        <h2 className="section-heading">Machino International Pvt. Ltd. (MIPL)</h2>
-        <p><strong>Incorporated:</strong> 2008</p>
-        <p><strong>Headquarters:</strong> India</p>
-        <p><strong>Core Specializations:</strong> Tunneling, Slope Protection, Rock Support Systems, Geotechnical Engineering</p>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Company Overview</h2>
-        <p>
-          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India’s tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader <strong>Mr. Pradeep Kumar Agarwal</strong>, whose experience and strategic insight continue to drive the organization.
-        </p>
-        <p>
-          Initially focused on trading tunneling tools and spare parts, MIPL catered to reputed clients such as the <strong>Border Roads Organisation (BRO)</strong>, <strong>Military Engineering Services (MES)</strong>, and <strong>National Hydroelectric Power Corporation (NHPC)</strong>. Over time, the company diversified into manufacturing and engineering services, responding to the evolving demands of India's growing infrastructure sector.
-        </p>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Business Evolution & Capabilities</h2>
-        <ul>
-          <li><strong>Manufacturing:</strong> Precision-engineered tunneling and rock support systems built for durability in tough environments.</li>
-          <li><strong>Equipment Rentals:</strong> Advanced equipment such as Drill Jumbos and Shotcrete Machines available for efficient project execution.</li>
-          <li><strong>Project Execution:</strong> Trusted contractor for tunneling, slope stabilization, and geotechnical engineering projects.</li>
-        </ul>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Sectors Served</h2>
-        <ul>
-          <li>Hydropower Projects</li>
-          <li>Railway Infrastructure</li>
-          <li>Irrigation Tunnels</li>
-          <li>Public Sector Projects (PSPs)</li>
-        </ul>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Leadership & Vision</h2>
-        <p>
-          Under the leadership of <strong>Mr. Pradeep Kumar Agarwal</strong>, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled the company to execute high-value, complex infrastructure assignments across diverse terrains and conditions.
-        </p>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Our Values</h2>
-        <ul>
-          <li>Technical Expertise</li>
-          <li>Safety-First Approach</li>
-          <li>Sustainable Practices</li>
-          <li>Commitment to Quality</li>
-          <li>Client-Centric Delivery</li>
-        </ul>
-      </div>
-
-      <div className="about-section">
-        <h2 className="section-heading">Looking Ahead</h2>
-        <p>
-          MIPL continues to strengthen its position as a forward-thinking, solutions-driven organization in the infrastructure space. With a focus on technological advancement, safety compliance, and sustainable development, MIPL remains committed to delivering robust, future-ready infrastructure that supports India’s growth story.
-        </p>
-      </div>
-    </div>
+       </div>
             
          
             <div className="icon-box mb0">
@@ -154,6 +94,97 @@ const About = () => {
       </div>
     </div>
   </section>
+
+   <div className="about-container">
+      {/* Header Section */}
+      <header className="about-header">
+        <h1>About <span className="highlight">Machino International Pvt. Ltd.</span></h1>
+        <div className="header-info">
+          <p>Incorporated: 2008</p>
+          <p>Headquarters: India</p>
+        </div>
+      </header>
+
+      {/* Core Specializations */}
+      <section className="specializations">
+        <h2>Core Specializations</h2>
+        <div className="spec-grid">
+          <div className="spec-card">Tunneling</div>
+          <div className="spec-card">Slope Protection</div>
+          <div className="spec-card">Rock Support Systems</div>
+          <div className="spec-card">Geotechnical Engineering</div>
+        </div>
+      </section>
+
+      {/* Company Overview */}
+      <section className="overview-section">
+        <h2>Company Overview</h2>
+        <p className="overview-text">
+          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India's tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader <span className="highlight-text">Mr. Pradeep Kumar Agarwal</span>, whose experience and strategic insight continue to drive the organization.
+        </p>
+        <p className="overview-text">
+          Initially focused on trading tunneling tools and spare parts, MIPL catered to reputed clients such as the Border Roads Organisation (BRO), Military Engineering Services (MES), and National Hydroelectric Power Corporation (NHPC). Over time, the company diversified into manufacturing and engineering services.
+        </p>
+      </section>
+
+      {/* Business Evolution */}
+      <section className="evolution-section">
+        <h2>Business Evolution & Capabilities</h2>
+        <div className="capabilities-grid">
+          <div className="cap-card">
+            <h3>Manufacturing</h3>
+            <p>Precision-engineered tunneling and rock support systems designed for performance and durability</p>
+          </div>
+          <div className="cap-card">
+            <h3>Equipment Rentals</h3>
+            <p>Advanced tunneling equipment including Drill Jumbos and Shotcrete Machines</p>
+          </div>
+          <div className="cap-card">
+            <h3>Project Execution</h3>
+            <p>Expertise in tunnel construction, slope stabilization, and geotechnical projects</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Sectors Served */}
+      <section className="sectors-section">
+        <h2>Sectors Served</h2>
+        <ul className="sectors-list">
+          <li>Hydropower Projects</li>
+          <li>Railway Infrastructure</li>
+          <li>Irrigation Tunnels</li>
+          <li>Public Sector Projects (PSPs)</li>
+        </ul>
+      </section>
+
+      {/* Leadership */}
+      <section className="leadership-section">
+        <h2>Leadership & Vision</h2>
+        <div className="leadership-card">
+          <p>Under the leadership of <span className="highlight-text">Mr. Pradeep Kumar Agarwal</span>, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled successful execution of high-value infrastructure projects across diverse terrains.</p>
+        </div>
+      </section>
+
+      {/* Values */}
+      <section className="values-section">
+        <h2>Our Values</h2>
+        <div className="values-grid">
+          <div className="value-pill">Technical Expertise</div>
+          <div className="value-pill">Safety-First Approach</div>
+          <div className="value-pill">Sustainable Practices</div>
+          <div className="value-pill">Commitment to Quality</div>
+          <div className="value-pill">Client-Centric Delivery</div>
+        </div>
+      </section>
+
+      {/* Looking Ahead */}
+      <section className="future-section">
+        <h2>Looking Ahead</h2>
+        <p className="future-text">
+          MIPL continues to strengthen its position as a forward-thinking, solutions-driven organization in the infrastructure space. With a focus on technological advancement, safety compliance, and sustainable development, MIPL remains committed to delivering robust, future-ready infrastructure that supports India's growth story.
+        </p>
+      </section>
+    </div>
 
 
 

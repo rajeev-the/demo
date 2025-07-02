@@ -33,6 +33,9 @@ const Events = () => {
 
       {/* Events Section */}
    
+   
+
+
 
      <div className="event-section-container">
   <div className="event-flex-wrapper">

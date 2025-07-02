@@ -83,38 +83,43 @@ const MediaPage = () => {
       </button>
     </div>
   
-              <div className="text-box">
-               
-               <h2><strong> {product?.title} </strong> </h2>
-                
-               
-              </div>
+             
               
             </div>
 
-            <div className="blog-details-page ">
-            <div className="thm-container">
-            <section className="row">
-  <div className="card shadow-lg border-0">
-    <div className="card-body p-4">
-     
-    <div className="project-details">
-      <p><strong>Topic:</strong> {product?.topic || "[Topic]"}</p>
-      <p><strong>Venue :</strong> {product?.venue || "[Venue]"}</p>
-      <p><strong>Date:</strong> {product?.date || "[Date]"}</p>
-      
-    </div>
 
-    
-   
-    </div>
-  </div>
-</section>
-
-            </div>
-              
+            
+                        <div className="blog-details-page ">
+                          
+                            <h1>{product?.title}</h1>
+                            <br />
+                          
+                        <div className="thm-container">
+                          
+                        <section className="row">
+                        
+                         
+              <div className="card shadow-lg border-0">
+                <div className="card-body p-4">
+                <div className="project-details">
+                  <p><strong>Topic:</strong>{product?.topic || "[Topic]"}</p>
+                  <p><strong>Venue:</strong>{product?.venue || "[Venue]"}</p>
+                  <p><strong>Date:</strong>  {product?.date || "[Date]"}</p>
+                 
+                </div>
+            
+            
+            
+               
+                </div>
               </div>
+            </section>
+            
+                        </div>
+                          
+                          </div>
 
+          
             
 
             
@@ -188,6 +193,9 @@ const MediaPage = () => {
     </div>
   </section>
   {/* /.blog-details-page */}
+
+
+  
 
   {/* /.footer */}
   </div>
