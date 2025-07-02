@@ -1227,7 +1227,20 @@ With expertise spanning underground infrastructure, hydropower development, mini
   }}
 >
   <div className="meta-info" />
-  <h2 style={{ fontSize: '2.1rem', margin: 0 }}>{e.title}</h2>
+  <h2 style={{ fontSize: '1.8rem', }}>
+
+
+    {e.title ? (
+    <>
+      {e.title.split(' ').slice(0, 8).join(' ')}
+  ....
+    </>
+  ) : (
+    'No title available'
+  )}
+  </h2>
+  
+  
 </div>
 
 

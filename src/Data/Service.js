@@ -1,93 +1,148 @@
 // data.js
 
 export const data = [
-
-  {
-    id: 1 ,
-    img: ["/img/project-1-2.jpg"],
-    statustype:"completed",
-    title:"Ghodazari Branch Canal of Gosikhurd",
-    subtitle:" Construction of Tunnel at Godhazari Branch Canal of Gosikhurd Project Below Railway Line - Nagbhid. Maharashtra",
-   Project_Name: "Construction of Tunnel from RD 15466 to 15561 at Ghodazari Branch Canal of Gosikhurd Project below Railway line at Rly. Km. 1136/6-7 between Nagbhid-Talodhi Road station on Gondia-Chandafort Section (B.G)",
-  Prime_Client: "Vidarbha Irrigation Development Corporation Nagpur (VIDC)",
-  Contractor: "NCPL-MIPL JV",
-   Sub_Contractor: "Machino International",
-   Scope_of_Work: "Construction of Tunnel from Vertical Shaft: Length-95 m, Cross Sectional Area-78 Sqm & Dia- 8.05m",
-   Work_Completion_Status: "34.04 Crs (70% Completed)"
-    
-   
-  
-    },  {
-    id: 2 ,
-    img:["/img/project-1-1.png"],
-    title:"Underground excavation and slope protection works of CCVT and ADIT",
-    subtitle:" Construction of Tunnel Work for Cable Cum Ventilation Tunnel (CCTV) and ADIT to Power House Top - Dibang, Arunachal",
-     statustype:"completed",
-    
-  
-  },
     {
-          id: 3 ,
-          img:["/img/project-1-5.jpg" , "/img/project_3_2.jpg"],
-          title:"Slope Protection Works - Dibang DT Inlet works",
-          subtitle:"Construction of Tunnel Work for New Railway Line Project in East Coast Railway, Odisha-Boudh District",
-           statustype:"ongoing",
-         
-        
-          },
+        "id": 1,
+        "title": "Irrigation Project (WRD) – Nagbhid, Maharahtra",
+        "project_status": "OnGoing",
+        "project_name": "Construction of Tunnel From RD 15466 to 15461 at Ghodazari Branch Canal of Gosikhurd Project below Railway Line at Rly. Km 1136/6-7 between Naghid-Talodhi Road Station on Gondia-Chandafort Section (B.G)",
+        "prime_client": "Vidarbha Irrigation Development Corporation (VIDC), Nagpur - Maharahtra",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Construction of Critical Tunnel Excavation Work of 95 Mtrs with Linning Length of 106 Mtrs from RD 15466 to 15561 at Gadhazari Branch Canal of Gosikhurd Project Below Railway Line.",
+        "work_specification": "Construction of Tunnel from Vertical Shaft – Cross Section Area 78 sqm & Dia 8.1 mtr",
+        "work_completion_status": "95% Completed",
+        "year": "2024-2025",
+        "subtitle": "Tunnel Project | VIDC, Nagpur",
+        "img": ["/img/project-1-2.jpg"]
+    },
+    {
+        "id": 2,
+        "title": "Hydropower Project - CCTV & ADIT Tunnel at Dibang, Arunachal",
+        "project_status": "Completed",
+        "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
+        "prime_client": "NHPC",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Construction of Tunnel Excavation Work at CCVT of 468 Mtrs and ADIT of 325 Mtrs",
+        "work_specification": "Cross Sectional Area - 70 Sqm and Dia 8.0 Mtrs",
+        "work_completion_status": "100% Completed",
+        "year": "2024-2025",
+        "subtitle": "Tunnel Works | Dibang, NHPC",
+        "img": ["/img/project-1-2.jpg"]
+    },
+    {
+        "id": 3,
+        "title": "Hydropower Project - Slope Protection at Dibang, Arunachal",
+        "project_status": "OnGoing",
+        "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
+        "prime_client": "NHPC",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Diversion Tunnel Inlet Open Excavation and Slope Stablization Works with the Length 250 Mtrs & Elevation 122 Mtrs",
+        "work_specification": "Excavation, Wiremsh, Shotcreting & Rockbolting",
+        "work_completion_status": "50% Completed",
+        "year": "2024-2025",
+        "subtitle": "Slope Protection | Dibang, NHPC",
+        "img": ["/img/project-1-2.jpg"]
+    },
+    {
+        "id": 4,
+        "title": "East Coast Railway (ECor), New Railway Line at Odisha, Boudh District",
+        "project_status": "Completed",
+        "project_name": "Construction of Tunnel Work betwwen Km 153.0 to 180.0 (Adenigarh-Purunakatak) and Allied work of the Khurda-Bolangir, New Rail Line Project",
+        "prime_client": "East Coast Railway (ECoR)",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Construction of T5 & T6 Tunnel with length of 317 & 294 Mtrs respectively",
+        "work_specification": "Construction of Total Tunnel 611 Mtrs  – Cross Section Area 65 sqm & Dia 8.0 mtr",
+        "work_completion_status": "100% Completed",
+        "year": "2023-2025",
+        "subtitle": "Rail Tunnel | ECoR, Odisha",
+        "img": ["https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
+          ,"https://ik.imagekit.io/bqaycfhim/IMG20231011102004.jpg?updatedAt=1751486307783" ,
+          "https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482",
+          "https://ik.imagekit.io/bqaycfhim/IMG_6918.JPG?updatedAt=1751486307012",
+          "https://ik.imagekit.io/bqaycfhim/IMG_6916.JPG?updatedAt=1751486306881",
+          "https://ik.imagekit.io/bqaycfhim/RKHEE5962.JPG?updatedAt=1751486301660",
+          "https://ik.imagekit.io/bqaycfhim/Image%202024-02.jpg?updatedAt=1751486299023"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Pump Storage Project 1600 MW - Saundatti, Belgaum District, Karnataka",
+        "project_status": "OnGoing",
+        "project_name": "Saundatti PSP Project, Karnataka",
+        "prime_client": "Greenko",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Slope Protection Work in MAT, VPS, Approach Road & Upper Intake",
+        "work_specification": "Wiremsh, Shotcreting & Rockbolting",
+        "work_completion_status": "OnGoing",
+        "year": "2025",
+        "subtitle": "Slope Protection | Greenko, Karnataka",
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM%20(2).jpeg?updatedAt=1751487205161",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM.jpeg?updatedAt=1751487205124",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM%20(1).jpeg?updatedAt=1751487205094",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM.jpeg?updatedAt=1751487205040",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM%20(1).jpeg?updatedAt=1751487204887"
+
+
+
+        ]
+    },
     
-      {
-        id: 4 ,
-        img:["/img/project-1-4.jpg" , "/img/project_4_2.jpg" ,"/img/project_4_3.jpg"],
-        title:"New Railway Line Project in East Coast Railway",
-         statustype:"completed",
-       
-      
-        },
-        {
-              id: 5 ,
-              img:["/img/project-1-7.jpg"],
-              title:"Sri Siddharth Infratech & Service (I) Private Limited",
-               statustype:"completed",
-             
-            
-              },
-        {
-      id: 6 ,
-      img:["/img/project-1-3.jpg"],
-      title:"Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road",
-       statustype:"completed",
-     
-    
-      },
-      
-          {
-            id: 7 ,
-            img:["/img/project-1-6.jpg"],
-            title:"Slope Protection Work at Chenab Bridge, Jammu & Kashmir",
-             statustype:"completed",
-            
-          
-            },
-            
-              {
-                id: 8 ,
-                img:["/img/project-1-8.jpg"],
-              
-              
-                },
-                {
-                  id:9,
-                  title:"Saundatti Pump Storage Project 1600 MW- Belgaum District, Karnataka",
-                  img:["/img/project-1-2.jpg"],
-                  Client:"Megha Engineering & Infrastructures Ltd.",
-                  Scope_of_Work:"Protection Works in MAT, VPS, Approach Road & Upper Intake",
-                  statustype:"ongoing",
-                 
-
-
-                }
-
+    {
+        "id": 7,
+        "title": "TBM ADIT Pipe Roofing - Pipalkoti H.E.P",
+        "project_status": "Completed",
+        "project_name": "Pipalkoti Kydro Electric Power Plant",
+        "prime_client": "THDC India Limited",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Piperoofing",
+        "work_specification": "Piperoofing-114mm",
+        "work_completion_status": "100% Completed",
+        "year": "2017",
+        "subtitle": "Pipe Roofing | Pipalkoti, THDC",
+        "img": ["/img/project-1-2.jpg"]
+    },
+    {
+        "id": 8,
+        "title": "Integrated Renewable Energy Project - PSP - Slope Protection, Kurnool - Pinnapuram",
+        "project_status": "Completed",
+        "project_name": "Pinnapuram Integrated Renewable Energy Project , Kurnool",
+        "prime_client": "Greenko",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Slope Protection Works",
+        "work_specification": "Wiremsh, Shotcreting & Rockbolting",
+        "work_completion_status": "100% Completed",
+        "year": "2022",
+        "subtitle": "Slope Protection | Pinnapuram, Greenko",
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-01%20at%2011.21.24_952060cd.jpg?updatedAt=1751487450488"]
+    },
+    {
+        "id": 9,
+        "title": "Integrated Renewable Energy Project - PSP - Tunnel Development, Kurnool - Pinnapuram",
+        "project_status": "Completed",
+        "project_name": "Pinnapuram Integrated Renewable Energy Project , Kurnool",
+        "prime_client": "Greenko",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Excavation, Anchoring, Concreting, Grouting and related Civil  works for TRT",
+        "work_specification": "Construction of Total Tunnel 180 Mtrs  – Dia 8.0 mtr",
+        "work_completion_status": "100% Completed",
+        "year": "2022",
+        "subtitle": "Tunnel Development | Pinnapuram, Greenko",
+        "img": ["/img/project-1-2.jpg"]
+    },
+    {
+        "id": 10,
+        "title": "NATM Tunnel & Pipe Roofing - Jammu Ring Road Project",
+        "project_status": "Completed",
+        "project_name": "Jammu Ring Road",
+        "prime_client": "National Highways Authority of India",
+        "execution_contractor": "Machino International Pvt. Ltd.",
+        "scope_of_work": "Piperoofing & SDA",
+        "work_specification": "Piperoofing-114mm",
+        "work_completion_status": "100% Completed",
+        "year": "2023",
+        "subtitle": "NATM & Pipe Roofing | NHAI, Jammu",
+        "img": ["/img/project-1-2.jpg"]
+    }
 ]
 
 // export const data = [

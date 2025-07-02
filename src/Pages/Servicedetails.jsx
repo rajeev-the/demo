@@ -61,7 +61,7 @@ const [product, setProduct] = useState(null);
       }} className="inner-banner">
     <div className="inner">
       <div className="thm-container clearfix">
-        <h2 className="pull-left">{product?.title}</h2>
+        <h2 className="pull-left">{product?.subtitle}</h2>
       
         {/* /.breadcrumb */}
       </div>
@@ -94,10 +94,10 @@ const [product, setProduct] = useState(null);
 
               
             </div>
-            
+
 
             <div className="blog-details-page ">
-              <h3>{product?.subtitle}</h3>
+              <h3>{product?.title}</h3>
               <br />
               
             <div className="thm-container">
@@ -106,12 +106,14 @@ const [product, setProduct] = useState(null);
   <div className="card shadow-lg border-0">
     <div className="card-body p-4">
     <div className="project-details">
-      <p><strong>Project Name:</strong> {product?.Project_Name || "[Enter Project Name]"}</p>
-      <p><strong>Prime Client:</strong> {product?.Prime_Client || "[Enter Prime Client]"}</p>
+      <p><strong>Project Name:</strong> {product?.project_name || "[Enter Project Name]"}</p>
+      <p><strong>Prime Client:</strong> {product?.prime_client || "[Enter Prime Client]"}</p>
       <p><strong>Contractor:</strong> {product?.Contractor || "[Enter Contractor]"}</p>
-      <p><strong>Execution Contractor:</strong> {product?.Sub_Contractor || "Machino International"}</p>
-      <p><strong>Scope of Work:</strong> {product?.Scope_of_Work || "[Enter Scope of Work]"}</p>
-      <p><strong>Work Completion Status:</strong> {product?.Work_Completion_Status || "[Enter Completion Status]"}</p>
+      <p><strong>Execution Contractor:</strong> {product?.execution_contractor || "Machino International"}</p>
+      <p><strong>Scope of Work:</strong> {product?.scope_of_work || "[Enter Scope of Work]"}</p>
+      <p><strong>Work Completion Status:</strong> {product?.work_specification || "[Enter Completion Status]"}</p>
+        <p><strong>Year:</strong> {product?.year || "[Enter Year]"}</p>
+          <p><strong>Work Completion Status:</strong> {product?.work_specification || "[Enter Completion Status]"}</p>
     </div>
 
  <div className="cer-btn-container">
@@ -247,51 +249,20 @@ const [product, setProduct] = useState(null);
                 <div className="line" />
               </div>
              <ul className="links-list">
-  <li>
-    <Link style={{ color: id === '1' ? '#ffa801' : '' }} to={'/service/1'}>
-      Ghodazari Branch Canal of Gosikhurd
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '2' ? '#ffa801' : '' }} to={'/service/2'}>
-      Underground excavation and slope protection works of CCVT and ADIT
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '3' ? '#ffa801' : '' }} to={'/service/3'}>
-      Slope Protection Works - Dibang DT Inlet works
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '4' ? '#ffa801' : '' }} to={'/service/4'}>
-      New Railway Line Project in East Coast Railway
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '5' ? '#ffa801' : '' }} to={'/service/5'}>
-      Sri Siddharth Infratech & Service (I) Private Limited
-    </Link>
-  </li>
-  <li>
-    <Link style={{ color: id === '6' ? '#ffa801' : '' }} to={'/service/6'}>
-      Piperoofing & SDA Installation (NATM Work) in Jammu Ring Road
-    </Link>
-  </li>
-  
 
-   <li>
-    <Link style={{ color: id === '7' ? '#ffa801' : '' }} to={'/service/7'}>
-      Slope Protection Work at Chenab Bridge, Jammu & Kashmir
+{
+        data.map((item)=>(  
+
+            <li key={item.id}>
+    <Link style={{ color: id === `${item?.id}` ? '#ffa801' : '' }} to={`/service/${item.id}`}>
+      {item?.title}
     </Link>
   </li>
 
+        ))
+}
 
- 
-  <li>
-    <Link style={{ color: id === '11' ? '#ffa801' : '' }} to={'/service/11'}>
-      Piperoofing Work at TBM Adit of Pipalkoti H.E.P
-    </Link>
-  </li>
+
 </ul>
 
               
