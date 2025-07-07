@@ -44,7 +44,7 @@ export const data = [
         "work_completion_status": "50% Completed",
         "year": "2024-2025",
         "subtitle": "Slope Protection | Dibang, NHPC",
-        "img": ["/img/project-1-2.jpg" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607"]
     },
     {
         "id": 4,
