@@ -153,7 +153,7 @@ const About = () => {
           <li>Hydropower Projects</li>
           <li>Railway Infrastructure</li>
           <li>Irrigation Tunnels</li>
-          <li>Public Sector Projects (PSPs)</li>
+          <li> Public Sector Project</li>
         </ul>
       </section>
 
