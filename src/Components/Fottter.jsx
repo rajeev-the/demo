@@ -64,6 +64,12 @@ const Fottter = ({img}) => {
                 
                 </li>
                 <li>
+                   <Link to={'/career'}>
+                    <i className="fa fa-angle-right" />
+                    Career
+                  </Link>
+                </li>
+                  <li>
                    <Link to={'/PrivacyPolicy'}>
                     <i className="fa fa-angle-right" />
                     Privacy Policy
