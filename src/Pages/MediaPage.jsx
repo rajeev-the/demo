@@ -102,7 +102,7 @@ const MediaPage = () => {
               <div className="card shadow-lg border-0">
                 <div className="card-body p-4">
                 <div className="project-details">
-                  <p><strong>Topic:</strong>{product?.topic || "[Topic]"}</p>
+                  <p><strong>Event:</strong>{product?.topic || "[Topic]"}</p>
                   <p><strong>Venue:</strong>{product?.venue || "[Venue]"}</p>
                   <p><strong>Date:</strong>  {product?.date || "[Date]"}</p>
                  
