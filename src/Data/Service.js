@@ -59,7 +59,7 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2023-2025",
         "subtitle": "Rail Tunnel | ECoR, Odisha",
-        "img": ["https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
+        "img": [ "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.24_38b0970c.jpg?updatedAt=1751883470944", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.25_78261ec7.jpg?updatedAt=1751883470881", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.23_e2ab81a7.jpg?updatedAt=1751883470838", "https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
           ,"https://ik.imagekit.io/bqaycfhim/IMG20231011102004.jpg?updatedAt=1751486307783" ,
           "https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482",
           "https://ik.imagekit.io/bqaycfhim/IMG_6918.JPG?updatedAt=1751486307012",
@@ -150,7 +150,7 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2023",
         "subtitle": "NATM & Pipe Roofing | NHAI, Jammu",
-        "img": ["/img/project-1-2.jpg"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.49%20PM%20(1).jpeg?updatedAt=1751883747823" , "https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.50%20PM%20(1).jpeg?updatedAt=1751883747879" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.49%20PM.jpeg?updatedAt=1751883747855" , "https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.49%20PM%20(2).jpeg?updatedAt=1751883747858" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.50%20PM%20(3).jpeg?updatedAt=1751883747976" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.50%20PM.jpeg?updatedAt=1751883747807" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.50%20PM%20(2).jpeg?updatedAt=1751883747725" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.49%20PM%20(4).jpeg?updatedAt=1751883747556" ,"https://ik.imagekit.io/bqaycfhim/New%20Folder/WhatsApp%20Image%202025-07-07%20at%203.23.49%20PM%20(3).jpeg?updatedAt=1751883747547" ]
     }
 ]
 
