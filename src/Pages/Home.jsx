@@ -1141,6 +1141,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
                     </div>
                   </Link>
                 </div>
+
                  <div  className="event-card">
                   <Link to={`/blog/1`} className="event-card-link">
                     <div className="event-img">
@@ -1157,6 +1158,23 @@ With expertise spanning underground infrastructure, hydropower development, mini
                     </div>
                   </Link>
                 </div>
+                 <div  className="event-card">
+                  <Link to={`/blog/3`} className="event-card-link">
+                    <div className="event-img">
+                      <img  src={PP} alt="Event" className="event-img" />
+                                
+                      <div className="overlay">
+                        <div className="box">
+                         
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-box">
+                      <h2 className="event-title">MIPL: Engineering India's Sustainable Future..</h2>
+                    </div>
+                  </Link>
+                </div>
+
               
             </div>
       

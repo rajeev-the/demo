@@ -6,6 +6,7 @@ import navbarimg from '/img/logo-light.png'
 import VIA from '../assets/profilepic/1746091391533.jpg'
 import NI from "../assets/profilepic/1709974074945.jpeg"
 import { Link } from 'react-router-dom'
+import PP from "../assets/profilepic/head.jpg"
 
 const Media = () => {
   return (
@@ -67,6 +68,21 @@ const Media = () => {
               </div>
               <div className="text-box">
                 <h2 className="event-title">MIPL: Driving India’s Infrastructure with Tunneling Excellence...</h2>
+              </div>
+            </Link>
+          </div>
+            <div  className="event-card">
+            <Link to={`/blog/3`} className="event-card-link">
+              <div className="img-box">
+                <img src={PP} alt="Event" className="event-img" />
+                <div className="overlay">
+                  <div className="box">
+                   
+                  </div>
+                </div>
+              </div>
+              <div className="text-box">
+                <h2 className="event-title">MIPL: Engineering India's Sustainable Future...</h2>
               </div>
             </Link>
           </div>

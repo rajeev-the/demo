@@ -19,6 +19,7 @@ import BlogPage2 from './Pages/BlogPage2'
 import Media from './Pages/Media'
 import Events from './Pages/Events'
 import MediaPage from './Pages/MediaPage'
+import BlogPage3 from './Pages/BlogPage3'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
     <Route path='/contact' element={<ContactUs/>}/>
     <Route path='/blog/1' element={<BlogPage/>}/>
    <Route path='/blog/2' element={<BlogPage2/>}/>
+     <Route path='/blog/3' element={<BlogPage3/>}/>
       <Route path='/service/:id' element={<Servicedetails/>}/>
         <Route path='/PrivacyPolicy' element={<PrivacyPolicy/>}/>
             <Route path='/profile/:id' element={<ProfileDetails/>}/>
