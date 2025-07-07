@@ -227,7 +227,7 @@ export const data1=  [
   },
   {
     "id": 5,
-    "title": "ROC compressor",
+    "title": "ROC with Compressor",
     "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.46.56%20PM.jpeg?updatedAt=1751034200749"
   },
   {
