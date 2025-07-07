@@ -89,21 +89,24 @@ console.log(product?.img[0])
       </button>
     </div>
   
-              <div className="text-box">
+            
+              
+            </div>
+
+            <div className="blog-details-page ">
+            <div className="thm-container">
+            
+            <section className="row">
+              
+  <div className="card shadow-lg border-0">
+   
                
                <h2><strong> {product?.subtitle} </strong> </h2>
                 
                 <p>
                 {product?.content} 
                 </p>
-              </div>
-              
-            </div>
-
-            <div className="blog-details-page ">
-            <div className="thm-container">
-            <section className="row">
-  <div className="card shadow-lg border-0">
+            
     <div className="card-body p-4">
     <div  dangerouslySetInnerHTML={{ __html: product?.content1 }} />
     <div dangerouslySetInnerHTML={{ __html: product?.content2 }} />

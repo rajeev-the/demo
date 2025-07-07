@@ -108,12 +108,12 @@ const [product, setProduct] = useState(null);
     <div className="project-details">
       <p><strong>Project Name:</strong> {product?.project_name || "[Enter Project Name]"}</p>
       <p><strong>Prime Client:</strong> {product?.prime_client || "[Enter Prime Client]"}</p>
-      <p><strong>Contractor:</strong> {product?.Contractor || "[Enter Contractor]"}</p>
+      <p><strong>Project Awarded Under::</strong> {product?.pja || "[Enter Contractor]"}</p>
       <p><strong>Execution Contractor:</strong> {product?.execution_contractor || "Machino International"}</p>
       <p><strong>Scope of Work:</strong> {product?.scope_of_work || "[Enter Scope of Work]"}</p>
-      <p><strong>Work Completion Status:</strong> {product?.work_specification || "[Enter Completion Status]"}</p>
+      <p><strong>Work Specification:</strong> {product?.work_specification || "[Enter Completion Status]"}</p>
         <p><strong>Year:</strong> {product?.year || "[Enter Year]"}</p>
-          <p><strong>Work Completion Status:</strong> {product?.work_specification || "[Enter Completion Status]"}</p>
+          <p><strong>Work Completion Status:</strong> {product?.work_completion_status || "[Enter Completion Status]"}</p>
     </div>
 
  <div className="cer-btn-container">
