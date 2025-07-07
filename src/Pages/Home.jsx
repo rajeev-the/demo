@@ -686,7 +686,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
       {/* /.masonary-layout */}
     </div>
     <div class="text-center btn-box">
-        <Link to={`${value === "Execution" ?"/service/execution": value === "manufacturing" ?  "/products" : value  === "Rental" ? "/service/rentals" : ""  }`}            className="btn-thm">More Projects</Link>
+        <Link to={`${value === "Execution" ?"/service/execution": value === "manufacturing" ?  "/products" : value  === "Rental" ? "/service/rentals" : ""  }`}  className="btn-thm">More{value === "manufacturing" ?" Product" :value ==="Rental" ? " Assets": " Projects"   }</Link>
     </div>
     {/* /.col-md-2 */}
   </section>

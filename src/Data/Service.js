@@ -14,7 +14,7 @@ export const data = [
          "pja" :"NCPL-MIPL JV",
         "year": "2024-2025",
         "subtitle": "Tunnel Project | VIDC, Nagpur",
-        "img": ["/img/project-1-2.jpg"]
+        "img": ["/img/project-1-2.jpg","https://ik.imagekit.io/bqaycfhim/N_030000.jpg?updatedAt=1751886771307"]
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2024-2025",
         "subtitle": "Tunnel Works | Dibang, NHPC",
-        "img": ["/img/project-1-2.jpg"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/D_08.jpg?updatedAt=1751886533777" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.33.34_c7d1a75c.jpg?updatedAt=1751886944115"]
     },
     {
         "id": 3,
@@ -44,7 +44,7 @@ export const data = [
         "work_completion_status": "50% Completed",
         "year": "2024-2025",
         "subtitle": "Slope Protection | Dibang, NHPC",
-        "img": ["/img/project-1-2.jpg"]
+        "img": ["/img/project-1-2.jpg" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607"]
     },
     {
         "id": 4,
@@ -59,9 +59,9 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2023-2025",
         "subtitle": "Rail Tunnel | ECoR, Odisha",
-        "img": [ "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.24_38b0970c.jpg?updatedAt=1751883470944", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.25_78261ec7.jpg?updatedAt=1751883470881", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.23_e2ab81a7.jpg?updatedAt=1751883470838", "https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
+        "img": ["https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.24_38b0970c.jpg?updatedAt=1751883470944", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.25_78261ec7.jpg?updatedAt=1751883470881", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.23_e2ab81a7.jpg?updatedAt=1751883470838", "https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
           ,"https://ik.imagekit.io/bqaycfhim/IMG20231011102004.jpg?updatedAt=1751486307783" ,
-          "https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482",
+          
           "https://ik.imagekit.io/bqaycfhim/IMG_6918.JPG?updatedAt=1751486307012",
           "https://ik.imagekit.io/bqaycfhim/IMG_6916.JPG?updatedAt=1751486306881",
           "https://ik.imagekit.io/bqaycfhim/RKHEE5962.JPG?updatedAt=1751486301660",
@@ -105,7 +105,11 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2017",
         "subtitle": "Pipe Roofing | Pipalkoti, THDC",
-        "img": ["/img/project-1-2.jpg"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.32_2bf5acbb.jpg?updatedAt=1751887483509" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.26_fb030c86.jpg?updatedAt=1751887483539" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.25_7358bb9a.jpg?updatedAt=1751887483515",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.25_da2104e4.jpg?updatedAt=1751887483425",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.39_c3eae7ca.jpg?updatedAt=1751887483367",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.51.24_3b5253bd.jpg?updatedAt=1751887483250"
+        ]
     },
     {
         "id": 8,

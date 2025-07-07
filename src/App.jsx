@@ -20,6 +20,7 @@ import Media from './Pages/Media'
 import Events from './Pages/Events'
 import MediaPage from './Pages/MediaPage'
 import BlogPage3 from './Pages/BlogPage3'
+import Career from './Pages/Career'
 
 const App = () => {
   return (
@@ -43,6 +44,7 @@ const App = () => {
             <Route path='/profile/:id' element={<ProfileDetails/>}/>
              <Route path='/media' element={<Media/>}/>
                <Route path='/events' element={<Events/>}/>
+                     <Route path='/career' element={<Career/>}/>
                
                <Route path='/events/:id' element={<MediaPage/> }/>
 
