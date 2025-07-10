@@ -126,7 +126,23 @@ export const products_data = [
          
         ],
         prodcut_type : "Rocktools",
-        content1:`<img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_12.jpg?updatedAt=1751880604667" alt="ATLAS MIPL 12" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_10.jpg?updatedAt=1751880604583" alt="ATLAS MIPL 10" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_4.jpg?updatedAt=1751880604444" alt="ATLAS MIPL 4" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_8.jpg?updatedAt=1751880604491" alt="ATLAS MIPL 8" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_5.jpg?updatedAt=1751880599602" alt="ATLAS MIPL 5" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_3.jpg?updatedAt=1751880599561" alt="ATLAS MIPL 3" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_13.jpg?updatedAt=1751880599573" alt="ATLAS MIPL 13" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_6.jpg?updatedAt=1751880599508" alt="ATLAS MIPL 6" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_1.jpg?updatedAt=1751880599564" alt="ATLAS MIPL 1" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_9.jpg?updatedAt=1751880599547" alt="ATLAS MIPL 9" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_11.jpg?updatedAt=1751880599469" alt="ATLAS MIPL 11" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_7.jpg?updatedAt=1751880599479" alt="ATLAS MIPL 7" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_14.jpg?updatedAt=1751880599448" alt="ATLAS MIPL 14" style="max-width: 100%; height: auto; display: block;"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_2.jpg?updatedAt=1751880599433" alt="ATLAS MIPL 2" style="max-width: 100%; height: auto; display: block;">`,
+      img2 : [
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_12.jpg?updatedAt=1751880604667",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_10.jpg?updatedAt=1751880604583",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_4.jpg?updatedAt=1751880604444",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_8.jpg?updatedAt=1751880604491",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_5.jpg?updatedAt=1751880599602",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_3.jpg?updatedAt=1751880599561",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_13.jpg?updatedAt=1751880599573",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_6.jpg?updatedAt=1751880599508",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_1.jpg?updatedAt=1751880599564",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_9.jpg?updatedAt=1751880599547",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_11.jpg?updatedAt=1751880599469",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_7.jpg?updatedAt=1751880599479",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_14.jpg?updatedAt=1751880599448",
+  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_2.jpg?updatedAt=1751880599433"
+],
+
 
         content2:"  <h2>Key Features and Benefits:</h2><ul><li><strong>Durability:</strong> Shank adapters are designed to withstand high impact forces, ensuring a longer lifespan and reduced maintenance costs.</li><li><strong>Compatibility:</strong> They are available in various sizes and types, making them compatible with different drill rigs and drill steel.</li><li><strong>Efficient Energy Transfer:</strong> Shank adapters optimize the transfer of impact energy, resulting in improved drilling performance and reduced wear on equipment.</li><li><strong>Easy Installation:</strong> They are designed for straightforward installation and removal, minimizing downtime and increasing productivity.</li></ul>" ,
         content3:"<h2>Applications:</h2><p>Shank adapters are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",

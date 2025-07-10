@@ -29,7 +29,7 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2024-2025",
         "subtitle": "Tunnel Works | Dibang, NHPC",
-        "img": ["https://ik.imagekit.io/bqaycfhim/D_08.jpg?updatedAt=1751886533777" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.33.34_c7d1a75c.jpg?updatedAt=1751886944115"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/D_08.jpg?updatedAt=1751886533777" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.33.34_c7d1a75c.jpg?updatedAt=1751886944115" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.21.36_fc9e4eac.jpg?updatedAt=1752141934004","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.21.36_036d4b47.jpg?updatedAt=1752141933992","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.21.35_5cb841f2.jpg?updatedAt=1752141933931"]
     },
     {
         "id": 3,
@@ -44,7 +44,7 @@ export const data = [
         "work_completion_status": "50% Completed",
         "year": "2024-2025",
         "subtitle": "Slope Protection | Dibang, NHPC",
-        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.29_c163b838.jpg?updatedAt=1752141672583" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.30_1cf38f21.jpg?updatedAt=1752141672501","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.28_0d6cc154.jpg?updatedAt=1752141672473"]
     },
     {
         "id": 4,
