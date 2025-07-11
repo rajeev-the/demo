@@ -105,7 +105,8 @@ export const products_data = [
         content3:"<h2>Applications:</h2><p>Coupling sleeves are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",
 
         content4:"<h2>Importance of Proper Selection:</h2><p>When selecting coupling sleeves, consider factors such as:</p><ul><li><strong>Drill Steel Type:</strong> Ensure compatibility with your drill steel type and size.</li><li><strong>Thread Type:</strong> Choose a sleeve that matches the thread type of your drill steel.</li><li><strong>Operating Conditions:</strong> Select a sleeve suitable for the operating conditions, including temperature, pressure, and drilling environment.</li></ul>",
-        content5:""
+        content5:"",
+         contentimg:`<div class="image-grid"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_64d8a94f.jpg?updatedAt=1752215369317" alt="Image 1"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_64d8a94f.jpg?updatedAt=1752215369317" alt="Image 2"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_5592dc47.jpg?updatedAt=1752215369281" alt="Image 3"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.58_06c45fdb.jpg?updatedAt=1752215369292" alt="Image 4"></div>`
      
 
 
@@ -126,24 +127,9 @@ export const products_data = [
          
         ],
         prodcut_type : "Rocktools",
-      img2 : [
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_12.jpg?updatedAt=1751880604667",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_10.jpg?updatedAt=1751880604583",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_4.jpg?updatedAt=1751880604444",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_8.jpg?updatedAt=1751880604491",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_5.jpg?updatedAt=1751880599602",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_3.jpg?updatedAt=1751880599561",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_13.jpg?updatedAt=1751880599573",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_6.jpg?updatedAt=1751880599508",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_1.jpg?updatedAt=1751880599564",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_9.jpg?updatedAt=1751880599547",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_11.jpg?updatedAt=1751880599469",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_7.jpg?updatedAt=1751880599479",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_14.jpg?updatedAt=1751880599448",
-  "https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_2.jpg?updatedAt=1751880599433"
-],
+     
 
-
+      contentimg:`<div class="image-grid"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_12.jpg?updatedAt=1751880604667" alt="Image 1"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_10.jpg?updatedAt=1751880604583" alt="Image 2"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_4.jpg?updatedAt=1751880604444" alt="Image 3"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_8.jpg?updatedAt=1751880604491" alt="Image 4"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_5.jpg?updatedAt=1751880599602" alt="Image 5"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_3.jpg?updatedAt=1751880599561" alt="Image 6"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_13.jpg?updatedAt=1751880599573" alt="Image 7"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_6.jpg?updatedAt=1751880599508" alt="Image 8"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_1.jpg?updatedAt=1751880599564" alt="Image 9"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_9.jpg?updatedAt=1751880599547" alt="Image 10"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_11.jpg?updatedAt=1751880599469" alt="Image 11"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_7.jpg?updatedAt=1751880599479" alt="Image 12"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_14.jpg?updatedAt=1751880599448" alt="Image 13"><img src="https://ik.imagekit.io/bqaycfhim/tut/ATLAS_MIPL_2.jpg?updatedAt=1751880599433" alt="Image 14"></div>`,
         content2:"  <h2>Key Features and Benefits:</h2><ul><li><strong>Durability:</strong> Shank adapters are designed to withstand high impact forces, ensuring a longer lifespan and reduced maintenance costs.</li><li><strong>Compatibility:</strong> They are available in various sizes and types, making them compatible with different drill rigs and drill steel.</li><li><strong>Efficient Energy Transfer:</strong> Shank adapters optimize the transfer of impact energy, resulting in improved drilling performance and reduced wear on equipment.</li><li><strong>Easy Installation:</strong> They are designed for straightforward installation and removal, minimizing downtime and increasing productivity.</li></ul>" ,
         content3:"<h2>Applications:</h2><p>Shank adapters are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul>",
 
@@ -169,6 +155,7 @@ export const products_data = [
         content3:"<h2>Key Features:</h2><ul><li><strong>Easy Coupling:</strong> MF rods facilitate quick and easy connections, reducing downtime.</li><li><strong>Secure Thread Connection:</strong> Ensures a strong and reliable bond between rods and bits.</li><li><strong>Flexibility:</strong> Suitable for various drilling applications and rock types.</li></ul>",
         content4:"<h2>Key Features:</h2><ul><li><strong>High-Strength Material:</strong> Made from durable materials to withstand demanding drilling conditions.</li><li><strong>Threaded Connections:</strong> Enable secure and efficient connections with other rods and drill bits.</li><li><strong>Precision Manufacturing:</strong> Ensures accurate and reliable performance.</li></ul><h2>Applications:</h2><p>These drill rods are widely used in various industries, including:</p><ul><li><strong>Mining:</strong> For drilling blastholes, exploration, and construction.</li><li><strong>Construction:</strong> For foundation drilling, tunneling, and excavations.</li><li><strong>Quarrying:</strong> For drilling and blasting operations.</li></ul><h2>Importance of Proper Selection:</h2><p>When selecting drifter rods, MF rods, or extension rods, consider factors such as:</p><ul><li><strong>Rock Type:</strong> Choose rods suitable for the specific rock type and drilling conditions.</li><li><strong>Drilling Method:</strong> Select rods compatible with your drilling method and equipment.</li><li><strong>Quality and Durability:</strong> Opt for high-quality rods that ensure longevity and reliability.</li></ul>",
         content5:"By utilizing the right drill rods, industries can optimize drilling performance, increase efficiency, and reduce costs."
+       
         
 
   

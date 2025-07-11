@@ -39,24 +39,7 @@ const [product, setProduct] = useState(null);
         setCurrentIndex((prev) => (prev === product.img.length - 1 ? 0 : prev + 1));
       };
 
-      const [countindex ,setCountindex] = useState(0);
-
-     // Guarded navigation functions for second image array
-  const secprevimg = () => {
-    if (product?.img2?.length) {
-      setCountindex((prev) => (prev === 0 ? product.img2.length - 1 : prev - 1));
-    }
-  };
-
-  const secnextimg = () => {
-    if (product?.img2?.length) {
-      setCountindex((prev) =>
-        prev === product.img2.length - 1 ? 0 : prev + 1
-      );
-    }
-  };
-
-      
+     
     
   return (
     <>
@@ -136,21 +119,8 @@ const [product, setProduct] = useState(null);
     
     <div className='imgres' dangerouslySetInnerHTML={{ __html: product?.content4 }} />
      <div className='imgres' dangerouslySetInnerHTML={{ __html: product?.content5 }} />
-      {
-      product?.img2 ? <div className="slider-container">
-      <img
-        src={product?.img2[countindex]}
-        alt="Gallery"
-        className="slider-image"
-      />
-      <button className="nav-button left" onClick={secprevimg}>
-        <FiChevronLeft size={28} />
-      </button>
-      <button className="nav-button right" onClick={secnextimg}>
-        <FiChevronRight size={28} />
-      </button>
-    </div>   :<></>
-    }
+      <div dangerouslySetInnerHTML={{ __html: product?.contentimg }} />
+     
     {  product?.img1 ? <img
         src={product?.img1}
         alt="Gallery"
