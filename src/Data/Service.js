@@ -18,7 +18,7 @@ export const data = [
     },
     {
         "id": 2,
-        "title": "Hydropower Project - CCTV & ADIT Tunnel at Dibang, Arunachal",
+        "title": "Hydropower Project - CCVT & ADIT Tunnel at Dibang, Arunachal",
         "project_status": "Completed",
         "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
         "prime_client": "NHPC",
