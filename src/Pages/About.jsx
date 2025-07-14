@@ -101,7 +101,7 @@ const About = () => {
         <h1>About <span className="highlight">Machino International Pvt. Ltd.</span></h1>
         <div className="header-info">
           <p>Incorporated: 2008</p>
-          <p>Headquarters: India</p>
+          <p>Headquarters: Delhi/India</p>
         </div>
       </header>
 
@@ -195,9 +195,11 @@ const About = () => {
   <section className="call-to-action-style-one">
     <div className="inner">
       <div className="thm-container text-center">
-      <h3>
-          Your Trusted Partner in    <span>Tunneling Innovation,</span> <br /> <span>Tunnel & Underground Solution,</span> <br /> <span>Hydropower Project,</span><br /> <span>Excavation & Slope Protection Work,</span> <br /> <span>Pumped Storage Project</span>
- 
+      <h3 >
+          Your Trusted Partner in  <h3 style={{
+            color:"#f09c02"
+          }}> Tunneling Innovation, <br />  Tunnel & Underground Solution,<br /> Hydropower Project,<br />Excavation & Slope Protection Work,<br /> Pumped Storage Project </h3>
+
         </h3>
         <p>
         Machino International Pvt. Ltd. (MIPL) Engineering India’s Infrastructure with Innovation and Integrity
@@ -230,7 +232,7 @@ const About = () => {
                     </div>
                   </div>
                   <div className="main-content">
-                  <p>30+ years expertise in complex underground projects with skilled teams and quality control systems</p>
+                  <p>40+ years expertise in complex underground projects with skilled teams and quality control systems</p>
                    
                   </div>
                 </div>
@@ -400,7 +402,7 @@ const About = () => {
               <div className="text-box">
                 <h3>Vastly Experienced</h3>
                 <p>
-                30+ years expertise in complex underground projects with skilled teams and quality control systems
+                40+ years expertise in complex underground projects with skilled teams and quality control systems
                 </p>
               </div>
             </div>
@@ -520,7 +522,9 @@ const About = () => {
             </div>
           </div>
         </Link>
-        <Link  to={"/profile/5"} style={{
+
+ <div className='team-content-col'>
+         <Link  to={"/profile/5"} style={{
           marginTop:"40px"
         }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
@@ -540,9 +544,13 @@ const About = () => {
             </div>
           </div>
         </Link>
+        </div>
+        
+       
       
         
       </div>
+      
     </div>
   </section>
 

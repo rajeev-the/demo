@@ -1043,7 +1043,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
               <div className="text-box">
                 <h3>Vastly Experienced</h3>
                 <p>
-                30+ years expertise in complex underground projects with skilled teams and quality control systems
+                40+ years expertise in complex underground projects with skilled teams and quality control systems
                 </p>
               </div>
             </div>
