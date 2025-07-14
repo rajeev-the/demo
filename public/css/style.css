@@ -4541,6 +4541,7 @@ height: 45px;
   border-left: 4px solid #f09c02;
 }
 
+
 /* Leadership Section */
 .leadership-section {
   margin-bottom: 3rem;
@@ -4594,6 +4595,8 @@ height: 45px;
     gap: 0.5rem;
   }
 }
+
+
 
 /* CareerForm.css */
 .career-form-container {
@@ -4712,3 +4715,101 @@ input[type="file"] {
         grid-template-columns: 1fr;
       }
     }
+
+    
+    .open-positions {
+  padding: 4rem 1.5rem;
+  
+}
+
+.open-positions h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white; /* Tailwind gray-800 */
+  text-align: center;
+}
+
+.open-positions p {
+  color: #4b5563; /* Tailwind gray-600 */
+  max-width: 600px;
+  margin: 1rem auto 3rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.job-listings {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.job-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+  transition: 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.job-icon {
+  background-color: rgba(240, 156, 2, 0.1);
+  padding: 0.75rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.job-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #f09c02;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.job-meta {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.job-description {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.apply-btn {
+  margin-top: 1.5rem;
+  background-color: #f09c02;
+  color: white;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #d18b02;
+}
