@@ -7,7 +7,11 @@ const PrivacyPolicy = () => {
   return (
 
     <>
-    <Navbar/>
+     <header className="header header-home-one">
+
+  <Navbar/>
+  
+  </header>
     <div style={{
         marginTop:"100px"
     }} className="container py-5 ">
@@ -78,7 +82,7 @@ const PrivacyPolicy = () => {
 
       <h4 className="mt-4">9. Contact Us</h4>
       <p><strong>Machino International Pvt. Ltd.</strong></p>
-      <p>📍ON - 261, Sector -1, Bawana Industrial Area New Delhi - 110039, India</p>
+      <p>📍N-261, O block, Sector 1, Bawana industrial area, New Delhi 110039</p>
       <p>📧 support@machinoindia.com</p>
   
     </div>

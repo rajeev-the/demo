@@ -1,4 +1,6 @@
 // data.js
+import image1 from "../assets/media/WhatsApp Image 2025-07-15 at 19.44.08_6af60863.jpg"
+
 
 export const data = [
     {
@@ -10,7 +12,7 @@ export const data = [
         "execution_contractor": "Machino International Pvt. Ltd.",
         "scope_of_work": "Construction of Critical Tunnel Excavation Work of 95 Mtrs with Linning Length of 106 Mtrs from RD 15466 to 15561 at Gadhazari Branch Canal of Gosikhurd Project Below Railway Line.",
         "work_specification": "Construction of Tunnel from Vertical Shaft – Cross Section Area 78 sqm & Dia 8.1 mtr",
-        "work_completion_status": "95% Completed",
+        "work_completion_status": "100% Completed",
          "pja" :"NCPL-MIPL JV",
         "year": "2024-2025",
         "subtitle": "Tunnel Project | VIDC, Nagpur",
@@ -37,7 +39,7 @@ export const data = [
         "project_status": "OnGoing",
         "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
         "prime_client": "NHPC",
-        "pja":"Larsen & Toubra Limited  ",
+        "pja":"Larsen & Toubro Limited",
         "execution_contractor": "Machino International Pvt. Ltd.",
         "scope_of_work": "Diversion Tunnel Inlet Open Excavation and Slope Stablization Works with the Length 250 Mtrs & Elevation 122 Mtrs",
         "work_specification": "Excavation, Wiremsh, Shotcreting & Rockbolting",
@@ -48,7 +50,7 @@ export const data = [
     },
     {
         "id": 4,
-        "title": "East Coast Railway (ECor), New Railway Line at Odisha, Boudh District",
+        "title": "East Coast Railway (ECOR), New Railway Line at Odisha, Boudh District",
         "project_status": "Completed",
         "project_name": "Construction of Tunnel Work betwwen Km 153.0 to 180.0 (Adenigarh-Purunakatak) and Allied work of the Khurda-Bolangir, New Rail Line Project",
         "prime_client": "East Coast Railway (ECoR)",
@@ -59,7 +61,7 @@ export const data = [
         "work_completion_status": "100% Completed",
         "year": "2023-2025",
         "subtitle": "Rail Tunnel | ECoR, Odisha",
-        "img": ["https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.24_38b0970c.jpg?updatedAt=1751883470944", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.25_78261ec7.jpg?updatedAt=1751883470881", "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2015.21.23_e2ab81a7.jpg?updatedAt=1751883470838", "https://ik.imagekit.io/bqaycfhim/DSC00090.JPG?updatedAt=1751486311496" ,"https://ik.imagekit.io/bqaycfhim/IMG20230902182406.jpg?updatedAt=1751486308143" 
+        "img": ["https://ik.imagekit.io/bqaycfhim/QZUC4022.JPG?updatedAt=1751486307482"
           ,"https://ik.imagekit.io/bqaycfhim/IMG20231011102004.jpg?updatedAt=1751486307783" ,
           
           "https://ik.imagekit.io/bqaycfhim/IMG_6918.JPG?updatedAt=1751486307012",
@@ -76,7 +78,7 @@ export const data = [
         "prime_client": "Greenko",
         "execution_contractor": "Machino International Pvt. Ltd.",
         "scope_of_work": "Slope Protection Work in MAT, VPS, Approach Road & Upper Intake",
-        "work_specification": "Wiremsh, Shotcreting & Rockbolting",
+        "work_specification": "Wiremesh, Shotcreting & Rockbolting",
         "work_completion_status": "OnGoing",
          "pja":"Megha Engineering & Infrastructures Ltd.",
         "year": "2025",
@@ -85,7 +87,7 @@ export const data = [
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM.jpeg?updatedAt=1751487205124",
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM%20(1).jpeg?updatedAt=1751487205094",
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM.jpeg?updatedAt=1751487205040",
-          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM%20(1).jpeg?updatedAt=1751487204887"
+          
 
 
 
@@ -96,7 +98,7 @@ export const data = [
         "id": 7,
         "title": "TBM ADIT Pipe Roofing - Pipalkoti H.E.P",
         "project_status": "Completed",
-        "project_name": "Pipalkoti Kydro Electric Power Plant",
+        "project_name": "Pipalkoti Hydro Electric Power Plant",
         "prime_client": "THDC India Limited",
         "pja":"Hindustan Construction Company",
         "execution_contractor": "Machino International Pvt. Ltd.",
@@ -117,32 +119,18 @@ export const data = [
         "project_status": "Completed",
         "project_name": "Pinnapuram Integrated Renewable Energy Project , Kurnool",
         "prime_client": "Greenko",
-        "pja":"AMR India Limited",
+        "pja":"AMR India Limited / Sri Siddharth Infratech & Services Pvt Ltd",
         "execution_contractor": "Machino International Pvt. Ltd.",
-        "scope_of_work": "Slope Protection Works",
-        "work_specification": "Wiremsh, Shotcreting & Rockbolting",
+        "scope_of_work": "Slope Protection Works / Excavation, Anchoring, Concreting, Grouting and related Civil  works for TRT",
+        "work_specification": "Wiremesh, Shotcreting & Rockbolting / Construction of Total Tunnel 180 Mtrs  – Dia 8.0 mtr",
         "work_completion_status": "100% Completed",
         "year": "2022",
-        "subtitle": "Slope Protection | Pinnapuram, Greenko",
+        "subtitle": "Slope Protection / Tunnel Development | Pinnapuram, Greenko",
         "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-01%20at%2011.21.24_952060cd.jpg?updatedAt=1751487450488"]
     },
+  
     {
         "id": 9,
-        "title": "Integrated Renewable Energy Project - PSP - Tunnel Development, Kurnool - Pinnapuram",
-        "project_status": "Completed",
-        "pja":"Sri Siddharth Infratech & Services Pvt Ltd",
-        "project_name": "Pinnapuram Integrated Renewable Energy Project , Kurnool",
-        "prime_client": "Greenko",
-        "execution_contractor": "Machino International Pvt. Ltd.",
-        "scope_of_work": "Excavation, Anchoring, Concreting, Grouting and related Civil  works for TRT",
-        "work_specification": "Construction of Total Tunnel 180 Mtrs  – Dia 8.0 mtr",
-        "work_completion_status": "100% Completed",
-        "year": "2022",
-        "subtitle": "Tunnel Development | Pinnapuram, Greenko",
-        "img": ["/img/project-1-2.jpg"]
-    },
-    {
-        "id": 10,
         "title": "NATM Tunnel & Pipe Roofing - Jammu Ring Road Project",
         "project_status": "Completed",
         "project_name": "Jammu Ring Road",
@@ -268,6 +256,11 @@ export const data1=  [
     "id": 12,
     "title": "Gensets",
     "src": "https://ik.imagekit.io/bqaycfhim/Work%20images/WhatsApp%20Image%202025-06-27%20at%207.47.01%20PM.jpeg?updatedAt=1751034204980"
+  },
+   {
+    "id": 12,
+    "title": "Side Dump Wheel Loaders",
+    "src": image1
   }
 ]
 

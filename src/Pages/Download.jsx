@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Fottter from '../Components/Fottter'
 import Header from '../Components/Header'
+import navbarimg from '/img/logo-light.png'
 
 const Download = () => {
 
@@ -58,7 +59,7 @@ const Download = () => {
         ))}
       </div>
     </div>
-    <Fottter/>
+    <Fottter img={navbarimg} />
   </>
   )
 }

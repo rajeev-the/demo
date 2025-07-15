@@ -151,9 +151,10 @@ const About = () => {
         <h2>Sectors Served</h2>
         <ul className="sectors-list">
           <li>Hydropower Projects</li>
-          <li>Railway Infrastructure</li>
+          <li>Railway Tunnels</li>
           <li>Irrigation Tunnels</li>
           <li>Pumped Storage  Project</li>
+           <li>Highways Tunnels</li>
         </ul>
       </section>
 

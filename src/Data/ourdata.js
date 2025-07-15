@@ -52,15 +52,17 @@ export const event_page = [
   {
     id: 2,
     title: "Bauma Conexpo India 2024",
+      topic: "Bauma Conexpo India 2024",
     venue: "India Expo Centre, Greater Noida/Delhi NCR",
     date: "2024-12-11 to 2024-12-14",
-    src:["https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.42_d6486678.jpg?updatedAt=1751030615107"
-      ,"https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.42_6c307c5c.jpg?updatedAt=1751030615168",
-      "https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.41_e6cda2ce.jpg?updatedAt=1751030614996",
+    src:["https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.42_d6486678.jpg?updatedAt=1751030615107",
+      
+  
       "https://ik.imagekit.io/bqaycfhim/Event-3/IMG-20250627-WA0010.jpg?updatedAt=1751030225858",
       "https://ik.imagekit.io/bqaycfhim/Event-3/IMG-20250627-WA0013.jpg?updatedAt=1751030225840",
       "https://ik.imagekit.io/bqaycfhim/Event-3/IMG-20250627-WA0011.jpg?updatedAt=1751030225819",
       "https://ik.imagekit.io/bqaycfhim/Event-3/IMG-20250627-WA0014.jpg?updatedAt=1751030225713",
+          "https://ik.imagekit.io/bqaycfhim/Event-3/WhatsApp%20Image%202025-06-27%20at%2010.37.41_e6cda2ce.jpg?updatedAt=1751030614996",
       "https://ik.imagekit.io/bqaycfhim/Event-3/IMG-20250627-WA0012.jpg?updatedAt=1751030225514"
 
     ]

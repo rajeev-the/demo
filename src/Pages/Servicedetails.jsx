@@ -125,6 +125,21 @@ const [product, setProduct] = useState(null);
                       <i className="glyphicon glyphicon-ok-sign" />
                     </div>    
       </Link>
+       <Link to="/contact" className="cer-btn">
+  View Project 
+  <div className="inner">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M23.498 6.186a2.999 2.999 0 0 0-2.112-2.122C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.386.564A2.999 2.999 0 0 0 .502 6.186C0 8.082 0 12 0 12s0 3.918.502 5.814a2.999 2.999 0 0 0 2.112 2.122C4.5 20.5 12 20.5 12 20.5s7.5 0 9.386-.564a2.999 2.999 0 0 0 2.112-2.122C24 15.918 24 12 24 12s0-3.918-.502-5.814zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+    </svg>
+  </div>    
+</Link>
+
     </div>
 
     {  product?.img1 ? <img
