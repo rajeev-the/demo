@@ -80,6 +80,7 @@ const Product = () => {
       </div>
       <div className="ttt">
       <h1 className='text-start'>Rock Drilling Tools</h1>
+      <div className='fixing'>  
         <div className="cardx-container">
             
         {
@@ -106,6 +107,8 @@ const Product = () => {
             
       
             
+        </div>
+
         </div>
 
         

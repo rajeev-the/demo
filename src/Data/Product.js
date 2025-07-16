@@ -1,3 +1,8 @@
+import boltimg from "../assets/media/WhatsApp Image 2025-07-16 at 16.10.45_e7810e00.jpg"
+import posterimg from "../assets/media/WhatsApp Image 2025-07-16 at 16.10.45_0a9e54ee.jpg"
+
+
+
 export const products_data = [
     {
         id: 1,
@@ -42,6 +47,9 @@ export const products_data = [
        
 
     },
+
+
+
     {
         id:3,
         title:"MIDAS WATER EXPANDABLE BOLT",
@@ -106,7 +114,7 @@ export const products_data = [
 
         content4:"<h2>Importance of Proper Selection:</h2><p>When selecting coupling sleeves, consider factors such as:</p><ul><li><strong>Drill Steel Type:</strong> Ensure compatibility with your drill steel type and size.</li><li><strong>Thread Type:</strong> Choose a sleeve that matches the thread type of your drill steel.</li><li><strong>Operating Conditions:</strong> Select a sleeve suitable for the operating conditions, including temperature, pressure, and drilling environment.</li></ul>",
         content5:"",
-         contentimg:`<div class="image-grid"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_64d8a94f.jpg?updatedAt=1752215369317" alt="Image 1"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_64d8a94f.jpg?updatedAt=1752215369317" alt="Image 2"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.59_5592dc47.jpg?updatedAt=1752215369281" alt="Image 3"><img src="https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-11%20at%2011.33.58_06c45fdb.jpg?updatedAt=1752215369292" alt="Image 4"></div>`
+         contentimg:`<div class="image-grid"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7776405e.jpg?updatedAt=1752675718491" alt="Image 1"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7784e17e.jpg?updatedAt=1752675615698" alt="Image 2"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_58deb6e8.jpg?updatedAt=1752675615642" alt="Image 3"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_479bf437.jpg?updatedAt=1752675615631" alt="Image 4"></div>`
      
 
 
@@ -327,4 +335,25 @@ export const products_data = [
       
 
     },
+    {
+        id:17,
+        title:"SN Bolt Installation Adapter",
+         subtitle:"SN Bolt Installation Adapter",
+       content:"The SN Bolt Installation Adapter is a specialized tool designed to significantly reduce the time and effort required to install nuts onto anchor bolts. This adapter is typically 600mm in length, featuring a T38/R38 threaded end on one side and a nut socket (Socket Size: 38mm & 48mm) on the other.",
+        img :[
+            boltimg,
+            
+
+         
+        ],
+        prodcut_type : "Pipe Roofing Support System",
+       
+        content2:"<div><h2>Key Benefits</h2><ol><li><strong>Reduced Labor Requirements:</strong> Speeds up the installation process, allowing fewer workers to accomplish more in less time.</li><li><strong>Cost Savings:</strong> By reducing man-hours, the adapter helps lower overall labor costs.</li><li><strong>Improved Efficiency:</strong> Streamlined installation process ensures consistent, secure nut fastening with minimal manual effort.</li><li><strong>Enhanced Reachability:</strong> In many cases, accessing anchor bolts at elevated or difficult-to-reach locations requires specialized equipment like man-lifters. This adapter extends reach, often eliminating the need for such equipment, and making the process safer and more efficient.</li><li><strong>Versatility & Compatibility:</strong> The adapter is compatible with standard drilling and bolting equipment, ensuring it integrates easily into existing setups without requiring special tools.</li></ol><h2>Installation Process</h2><p>The SN Bolt Installation Adapter is designed to be used with a Drill Jumbo machine. The installation process is straightforward:</p><ol><li><strong>Mount the Adapter:</strong> Connect the threaded end of the SN Bolt Installation Adapter (T38/R38) to the compatible Shank Adapter of the Drill Jumbo machine.</li><li><strong>Align with SN Bolt:</strong> Position the nut socket end of the adapter onto the nut of the SN",
+         img1 :posterimg,
+
+
+       
+
+    },
+
 ]

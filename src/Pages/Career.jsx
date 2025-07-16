@@ -9,29 +9,7 @@ const Career = () => {
      // Mock job data
 
 
-     const [jobs] = useState([
-  {
-    id: 1,
-    title: 'Frontend Developer',
-    location: 'New York, NY',
-    type: 'Full-time',
-    description: 'We are looking for a skilled Frontend Developer to join our team.',
-  },
-  {
-    id: 2,
-    title: 'Backend Engineer',
-    location: 'Remote',
-    type: 'Full-time',
-    description: 'Join our backend team to build scalable APIs and services.',
-  },
-  {
-    id: 3,
-    title: 'UX Designer',
-    location: 'San Francisco, CA',
-    type: 'Contract',
-    description: 'Help us create beautiful and intuitive user experiences.',
-  },
-]);
+     
 
  const [formData, setFormData] = useState({
     fullName: '',
@@ -86,55 +64,7 @@ const Career = () => {
         
         <div className="thm-container clearfix">
           {/* Open Positions Section */}
-<section className="open-positions">
-  <div className="section-header">
-    <h2>🚀 Open Positions</h2>
-   
-  </div>
-  <br />
-  <br />
 
-  <div className="job-listings">
-    {jobs.map((job) => (
-      <div key={job.id} className="job-card">
-        <div className="job-header">
-          <div className="job-icon">
-          <div className="flex items-center gap-1 text-gray-500 text-sm">
- 
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-4 h-4"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth="2"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M12 11.5c1.38 0 2.5-1.12 2.5-2.5S13.38 6.5 12 6.5 9.5 7.62 9.5 9s1.12 2.5 2.5 2.5z"
-      />
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M12 22s8-6.5 8-13a8 8 0 10-16 0c0 6.5 8 13 8 13z"
-      />
-    </svg>
- 
-</div>
-
-          </div>
-          <div>
-            <h3 className="job-title">{job.title}</h3>
-            <p className="job-meta">{job.location} · {job.type}</p>
-          </div>
-        </div>
-        <p className="job-description">{job.description}</p>
-        <button className="apply-btn">Apply Now</button>
-      </div>
-    ))}
-  </div>
-</section>
 
 
             <div className="career-form-container">
