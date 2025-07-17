@@ -20,7 +20,7 @@ export const data = [
     },
     {
         "id": 2,
-        "title": "Hydropower Project - CCVT & ADIT Tunnel at Dibang, Arunachal",
+        "title": "Hydropower Project - CCVT & ADIT Tunnel at Dibang, Arunachal Pradesh",
         "project_status": "Completed",
         "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
         "prime_client": "NHPC",
@@ -35,7 +35,7 @@ export const data = [
     },
     {
         "id": 3,
-        "title": "Hydropower Project - Slope Protection at Dibang, Arunachal",
+        "title": "Hydropower Project - Slope Protection at Dibang, Arunachal Pradesh",
         "project_status": "OnGoing",
         "project_name": "Dibang Multipurpose Project - Lot 2 - 2880 MW (12 x 240 MW) Arunachal Pradesh, India",
         "prime_client": "NHPC",
@@ -79,7 +79,7 @@ export const data = [
         "execution_contractor": "Machino International Pvt. Ltd.",
         "scope_of_work": "Slope Protection Work in MAT, VPS, Approach Road & Upper Intake",
         "work_specification": "Wiremesh, Shotcreting & Rockbolting",
-        "work_completion_status": "OnGoing",
+        "work_completion_status": "Ongoing",
          "pja":"Megha Engineering & Infrastructures Ltd.",
         "year": "2025",
         "subtitle": "Slope Protection | Greenko, Karnataka",
