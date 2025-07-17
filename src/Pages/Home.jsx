@@ -147,7 +147,7 @@ const Home = () => {
                 Equipment Assets / Rental
                 </h2>
                 <p data-animation="animated fadeInDown">
-                Our Equipment Rental Division provides a fleet of well-maintained, high-efficiency machinery tailored for underground,
+                Our Equipment/Rental Division provides a fleet of well-maintained, high-efficiency machinery tailored for underground,
                 tunneling, and geotechnical projects. We offer both short-term and long-term rental options, supported by expert technical assistance and operator training
                 </p>
                 <Link
