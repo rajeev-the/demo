@@ -131,13 +131,14 @@ const About = () => {
       <section className="evolution-section">
         <h2>Business Evolution & Capabilities</h2>
         <div className="capabilities-grid">
+       
           <div className="cap-card">
+            <h3>Equipment/Rentals</h3>
+            <p>Advanced tunneling equipment including Drill Jumbos and Shotcrete Machines</p>
+          </div>
+             <div className="cap-card">
             <h3>Manufacturing</h3>
             <p>Precision-engineered tunneling and rock support systems designed for performance and durability</p>
-          </div>
-          <div className="cap-card">
-            <h3>Equipment Rentals</h3>
-            <p>Advanced tunneling equipment including Drill Jumbos and Shotcrete Machines</p>
           </div>
           <div className="cap-card">
             <h3>Project Execution</h3>
