@@ -5,7 +5,7 @@ import image1 from "../assets/media/WhatsApp Image 2025-07-15 at 19.44.08_6af608
 export const data = [
     {
         "id": 1,
-        "title": "Irrigation Project (WRD) – Nagbhid, Maharahtra",
+        "title": "Irrigation Project (WRD) – Nagbhid ,Maharashtra",
         "project_status": "OnGoing",
         "project_name": "Construction of Tunnel From RD 15466 to 15461 at Ghodazari Branch Canal of Gosikhurd Project below Railway Line at Rly. Km 1136/6-7 between Naghid-Talodhi Road Station on Gondia-Chandafort Section (B.G)",
         "prime_client": "Vidarbha Irrigation Development Corporation (VIDC), Nagpur - Maharahtra",
@@ -42,11 +42,11 @@ export const data = [
         "pja":"Larsen & Toubro Limited",
         "execution_contractor": "Machino International Pvt. Ltd.",
         "scope_of_work": "Diversion Tunnel Inlet Open Excavation and Slope Stablization Works with the Length 250 Mtrs & Elevation 122 Mtrs",
-        "work_specification": "Excavation, Wiremsh, Shotcreting & Rockbolting",
+        "work_specification": "Excavation, Wiremesh, Shotcreting & Rockbolting",
         "work_completion_status": "50% Completed",
         "year": "2024-2025",
         "subtitle": "Slope Protection | Dibang, NHPC",
-        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.29_c163b838.jpg?updatedAt=1752141672583" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.30_1cf38f21.jpg?updatedAt=1752141672501","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.28_0d6cc154.jpg?updatedAt=1752141672473"]
+        "img": ["https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-07%20at%2016.35.27_7b763a49.jpg?updatedAt=1751887286607" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.29_c163b838.jpg?updatedAt=1752141672583" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.30_1cf38f21.jpg?updatedAt=1752141672501","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-10%20at%2007.20.28_0d6cc154.jpg?updatedAt=1752141672473","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2015.35.34_be52f99e.jpg?updatedAt=1752751915509","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2015.35.26_f8813d4e.jpg?updatedAt=1752751917516"]
     },
     {
         "id": 4,
@@ -115,7 +115,7 @@ export const data = [
     },
     {
         "id": 8,
-        "title": "Integrated Renewable Energy Project - PSP - Slope Protection, Kurnool - Pinnapuram",
+        "title": "Integrated Renewable Energy Project - PSP - Tunnel Development Slope Protection, Kurnool - Pinnapuram",
         "project_status": "Completed",
         "project_name": "Pinnapuram Integrated Renewable Energy Project , Kurnool",
         "prime_client": "Greenko",

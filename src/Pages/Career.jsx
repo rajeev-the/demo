@@ -108,19 +108,15 @@ const Career = () => {
         
         <div className="form-group">
           <label htmlFor="position">Position Applying For</label>
-          <select
-            id="position"
-            name="position"
+          <input
+            type="text"
+            id="email"
+            name="Position Applying"
             value={formData.position}
             onChange={handleChange}
             required
-          >
-            <option value="">Select a position</option>
-            <option value="Frontend Developer">Frontend Developer</option>
-            <option value="Backend Developer">Backend Developer</option>
-            <option value="UX Designer">UX Designer</option>
-            <option value="Product Manager">Product Manager</option>
-          </select>
+          />
+          
         </div>
         
         <div className="form-group">

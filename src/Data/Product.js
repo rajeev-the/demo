@@ -114,7 +114,14 @@ export const products_data = [
 
         content4:"<h2>Importance of Proper Selection:</h2><p>When selecting coupling sleeves, consider factors such as:</p><ul><li><strong>Drill Steel Type:</strong> Ensure compatibility with your drill steel type and size.</li><li><strong>Thread Type:</strong> Choose a sleeve that matches the thread type of your drill steel.</li><li><strong>Operating Conditions:</strong> Select a sleeve suitable for the operating conditions, including temperature, pressure, and drilling environment.</li></ul>",
         content5:"",
-         contentimg:`<div class="image-grid"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7776405e.jpg?updatedAt=1752675718491" alt="Image 1"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7784e17e.jpg?updatedAt=1752675615698" alt="Image 2"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_58deb6e8.jpg?updatedAt=1752675615642" alt="Image 3"><img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_479bf437.jpg?updatedAt=1752675615631" alt="Image 4"></div>`
+         contentimg:`
+         <div class="image-grid">
+         <img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7776405e.jpg?updatedAt=1752675718491" alt="Image 1">
+                 <img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_479bf437.jpg?updatedAt=1752675615631" alt="Image 2">
+         <img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.19_58deb6e8.jpg?updatedAt=1752675615642" alt="Image 3">
+          <img src="https://ik.imagekit.io/y0sqp5z9e/WhatsApp%20Image%202025-07-16%20at%2016.14.18_7784e17e.jpg?updatedAt=1752675615698" alt="Image 4">
+
+         </div>`
      
 
 
