@@ -16,7 +16,7 @@ export const data = [
          "pja" :"NCPL-MIPL JV",
         "year": "2024-2025",
         "subtitle": "Tunnel Project | VIDC, Nagpur",
-        "img": ["/img/project-1-2.jpg","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2017.23.26_050d7210.jpg?updatedAt=1752753429829" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2017.28.46_c2079c18.jpg?updatedAt=1752753559631"]
+        "img": ["/img/project-1-2.jpg","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2017.23.26_050d7210.jpg?updatedAt=1752753429829" ,"https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2017.28.46_c2079c18.jpg?updatedAt=1752753559631","https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-17%20at%2017.40.32_c24c93be.jpg?updatedAt=1752754289749"]
     },
     {
         "id": 2,
