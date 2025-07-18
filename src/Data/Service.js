@@ -92,6 +92,10 @@ export const data = [
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM.jpeg?updatedAt=1751487205124",
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.14%20PM%20(1).jpeg?updatedAt=1751487205094",
           "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-06-23%20at%202.48.13%20PM.jpeg?updatedAt=1751487205040",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-18%20at%2021.11.13_fdfafa83.jpg?updatedAt=1752859000951",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-18%20at%2021.11.12_97ca1800.jpg?updatedAt=1752859000926",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-18%20at%2021.11.12_69d4eeca.jpg?updatedAt=1752862901698",
+          "https://ik.imagekit.io/bqaycfhim/WhatsApp%20Image%202025-07-18%20at%2021.11.12_ad9049b7.jpg?updatedAt=1752862901831"
           
 
 

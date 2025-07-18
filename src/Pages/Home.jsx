@@ -1185,7 +1185,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
   </section>
 
 
-   <section className="sec-pad blog-style-one">
+   <section className="ssec-pad what-we-do">
     <div className="thm-container">
       <div className="row">
         <div className="col-md-6 col-md-offset-3">
@@ -1199,24 +1199,48 @@ With expertise spanning underground infrastructure, hydropower development, mini
           </div>
         </div>
       </div>
+      
       <div className="row">
+          <div className="event-section-container">
+          <div className="event-flex-wrapper">
+            {event_page.slice(0,3).map((e) => (
+              <div key={e.id} className="event-card">
+                <Link to={`/events/${e.id}`} className="event-card-link">
+                  <div className="img-box">
+                    <img src={e.src[0]} alt="Event" className="event-img" />
+                    <div className="overlay">
+                      <div className="box">
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-box">
+                    <h2 className="event-title">{e.title}</h2>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
 
 
- {              
+ {/* {              
 
  event_page.slice(0,4).map((e)=>
       <div
   style={{
     boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '320px', // Control box width
-    margin: '10px auto', // Center on smaller screens
+    maxWidth: '380px', // Control box width
+   // Center on smaller screens
+   margin: "20px 10px",
     borderRadius: '8px',
     overflow: 'hidden',
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    display:"flex"
   }}
-  className="event-flex-wrapper"
+  className="col-xxs-12 col-xs-6 col-sm-6 col-md-4"
 >
-  <Link  to={`/events/${e.id}`}  className="single-blog-style-one">
+  <Link  to={`/events/${e.id}`}  className="single-what-we-do">
     <div className="img-box">
       <img
         style={{
@@ -1274,7 +1298,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
 
 
 
- }
+ } */}
         
     
 
