@@ -4355,7 +4355,8 @@ height: 45px;
    
   }
   .event-flex-wrapper{
-    padding: 10px;
+   
+    
   }
 }
 
@@ -4380,6 +4381,7 @@ height: 45px;
   color: #ffa801;
 }
 
+
 /* 1. Overall page container (centered content block) */
 .event-section-container {
   max-width: 1200px;  /* or 90%, etc. */
@@ -4391,7 +4393,7 @@ height: 45px;
 .event-flex-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* left-aligned rows */
+  justify-content: center;                  /* left-aligned rows */
   gap: 24px;
 }
 
@@ -4829,3 +4831,5 @@ input[type="file"] {
 .apply-btn:hover {
   background-color: #d18b02;
 }
+
+

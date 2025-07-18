@@ -1214,7 +1214,7 @@ With expertise spanning underground infrastructure, hydropower development, mini
     overflow: 'hidden',
     backgroundColor: '#fff'
   }}
-  className="responsive-box col-xxs-12 col-xs-6 col-sm-6 col-md-4"
+  className="event-flex-wrapper"
 >
   <Link  to={`/events/${e.id}`}  className="single-blog-style-one">
     <div className="img-box">
