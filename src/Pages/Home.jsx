@@ -53,7 +53,7 @@ const Home = () => {
     <div className="carousel-inner" role="listbox">
       <div
         className="item active slide-1"
-         loading="lazy" 
+   
         style={{
           backgroundImage: "url(img/banner-1-2.jpg)",
           backgroundPosition: "center center"
