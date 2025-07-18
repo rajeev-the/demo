@@ -326,7 +326,10 @@ With expertise spanning underground infrastructure, hydropower development, mini
         
         
       </div>
-       <div  className="text-center btn-box">
+       <div style={{
+        marginTop:"30px"
+
+       }} className="text-center btn-box">
         <Link to={'/about'} className="btn-thm">About Us</Link>
     </div>
       
