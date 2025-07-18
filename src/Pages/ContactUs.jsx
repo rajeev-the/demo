@@ -103,7 +103,7 @@ const ContactUs = () => {
     </section>
     <div className="google-map" id="contact-google-map">
  <iframe
-  src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d6677.8991952572605!2d77.04290684172081!3d28.78827879609981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d28.635955199999998!2d77.2046848!4m5!1s0x390da9a5dc1365d5%3A0x483a2a1781510afb!2sSector%20-%201%2C%20Bawana%20industrial%20area%2C%20j96%2C%20DSIIDC%20Industrial%20Area%2C%20Sector%201%2C%20Bawana%2C%20New%20Delhi%2C%20Delhi%2C%20110039!3m2!1d28.791378599999998!2d77.0475252!5e0!3m2!1sen!2sin!4v1745866162063!5m2!1sen!2sin"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13986.609016459483!2d77.03555675256099!3d28.789630559265404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0787f1b17bc3%3A0x4d94f82771595950!2sSector%201%2C%20Bawana%2C%20Delhi%2C%20110039!5e0!3m2!1sen!2sin!4v1752853675993!5m2!1sen!2sin"
   width="100%"
   height="450"
   style={{ border: 0 }}
