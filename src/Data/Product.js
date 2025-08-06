@@ -348,7 +348,7 @@ export const products_data = [
          subtitle:"SN Bolt Installation Adapter",
        content:"The SN Bolt Installation Adapter is a specialized tool designed to significantly reduce the time and effort required to install nuts onto anchor bolts. This adapter is typically 600mm in length, featuring a T38/R38 threaded end on one side and a nut socket (Socket Size: 38mm & 48mm) on the other.",
         img :[
-            boltimg,
+           
             
 
          
