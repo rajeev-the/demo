@@ -90,8 +90,7 @@ const ProfileDetails = () => {
             <div  className="our-team">
               <img
               style={{
-                height:"270px",
-                objectFit:"cover"
+                
               }}
                 className="img-responsive"
                 src={PR}
@@ -241,9 +240,7 @@ const ProfileDetails = () => {
       }}   to={"/profile/5"} className="col-xxs-12 col-xs-6 col-sm-6 col-md-3">
           <div className="our-team">
             <img
-            style={{
-              height:"270px"
-            }}
+           
               className="img-responsive"
               src={PP}
               alt="team-3.jpg"

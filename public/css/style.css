@@ -4413,9 +4413,9 @@ height: 45px;
 }
 
 .event-img {
-  height: 200px;
+  height: 300px;
   width: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .text-box {
