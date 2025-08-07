@@ -216,19 +216,7 @@ const [product, setProduct] = useState(null);
 
         <div className="col-md-3">
           <div className="sidebar">
-            <div className="single-sidebar">
-              <form action="#" className="search-form">
-                <input
-                  type="text"
-                  name="search"
-                  placeholder="Enter Your Text..."
-                />
-                <button type="submit">
-                  <i className="fa fa-search" />
-                </button>
-              </form>
-              {/* /.search-form */}
-            </div>
+           
             {/* /.single-sidebar */}
             <div className="siderbar-service-widget single-sidebar">
              
