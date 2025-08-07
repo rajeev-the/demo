@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { AiFillInstagram } from "react-icons/ai";
 const Fottter = ({img}) => {
   return (
    <>
@@ -23,16 +23,17 @@ const Fottter = ({img}) => {
                <a href="https://www.facebook.com/p/Machino-International-100063894159919/"  target="_blank"
   rel="noopener noreferrer" className="fab fa-facebook-f" />
                 
-                  <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  target="_blank"
+                  <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  
   rel="noopener noreferrer" className="fab fa-linkedin-in" />
-                  <a href="https://www.machinoindia.com/"   target="_blank"
-  rel="noopener noreferrer" className="fab fa-google-plus-g" />
+  
+                  {/* <a href="https://www.machinoindia.com/"   target="_blank"
+  rel="noopener noreferrer" className="fab fa-google-plus-g" /> */}
                 <a
   href="https://www.youtube.com/@mipl_int"
   target="_blank"
   rel="noopener noreferrer"
   className="fab fa-youtube"
-/>
+/>   <a  href="" className='fab ' target="_blank"><AiFillInstagram size={18}/></a>
               </div>
             </div>
           </div>
@@ -140,15 +141,14 @@ const Fottter = ({img}) => {
                 
                   <a href="https://www.linkedin.com/company/machino-international-pvt-ltd-"  target="_blank"
   rel="noopener noreferrer" className="fab fa-linkedin-in" />
-                  <a href="https://www.machinoindia.com/"   target="_blank"
-  rel="noopener noreferrer" className="fab fa-google-plus-g" />
+                 
         
         <a
   href="https://www.youtube.com/@mipl_int"
   target="_blank"
   rel="noopener noreferrer"
   className="fab fa-youtube"
-/>
+/>  <a  href="" className='fab fa-in' target="_blank"><AiFillInstagram size={18}/></a>
 
       </div>
     </div>
