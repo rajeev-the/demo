@@ -356,9 +356,9 @@ export const products_data = [
         prodcut_type : "Pipe Roofing Support System",
        
         content2:"<div><h2>Key Benefits</h2><ol><li><strong>Reduced Labor Requirements:</strong> Speeds up the installation process, allowing fewer workers to accomplish more in less time.</li><li><strong>Cost Savings:</strong> By reducing man-hours, the adapter helps lower overall labor costs.</li><li><strong>Improved Efficiency:</strong> Streamlined installation process ensures consistent, secure nut fastening with minimal manual effort.</li><li><strong>Enhanced Reachability:</strong> In many cases, accessing anchor bolts at elevated or difficult-to-reach locations requires specialized equipment like man-lifters. This adapter extends reach, often eliminating the need for such equipment, and making the process safer and more efficient.</li><li><strong>Versatility & Compatibility:</strong> The adapter is compatible with standard drilling and bolting equipment, ensuring it integrates easily into existing setups without requiring special tools.</li></ol><h2>Installation Process</h2><p>The SN Bolt Installation Adapter is designed to be used with a Drill Jumbo machine. The installation process is straightforward:</p><ol><li><strong>Mount the Adapter:</strong> Connect the threaded end of the SN Bolt Installation Adapter (T38/R38) to the compatible Shank Adapter of the Drill Jumbo machine.</li><li><strong>Align with SN Bolt:</strong> Position the nut socket end of the adapter onto the nut of the SN",
-         img1 :[
-                "https://ik.imagekit.io/bqaycfhim/SN%20BOLT_table.jpg?updatedAt=1754535347929"
-        ]
+        
+         content3:`<img src="https://ik.imagekit.io/bqaycfhim/SN%20BOLT_table.jpg?updatedAt=1754535347929" alt="Product Image" style="max-width: 60%; height: auto; display: block;">
+` 
 
 
        
