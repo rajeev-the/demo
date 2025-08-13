@@ -123,7 +123,7 @@ const About = () => {
       <section className="overview-section">
         <h2>Company Overview</h2>
         <p className="overview-text">
-          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India's tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader <span className="highlight-text">Mr. Pradeep Kumar Agarwal</span>, whose experience and strategic insight continue to drive the organization.
+          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India's tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader Mr. Pradeep Kumar Agarwal, whose experience and strategic insight continue to drive the organization.
         </p>
         <p className="overview-text">
           Initially focused on trading tunneling tools and spare parts, MIPL catered to reputed clients such as the Border Roads Organisation (BRO), Military Engineering Services (MES), and National Hydroelectric Power Corporation (NHPC). Over time, the company diversified into manufacturing and engineering services.
@@ -166,7 +166,7 @@ const About = () => {
       <section className="leadership-section">
         <h2>Leadership & Vision</h2>
         <div className="leadership-card">
-          <p>Under the leadership of <span className="highlight-text">Mr. Pradeep Kumar Agarwal</span>, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled successful execution of high-value infrastructure projects across diverse terrains.</p>
+          <p>Under the leadership of Mr. Pradeep Kumar Agarwal, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled successful execution of high-value infrastructure projects across diverse terrains.</p>
         </div>
       </section>
 

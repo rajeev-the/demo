@@ -37,7 +37,7 @@ export const  datapro = [
     {
       "name": "Mr. Vibhore Agarwal",
       "title": "Business Execution & Equipment Division",
-      "subtitle":"Managing Director",
+      "subtitle":"Director",
       "description": "With hands-on leadership in large-scale infrastructure execution, Mr. Vibhore Agarwal oversees MIPL’s overall business operations along with the equipment division. He manages critical projects spanning metro rail systems, pumped storage plants, and hydropower tunnels, leveraging a fleet of advanced tunneling and earth-moving machinery to deliver high-precision results.\nMr. Agarwal emphasizes engineering integrity, execution excellence, and strict compliance with modern safety standards. His meticulous approach ensures MIPL consistently delivers technically robust and timely infrastructure solutions.\nAs part of his forward-looking business strategy, Mr. Agarwal is actively building strategic networks across the infrastructure industry while continuously exploring new opportunities for business expansion. His efforts align closely with MIPL’s vision of scaling operations and achieving value-driven growth in the infrastructure sector.",
       "img": VA,
        "id":2,
