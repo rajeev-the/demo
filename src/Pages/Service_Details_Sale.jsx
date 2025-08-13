@@ -22,7 +22,9 @@ useEffect(() => {
   } else {
     console.error('Product not found');
   }
-
+  
+          document.title = "Service"; // Meta title in tab
+  
 
 }, [id])
   return (

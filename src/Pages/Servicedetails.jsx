@@ -22,6 +22,9 @@ const [product, setProduct] = useState(null);
             // Handle the case where the product is not found
             console.error('Product not found');
         }
+         
+                document.title = "Products"; // Meta title in tab
+              
 
  }
 , [id])

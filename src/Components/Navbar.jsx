@@ -138,9 +138,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="right-side-box">
-          <Link to={'/download'} className="rqa-btn">Download</Link>
-        </div>
+      
       </div>
     </nav>
   );

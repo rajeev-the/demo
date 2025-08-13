@@ -9,6 +9,7 @@ import Fottter from '../Components/Fottter';
 import navbarimg from '/img/logo-light.png'
 
 const Products_details = () => {
+  
     const { id } = useParams()
 const [product, setProduct] = useState(null);
    
@@ -23,6 +24,7 @@ const [product, setProduct] = useState(null);
             // Handle the case where the product is not found
             console.error('Product not found');
         }
+      document.title = "Prodcuts";
 
  }
 , [id])

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Fottter from '../Components/Fottter'
 import Navbar from '../Components/Navbar'
 import Header from '../Components/Header'
@@ -12,6 +12,9 @@ import PK from "../assets/profilepic/PK.jpg"
 
 
 const About = () => {
+    useEffect(() => {
+    document.title = "About"; // Meta title in tab
+  }, []);
   return (
 <>
   <div className="">

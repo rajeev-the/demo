@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from '../Components/Navbar'
 import BoxofProdcuts from '../Components/BoxofProdcuts'
 import {products_data} from '../Data/Product'
@@ -8,6 +8,9 @@ import Fotter from '../Components/Fottter'
 import navbarimg from '/img/logo-light.png'
 
 const Product = () => {
+  useEffect(() => {
+        document.title = "Products"; // Meta title in tab
+      }, []);
   return (
     <>
     <div className="">

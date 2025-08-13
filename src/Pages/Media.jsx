@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Header from '../Components/Header'
 import Navbar from '../Components/Navbar'
 import Fottter from '../Components/Fottter'
@@ -9,6 +9,9 @@ import { Link } from 'react-router-dom'
 import PP from "../assets/profilepic/head.jpg"
 
 const Media = () => {
+  useEffect(() => {
+          document.title = "Media"; // Meta title in tab
+        }, []);
   return (
    <div className="">
    

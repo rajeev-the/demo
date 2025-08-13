@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom'
 import BoxofProdcuts from '../Components/BoxofProdcuts'
@@ -9,7 +9,9 @@ import navbarimg from "/img/logo-light.png"
 
 
 const ServiceRentals = () => {
-   
+   useEffect(() => {
+           document.title = "Service Rental"; // Meta title in tab
+         }, []);
   return (
     <>
     <div className="">
@@ -61,10 +63,13 @@ const ServiceRentals = () => {
            
                          
                       <div  key={item.id} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
-             <div className="single-what-we-do">
+             <div style={{
+               cursor:'default'
+             }} className="single-what-we-do">
                <div className="img-box">
                  <img style={{
                   height:"200px",
+                  
                  }} src={item?.src} alt="Awesome Image" />
                  
                   <h4  style={{
@@ -72,6 +77,7 @@ const ServiceRentals = () => {
                display: 'block',
                overflow: 'hidden',
                textOverflow: 'ellipsis',
+               
               
              }} className='demo'> 
                            

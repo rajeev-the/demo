@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Header from '../Components/Header';
 import Navbar from '../Components/Navbar';
 import Fottter from '../Components/Fottter';
@@ -7,6 +7,9 @@ import {event_page} from "../Data/ourdata"
 import { Link } from 'react-router-dom';
 
 const Events = () => {
+   useEffect(() => {
+            document.title = "Events"; // Meta title in tab
+          }, []);
   return (
   <div className="">
    

@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Navbar from '../Components/Navbar'
 import Headers from '../Components/Header'
 import Fottter from '../Components/Fottter'
 import navbarimg from '/img/logo-light.png'
 
 const ContactUs = () => {
+    useEffect(() => {
+      document.title = "ContactUs"; // Meta title in tab
+    }, []);
   return (
     <>
     <div className="">

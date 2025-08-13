@@ -21,6 +21,7 @@ const ProfileDetails = () => {
   useEffect(() => {
     const foundProfile = datapro.find(item => item.id === parseInt(id));
     setProfile(foundProfile || null);
+     document.title = "Profile";
   }, [id]);
 
   return (
