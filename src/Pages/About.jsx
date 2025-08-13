@@ -64,7 +64,7 @@ const About = () => {
 
             </p>
        <div>
-     Machino International Pvt. Ltd. (MIPL) is a leading provider of infrastructure solutions with a strong footprint in India’s tunneling and geotechnical sectors. Established in 2008, MIPL builds on a legacy spanning over 40 years. The company was founded by Mr. Pradeep Kumar Agarwal, a visionary leader whose expertise and strategic guidance continue to shape its growth and success.
+     Machino International Pvt. Ltd. (MIPL) is a leading provider of infrastructure solutions with a strong footprint in India’s tunneling and geotechnical sectors. Established in 2008, MIPL builds on a legacy spanning over 40 years. The company was founded by Mr. Pradip Kumar Agarwal, a visionary leader whose expertise and strategic guidance continue to shape its growth and success.
 
        </div>
             
@@ -123,7 +123,7 @@ const About = () => {
       <section className="overview-section">
         <h2>Company Overview</h2>
         <p className="overview-text">
-          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India's tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader Mr. Pradeep Kumar Agarwal, whose experience and strategic insight continue to drive the organization.
+          Machino International Pvt. Ltd. (MIPL) is a distinguished infrastructure solutions provider with a strong presence across India's tunneling and geotechnical sectors. Established in 2008, MIPL draws upon a legacy of over 40 years, founded by visionary leader Mr. Pradip Kumar Agarwal, whose experience and strategic insight continue to drive the organization.
         </p>
         <p className="overview-text">
           Initially focused on trading tunneling tools and spare parts, MIPL catered to reputed clients such as the Border Roads Organisation (BRO), Military Engineering Services (MES), and National Hydroelectric Power Corporation (NHPC). Over time, the company diversified into manufacturing and engineering services.
@@ -166,7 +166,7 @@ const About = () => {
       <section className="leadership-section">
         <h2>Leadership & Vision</h2>
         <div className="leadership-card">
-          <p>Under the leadership of Mr. Pradeep Kumar Agarwal, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled successful execution of high-value infrastructure projects across diverse terrains.</p>
+          <p>Under the leadership of Mr. Pradip Kumar Agarwal, MIPL has built a reputation for reliability, innovation, and technical excellence. His strategic foresight has enabled successful execution of high-value infrastructure projects across diverse terrains.</p>
         </div>
       </section>
 
@@ -258,11 +258,11 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text-box">
-                    <h3>Quality Assurance</h3>
+                    <h3>Quality <br/>  Assurance</h3>
                     </div>
                   </div>
                   <div className="main-content">
-                  <p>Rigorous standards for environmental suitability, safety, reliability, and performance</p>
+                  <p>Rigorous standards for environmental suitability, safety, reliability, performance, and durability, efficiency.</p>
                    
                   </div>
                 </div>
@@ -296,31 +296,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-4">
-          <div className="single-what-we-do-style-two hvr-float-shadow">
-            <div className="img-box">
-            
-              <div className="content-box  hvr-sweep-to-bottom">
-                <div className="inner-box">
-                  <div className="top-content">
-                    <div className="icon-box">
-                      <div className="inner">
-                        <i className="hialeah-icon-chainsaw" />
-                      </div>
-                    </div>
-                    <div className="text-box">
-                    <h3>Strategic Partnership</h3>
-                    </div>
-                  </div>
-                  <div className="main-content">
-                  <p>Long-term collaborations that drive mutual success and innovation in tunneling technology</p>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
        
        
       </div>
@@ -533,9 +509,7 @@ const About = () => {
           marginTop:"40px"
         }} className="col-xxs-12 col-xs-6 col-sm-6 col-md-4">
           <div className="team-box">
-            <img style={{
-              height:"400px"
-            }} src={PP} />
+            <img  src={PP} />
             <div className="team-box-content">
               <h3 className="title">Mr. Vinod Rajora</h3>
               <span className="post">Technical Director</span>

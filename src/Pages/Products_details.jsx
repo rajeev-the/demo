@@ -241,8 +241,9 @@ const [product, setProduct] = useState(null);
                   products_data.map((item) => (
                     <li key={item.id}>
                       <Link style={{
+                          textTransform: 'capitalize',
                         color: item.id === parseInt(id) ? '#ffa801' : ''
-                      }} to={`/products/${item.id}`}>{item.title}</Link>
+                      }} to={`/products/${item.id}`}>{item.title.charAt(0).toUpperCase() + item.title.slice(1).toLowerCase()}</Link>
                     </li>
 
 
